@@ -1,0 +1,169 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+    .kv p{ color: #505050;background-color: rgba(255,255,255,0);}
+    .mainkv{ background-position: top center;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 45px;}
+	.flowerBox{ width: 55%;}
+    /* sec_01 startUp */
+    .conTxt{ width: 47%; margin-bottom: 1.2rem; vertical-align: top;}
+    .conTxt01, .conTxt03{ margin-right: 6%;}
+    /* sec_02 station */
+    .station .conTxt{ width: 45%; margin-bottom: 0.8rem;}
+    .station .conTxt .txtBox{ width: 100%;}
+    body .station .conTxt01, body .station .conTxt03{ margin-right: 10%;}
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 43px;}
+    .fig01{ width: 20%;}
+    .fig02{ width: 18%;}
+    .fig03{ width: 18%;}
+    .fig04{ width: 24%;}
+    .fig05{ width: 20%;}
+    .safety .conTxt{ width: 48%; margin-bottom: 1.2rem; vertical-align: top;}
+    .safety .conTxt01{ margin-right: 4%;}
+}
+@media screen and (max-width: 900px) {
+	.flowerBox{ right: -5%; width: 55%; top: 0.5rem;}
+	#slider{ margin-top: 0.2rem;}
+	.kv h2:after{ max-width: 9em;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    .headLine{ position: absolute; left: 20px; bottom: 0; height: 1px; width: calc(100% - 40px); background-color: #000000;}
+    main{ padding-bottom: 0.4rem;}
+    
+    /* kv */
+    .kv{ background-image: none; padding-top: 0rem; padding-bottom: 0.8rem;}
+	.flowerBox{ position: relative; top: 0; bottom: 0; left: 0; width: auto; margin: 0 5% 0.8rem auto;}
+	.tltBox{ width: auto;}
+	.kv h2:after{ max-width: none;}
+    .kv h2{ font-size: 0.48rem;}
+    .kv p{ margin-top: 0.4rem; width: 100%; max-width: none;}
+    
+    /* sec_01 startUp */
+    .startUp .container{ padding-top: 0.4rem; padding-bottom: 0.2rem;}
+    .contentBox{ padding-top: 0.4rem;}
+    .conTxt{ width: 100%; margin-bottom: 0.6rem;}
+    body .conTxt01, body .conTxt03{ margin-right: 0%;}
+    .startUp .container .conTxt .imgBox{ width: 21%; padding-left: 1%; padding-right: 5%; vertical-align: middle}
+    .startUp .container .conTxt .txtBox{ width: 73%;}
+    .startUp .container .conTxt .txtBox p.bold{ color: #505050; padding-bottom: 0.2em; font-size: 0.28rem;}
+    .startUp .container .conTxt .txtBox p{ color: #737373; line-height: 1.6666; max-width: none; font-size: 0.24rem;}
+    .startUp .container .conTxt.conTxt01 .txtBox p, .startUp .container .conTxt.conTxt03 .txtBox p{ max-width: none;}
+    .conTxt .txtBox p span.litTop{ vertical-align: super; font-size: 9px;}
+    
+    /* sec_02 station */
+    .station .container{ padding-top: 0.4rem; padding-bottom: 0rem;}
+    .station .contentBox{ padding-top: 0.4rem;}
+    .station .conTxt{ width: 100%; margin-bottom: 0.5rem;}
+    .station .conTxt .txtBox{ width: 100%;}
+    .station .conTxt .txtBox p.bold{ font-size: 0.28rem;}
+    .station .conTxt .txtBox p{ font-size: 0.24rem;}
+    body .station .conTxt01, body .station .conTxt03{ margin-right: 0%;}
+    
+    /* sec_03 figImg */
+    .figImg{ padding-bottom: 0.4rem;}
+    .figImg .table, .figImg .tr, .figImg .td{ display: block;}
+    .figImg .td{ height: 2.5rem; width: 90%; margin: auto;}
+    .figImg figure{ top: 0; left: 0; width: 100%; height: auto;}
+    .figImg figure figcaption{ color: #505050; text-align: center; height: 3em; padding: 0 1em; font-size: 0.24rem;}
+    .figImg figure figcaption span.litTop{ vertical-align: super; font-size: 9px;}
+    .figPic{ 
+        height: 1.5rem;        
+        background-position: center bottom 20%;
+        background-size: auto 60%;
+    }
+    .fig02 .figPic{ background-size: auto 40%;}
+    .fig03 .figPic{ background-size: auto 40%;}
+    .fig04 .figPic{ background-size:  auto 40%;}
+    .fig05 .figPic{ background-size:  auto 80%;}
+    
+    /* sec_04 safety */
+    .safety .container{ padding-top: 0.4rem; padding-bottom: 0.2rem; margin-bottom: 0.4rem}
+    .safety .contentBox{ padding-top: 0.8rem;}
+    .safety .conTxt{ width: 100%; margin-bottom: 0.5rem; vertical-align: top;}
+    body .safety .conTxt01{ margin-right: 0;}
+    .safety .conTxt .imgBox{ width: 15%; padding-left: 0%; padding-right: 5%; vertical-align: top;}
+    .safety .conTxt .imgBox img{ max-width: 75px; margin-top: 0.15rem;}
+    .safety .conTxt .txtBox{ width: 80%;}
+    .conTxt .txtBox p.bold{ color: #505050; padding-bottom: 0.2em; font-size: 0.28rem;}
+    .conTxt .txtBox p{ color: #737373; line-height: 1.6666; max-width: none; font-size: 0.24rem;}
+    
+    /* sec_05 annota */
+    .annota .container .table{
+        background-color: #fafafa;
+        padding: 1em;
+        line-height: 2;
+        display: block;
+        width: calc(100% - 2em);
+    }
+    .annota .container .tr{ display: block;}
+    .annota .container .td{ padding-top: 0em; padding-bottom: 0em; display: inline; font-weight: bold; line-height: 1.83333;}
+    .annota .container .td span.litTop{ font-size: 9px;}
+    .annota .container .td:first-child{ width: auto; padding-left: 0rem; vertical-align: top;}
+    .annota .container .td:last-child{ padding-right: 0rem;}
+    
+    
+    /* 170605 新增 */
+
+        /* sec_06 */
+    .sec_06{}
+    .sec_06 .container{ padding-top: 0.2rem; padding-bottom: 0.2rem;}
+    .sec_06 .box{
+        background-image: none;
+        background-color: #eeeeee;
+        padding: 0.2rem 0 0.4rem 0;
+        margin-top: 0.6rem;
+        margin-bottom: 3rem;
+    }
+
+    .sec_06 .box p{
+        font-size: 0.26rem; color: #737373; line-height: 1.667; max-width: none;
+        margin-top: 0.2em; padding-left: 0.4rem; padding-right: 0.4rem;
+        width: auto;
+    }
+    .sec_06 .box p.bold{ font-size: 0.28rem; color: #505050;}
+    .sec_06 .box p.bs{ font-size: 0.24rem; color: #000000;}
+    .sec_06 .box .cmpBox{
+        width: 100%; max-width: none;
+        top: 135%; left: 0;
+    }
+    .sec_06 .box .cmpBox img{ margin: auto; max-width: 408px; width: 70%;}
+
+    .sec_06 .box.box02{ background-image: none; margin-bottom: 4rem;}
+    .sec_06 .box.box03{ background-image: none; margin-bottom: 5rem;}
+    .sec_06 .box.box02 p{ padding-left: 0.4rem;}
+    .sec_06 .box.box02 .cmpBox{
+        top: 120%; left: auto; right:0;
+        max-width: none;
+    }
+    .sec_06 .box.box02 .cmpBox img{ max-width: 402px;}
+    .sec_06 .box.box03 .cmpBox{
+        top: 120%; left: 0; right: 0;
+        width: auto; max-width: none;
+    }
+    .sec_06 .box.box03 .cmpBox img{ max-width: 520px; width: 80%; margin: auto}
+
+
+    
+}
+@media screen and (max-width: 640px) {   
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 55px;}
+    .sec_06 .box.box01{ background-image: none; margin-bottom: 2.8rem;}
+    .sec_06 .box.box02{ background-image: none; margin-bottom: 3rem;}
+    .sec_06 .box.box03{ background-image: none; margin-bottom: 4rem;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+}

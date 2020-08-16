@@ -1,0 +1,161 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 46px;}
+	nav li{ margin-left: 0.2rem}
+	nav li a{ width: 6em;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 44px;}
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 900px) {
+	body,html{ font-size: 42px;}
+	h1{ width: 6.3rem;}
+	nav{ width: auto;}
+	nav li a{ width: 5.2em;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 58px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	.container{ width: calc(100% - 30px); padding-left: 15px; padding-right: 15px;}
+	
+	/* basic set
+	-----------------------------------------------------------------------------*/
+	p{ font-size: 0.32rem; line-height: 1.875;}
+
+	/* header
+	------------------------------------------------------------------------------*/
+	header{
+		-webkit-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+	}
+	header .container > .flexBox{
+		padding-top: 0.36rem;
+		padding-bottom: 0.36rem;
+		display: block;
+	}
+	header.down, header.open{
+		background-color: rgba(0,0,0,0.8);
+	}
+	h1{
+		width: 4rem; max-width: 350px;
+	}
+	nav{
+		font-size: 0.52rem;
+		line-height: 2.88;
+		width: 100%;
+		position: absolute;
+		top: 1.2rem;
+		left: 0;
+		background-color: rgba(0,0,0,0.8);
+		display: none;
+	}
+	ul.flexBox{
+		display: block;
+	}
+	nav li{
+		margin-left: 0;
+		border: none;
+		border-radius: 0;
+	}
+	nav li:last-child a{ padding-bottom: 0.3em;}
+	nav li a{
+		width: auto;
+	}
+	nav li a:hover{
+		color: #000000;
+		background-color: #ffffff;
+	}
+	
+	/* headerBtn */
+	.headerBtn{
+		width: 0.5rem;
+		position: absolute;
+		top: 50%; right: 16px;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 8px 0;
+		cursor: pointer;
+	}
+	.headerBtn span{
+		display: block;
+		height: 2px;
+		background-color: #ffffff;
+		position: relative;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+	.headerBtn span:before, .headerBtn span:after{
+		content: ''; display: block;
+		width: 100%; height: 2px;
+		background-color: #ffffff;
+		position: absolute;
+		left: 0;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+	.headerBtn span:before{ top: -8px;}
+	.headerBtn span:after{ bottom: -8px;}
+	.headerBtn.open span{
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.headerBtn.open span:before{
+		top: 0; left: 0;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	.headerBtn.open span:after{ display: none;}
+	
+	
+	/* footer
+	--------------------------------------------------------------*/
+	footer{
+		font-size: 0.32rem;
+		line-height: 1.75;
+		text-align: left;
+	}
+	footer .container{
+		padding-top: 0.6rem;
+		padding-bottom: 0.6rem;
+	}
+	
+	
+	/* goTopBtn */
+	.goTopBtn{
+		position: fixed;
+		z-index: 990;
+		right: 0;
+		bottom: -35%;
+		width: 1rem; max-width: 55px;
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+	.goTopBtn.active{
+		bottom: 5%;
+	}
+	
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 56px;}
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 54px;}
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52px;}
+}
+@media screen and (max-width: 360px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 319px) {
+    body,html{ font-size: 48px;}
+}

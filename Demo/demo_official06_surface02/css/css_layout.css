@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* 文字
+----------------------------------------------------------------------------*/
+.colorBl{ color: #000000;}
+.colorW{ color: #ffffff;}
+.colorGn{ color: #13b5b1;}
+.colorGy{ color: #434343;}
+
+
+
+/* hover --------------------------------------------------*/
+.colorBl a:hover{ color: #565656;}
+
+/* background color
+-----------------------------------------------------------------------------*/
+.bgBl{ background-color: #000000;}
+.bgW{ background-color: #ffffff;}
+.bgGn{ background-color: #13b5b1;}
+
+
+/* basestyle 
+----------------------------------------------------------------------------*/
+body,html{
+    width: 100%; height: 100%;
+    font-family: Segoe UI, Helvetica, Arial, '微軟正黑體', Microsoft JhengHei, Apple LiGothic, '蘋果儷中黑';
+    font-size: 50px;
+    background: #ffffff;
+    line-height: 1.5;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+.container{ width: calc(100% - 60px); max-width: 1150px; height: 100%; margin: auto; padding: 0 30px;}
+
+
+/* header
+------------------------------------------------------------------------------*/
+header{
+	width: 100%; background: #ffffff;
+	-webkit-box-shadow: 0 1px 1px rgba(109,109,109,0.2);
+	box-shadow: 0 1px 1px rgba(109,109,109,0.2);
+/*	border-bottom: 1px solid rgba(109,109,109,0.2);*/
+	position: relative;
+	min-height: 2.34rem;
+}
+/*header .container{ min-height: 2.34rem;}*/
+.logoBox{
+	width: 4.66rem;
+	position: absolute;
+	top: 1rem; left: 40px;
+}
+h1{ font-size: 0; color: transparent;}
+nav{ height: 100%; display: block;}
+nav > ul{ margin-top: 1rem; padding-right: 0.5rem;}
+nav > ul > li{ margin-right: 0em; margin-left: 3.5em;}
+nav > ul > li a, nav > ul li a:visited{ color: #505050;}
+nav > ul > li > a:hover, nav > ul li.active > a{ color: #0080cc;}
+
+	/* secUl */
+.secUl{
+	position: absolute; z-index: 99; top: calc(100% + 0.8rem); left: -12%;
+	width: 124%;
+	padding-bottom: 0.5em;
+	display: none;
+}
+.secUl:before{
+	content: ''; display: block;
+	width: 100%; height: 100%;
+	background-color: #f6f6f6; opacity: 0.9;
+	position: absolute; top: 0; left: 0;
+}
+.secUl li{ font-size: 0.3rem; text-align: center; line-height: 3.2;}
+.secUl li a{ position: relative; display: inline-block; color: #313131;}
+.secUl li a:before{
+	content: ''; display: block;
+	width: 0; height: 1px; background-color: #313131;
+	position: absolute; bottom: 0.6em; left: 50%;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.secUl li a:hover:before, .secUl li a.active:before{ width: 100%; left: 0;}
+
+.secUlBtn i.icon{
+	font-size: 0.9em; padding-left: 0.2em;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	display: inline-block;
+}
+.secUlBtn.open i.icon{ -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+
+
+.headLine{ position: absolute; display: none!important;}
+
+
+/* footer 
+----------------------------------------------------------------------------------------------------*/
+footer{ background-color: #000000; min-height: 2rem;}
+footer .container{ vertical-align: middle; padding-top: 0.6rem; padding-bottom: 0.8rem;}
+.footer_logo{ width: 20%;}
+.footer_logo img{ max-width: 2.76rem;}
+.footContent{ text-align: left; width: 79%; max-width: 48em;}
+.footContent a{ color: #ffffff;}
+.footContent a:hover{ opacity: 0.5;}
+body footer .container .td .footContent.pc{ display: inline-block;}
+body footer .container .td .footContent.mobile{ display: none;}
+
+
+/* goTop
+--------------------------------------------------------------------------*/
+#goTopButton{ width: 15%; max-width: 1.3rem; min-width: 30px;}
+
+
+/* videos
+-------------------------------------------------------------------------*/
+.videoBox iframe{
+	position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+}
+
+
+/**** flowerBox / box_360deg *************************************/
+.flowerBox{
+	position: absolute;
+	width: 60%;
+	top: 0;
+	right: -5%;
+	z-index: 5;
+}
+.box_360deg{
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+/**** box_360deg *************************************/
+
+

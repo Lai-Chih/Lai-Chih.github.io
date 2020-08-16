@@ -1,0 +1,348 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1080px) {
+	.sec_06 .flexBox{
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap
+	}
+	.carBox{ width: calc(50% - 0.5rem); max-width: 7rem; margin-bottom: 1rem; margin-right: 0.5rem;}
+	.carBox:last-child, .carB02{ margin-right: 0;}
+	.cT{ width: 10em;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 46px;}
+	.tbBox{ position: relative; z-index: 5;}
+	.sec_04 .imgBox{ position: relative;}
+	.sec_04 .imgBox img{ position: absolute; top: -4.2rem; left: -0.5rem; width: 9rem; z-index: 0;}
+}
+@media screen and (max-width: 980px) {
+	body,html{ font-size: 44px;}
+	.sec_03 .imgBox{ position: relative;}
+	.sec_03 .imgBox img{ position: absolute; bottom: -0.2rem; left: -0.5rem; width: 7.6rem;}
+	
+}
+@media screen and (max-width: 840px) {
+	body,html{ font-size: 42px;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	.container{ width: calc(100% - 40px); padding-left: 20px; padding-right: 20px;}
+	
+	/* basic set
+	------------------------------------------------------------------------------*/
+	.h1BR, .h2BR, .sec01BR{ display: inherit;}
+	h1{
+		width: 3.26rem; max-width: 189px;
+		margin: 0 auto;
+		background-color: rgba(255,255,255,0.6);
+		-webkit-box-shadow: 0 0 5px rgba(255,255,255,0.9);
+		box-shadow: 0 0 5px rgba(255,255,255,0.9);
+		border-radius: 20px;
+	}
+	h2{
+		font-size: 0.78rem; text-align: center;
+		margin-top: 1rem; margin-left: 0.5rem;
+		line-height: 1.3;
+	}
+	h3{
+		font-size: 0.36rem; text-align: center;
+		letter-spacing: 0.2em; line-height: 1.44444;
+		margin-left: 0; margin-top: 0.4rem
+	}
+	h4{ font-size: 0.6rem;}
+	h5{ font-size: 0.48rem; margin-bottom: 0.3rem;}
+	p{ font-size: 0.36rem;}
+	
+	/* header
+	------------------------------------------------------------------------------*/
+	header{
+		background-image: url(../images/kv_m.png);
+		background-size: auto 708px;
+	}
+	header .container{ height: 11.2rem; padding-top: 0.6rem;}
+	
+	/* main
+	------------------------------------------------------------------------------*/
+	
+		/* joinBtn */
+	.joinBtn{
+		width: 5.4rem;
+		margin: -1.3rem auto 0 auto;
+		position: relative;
+	}
+
+	/* sec_01 */
+	.sec_01 .container{ padding-top: 1.2rem; padding-bottom: 1rem;}
+	.sec_01 h4{ text-align: left; width: 8em; margin: 0 auto 0.8rem auto;}
+	.sec_01 .container .flexBox{ max-width: 500px;}
+	.condition{
+		width: 100%;
+		padding: 0.85rem 0.3rem 0.7rem 0.3rem;
+	}
+	.condIcon{ width: 1.3rem; margin: 0 auto 0.3rem auto;}
+	.condi03 .condIcon, .condi04 .condIcon{ margin-bottom: 0.3rem;}
+
+	/* sec_02 */
+	.sec_02{ background-image: none;}
+	.sec_02 .container .content{
+		max-width: none;
+		padding-bottom: 2.2rem;
+	}
+
+	.redBox{
+		font-size: 0.72rem; line-height: 1.3333333;
+		padding: 0.7rem 0.8rem 0.8rem 0.8rem;
+		width: auto;
+		margin: 0 auto 0 auto;
+		max-width: 500px;
+	}
+	.redBox:before{ display: none;}
+	.annoImg{ display: none;}
+
+
+	/* sec_03 */
+	.sec_03 .container{
+		padding-top: 0.9rem; padding-bottom: 1.4rem;
+
+	}
+	.sec_03 .content{
+		padding: 0; max-width: 510px;
+		display: block;
+		margin: auto;
+	}
+	.sec_03 h4{ margin-bottom: 0.4rem; padding-left: 0; text-align: center;}
+	.sec_03 h4:before{
+		content: ''; display: block;
+		width: 1.2rem; height: 0.8rem;
+		background-position: center top;
+		position: relative; left: 0; top: 0;
+		margin: auto;
+	}
+
+	.sec_03 .txtBox{ width: auto;}
+	.sec_03 .txtBox p{ line-height: 1.8;}
+	ul{ font-size: 0.34rem; margin-top: 0.2em;}
+	ul li{ line-height: 2;}
+	.sec_03 .imgBox{ width: 90%; max-width: 400px; margin: 0.8rem auto 0 auto;}
+	.sec_03 .imgBox img{ position: relative; bottom: 0; left: 0; width: 100%;}
+
+
+	/* sec_04 */
+	.sec_04 .container{ padding-top: 0.9rem; padding-bottom: 1rem;}
+	.sec_04 .content{ padding: 0;}
+	
+	.sec_04 h4{ margin-bottom: 0.6rem; padding-left: 0; text-align: center;}
+	.sec_04 h4:before{
+		content: ''; display: block;
+		width: 1.2rem; height: 0.8rem;
+		background-position: left top;
+		position: relative; left: 0; top: 0;
+		margin: auto;
+	}
+
+	.table{ font-size: 0.3rem;}
+	.table .tr > *{ border: 10px solid transparent; line-height: 0.6rem;}
+	.bgW.mobile{ width: calc(100% - 10px); margin: 0 0 0 auto; font-weight: bold; text-align: center; line-height: 0.6rem;}
+	.sec_04 .container .flexBox{ display: block;}
+	.tbBox{ width: auto;}
+	.tbBox.mobile{ margin-top: 0.3rem;}
+	.sec_04 .imgBox{ width: 90%; max-width: 380px; margin: 0.8rem auto 0 auto;}
+	.sec_04 .imgBox img{ position: relative; top: 0; left: 0; width: 100%;}
+	.td.bgY:before{ width: 1.2rem; height: 0.74rem;}
+
+	
+	/* sec_05 */
+	.sec_05{ margin-top: -0.5rem;}
+	.sec_05 .container{ padding-bottom: 1.5rem}
+	.sec_05 .content{
+		padding-top: 0.9rem;
+		padding-bottom: 0.4rem;
+	}
+	.sec_05 h4{ padding: 0 0.5em;}
+	.sec_05 .flexBox{
+		padding-left: 0;
+		margin-top: 0.1rem;
+		display: block;
+	}
+	.sec_05 .flexBox:before{
+		border-top: 1.5rem solid #1b1b1b;
+		border-right: 0.6rem solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left:  0.6rem solid transparent;
+		position: absolute; top: 100%; right: 10%
+	}
+	.procedure{
+		padding: 0.6rem 0.3rem 1rem 0.3rem;
+		margin: auto;
+		background-position: center;
+	}
+	.procedure:before{
+		position: absolute; top: 95%; left: calc(50% - 0.65rem);;
+	}
+	.procedure:last-child{ margin-right: auto;}
+	.procedure:last-child:before{ display: none;}
+	.prd03{
+		background-position: center;
+		background-size: contain;
+	}
+
+	
+	/* sec_06 */
+	.sec06BR{ display: inherit;}
+	.sec_06{}
+	.sec_06 .container{ padding-bottom: 0.1rem;}
+	.sec_06 p{
+		line-height: 1.5; width: 8em;
+		text-align: left;
+		padding: 0.5em 0em 0.5em 2.5em;
+	}
+	.cp01{ margin-right: 0;}
+	.sec_06 .flexBox{
+		margin-top: 1.9rem;
+		display: block;
+	}
+	.carBox{
+		margin: 0 auto 1.1rem auto;
+		width: auto; max-width: 300px;
+	}
+	.carBox:last-child{ margin-right: auto;}
+	.cT{ width: 10em; margin: auto; padding: 0 1em  0 2em;}
+	
+	
+	/* footer
+	---------------------------------------------------------*/
+	footer{
+		line-height: 2;
+		padding-top: 0.6rem; padding-bottom: 0.8rem;
+	}
+	.footBR{ display: inherit;}
+	
+	/* goTop
+	---------------------------------------------------------*/
+	.goTop{
+		right: -5rem; bottom: 0.2rem;
+		width: 1.7rem; max-width: 189px;
+	}
+	.goTop.active{
+		right: 20px;
+	}
+
+
+
+	/* form 表單
+	------------------------------------------------------------*/
+	.formBox{
+		width: calc(100% - 1.5rem); height: calc(100% - 1.5rem);
+		max-width: 600px;
+		padding-top: 0.2rem;
+	}
+	.formCloseBtn{
+		width: 0.6rem; height: 0.6rem;
+		border: 5px solid #313131;
+	}
+	.logoBox{
+		left: calc(50% - 0.4rem);
+		width: 0.8rem;
+	}
+	.forms{ width: 90%;}
+	.formTlt{ font-size: 0.48rem;}
+	.formTlt:before{ display: none;}
+	.formTxt{ font-size: 0.36rem; line-height: 1.5; margin-top: 0.2rem; padding-bottom: 0.5rem;}
+
+
+		/* inputBox */
+	input[type="text"], textarea{
+		background-color: #ffffff!important;
+		font-family: '微軟正黑體', Microsoft JhengHei, Arial;
+		font-size: 0.34rem;
+	}
+
+
+	.inputBox{
+		display: block;
+		margin-bottom: 0.4rem;
+		position: relative;
+	}
+	.label{
+		padding-left: 1em; padding-right: 0.7em;
+		width: 3em;
+		margin-bottom: 0.2em;
+	}
+	/* other label */
+	.carTypeQ{ width: auto; margin-top: 0rem;}
+	.suggestQ{ width: auto; margin-top: 0rem;}
+	.picBox.inputBox{ display: -webkit-box; display: -ms-flexbox; display: flex;}
+
+
+	/* other label */
+
+
+	.inP{ width: auto; max-width: none; margin-right: 0;}
+
+
+		/* 單選自訂樣式 */
+	.carTypeBox{ display: block;}
+	.inPR01{ margin-top: 0rem;}
+	.inPR02{ width: 3.5rem;}
+	.inP_radio + .inP{ width: auto; max-width: none; margin-top: 0.1rem;}
+
+
+		/* 照片上傳鈕自訂樣式 */
+	.picBox input[type="file"] + label{}
+
+		/* 意見區自訂樣式 */
+	textarea{}
+	.textAreaBox{ width: auto; margin-top: 0.2rem;}
+
+
+		/* sumbitBtn */
+	.sentBtn{ margin-top: 0.45rem;}
+	input.submit{}
+
+
+		/* hint */
+	.hint{
+		display: ;
+		position: absolute; top: 0; left: 5em;
+	}
+	.hint04{ bottom: auto; left: 1.7rem; top: 0.2em;}
+	.hint05{ top: auto; left: 1em;}
+	.hint06{ top: 0; left: 0; position: relative; padding-left: 1em;}
+
+
+
+
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 58px;}
+    
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 56px;}
+	.colorB{ display: block;}
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 54px;}
+    .picBox .inP{ width: calc(100% - 2.1rem);}
+	.picBox input[type="file"] + label{ width: 100%;}
+}
+@media screen and (max-width: 360px) {
+    body,html{ font-size: 52px;}
+	.hint{ font-size: 0.26rem;}
+}
+@media screen and (max-width: 325px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 319px) {
+    body,html{ font-size: 48px;}
+}
+
+

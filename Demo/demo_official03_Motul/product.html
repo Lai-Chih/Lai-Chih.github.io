@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex, nofollow">
+    
+    
+    <title>Chih's web</title>
+    
+    
+    
+    
+    <!-- FB 社群圖片 -->
+    <meta property="og:image" content="http://lai-chih.com/images/fb.jpg"/>
+    <link rel="image_src" href="http://lai-chih.com/images/fb.jpg"/>
+    <!-- 頁籤 icon -->
+    <link href="http://lai-chih.com/images/favicon.ico" rel="shortcut icon" />
+    <link href="http://lai-chih.com/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/css_layout.css">
+    <link rel="stylesheet" type="text/css" href="css/css_product.css">
+    <link rel="stylesheet" type="text/css" href="css/m_css_layout.css">
+    <link rel="stylesheet" type="text/css" href="css/m_css_product.css">
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <link rel="stylesheet" type="text/css" href="js/js.lib/jquery.bxslider.css">
+    
+    
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="loadingBg"><span>Loading...</span></div>
+    <div class="loading"></div>
+    <div class="search"><a href="location.html"><img src="images/search.png" alt="保修店家查詢"><span></span></a></div>
+    <div class="fixBar"><span x="0"></span><a href="location.html">保修店家查詢</a></div>
+    
+    
+    <div class="wrapper" id="product">
+        <header class="relative">
+            <div class="container">
+               <div class="openBtn absolute mobile"><span></span></div>
+                <nav>
+                    <ul class="inner-inblock">
+                        <li class="mobile first"><a href="index.html">首頁</a></li>
+                        <li class="navline mobile"></li>
+                        <li><a href="news.html">最新消息</a></li>
+                        <li class="navline mobile"></li>
+                        <li><a class="active" href="product.html">產品介紹</a></li>
+                        <li class="navline mobile"></li>
+                        <li><a href="blog.html">部落格文章</a></li>
+                        <li class="navline mobile"></li>
+                        <li><a href="location.html">保修店家</a></li>
+                    </ul>    
+                </nav>
+            </div>
+        </header>
+        <main>
+          <div class="banner">
+              <div class="container table">
+                 <div class="td">
+                     <h2>產品介紹</h2>
+                 </div>                  
+              </div>
+          </div>
+          <div class="crumb">
+              <div class="container table">
+                 <div class="td">
+                     <div class="crumbBox">
+                          <ul>
+                              <li><a href="index.html">首頁</a></li>
+                              <li>»</li>
+                              <li><a href="product.html">產品介紹</a></li>
+                              <li class="fstNameTarget"></li>
+                          </ul>
+                     </div>
+                 </div>
+              </div>
+          </div>
+          
+        <!--*************** m 版選單 ****************-->
+          <div class="button-group filters-button-group mobile">
+              <div class="ulBox carOli mobile">
+                 <div class="table">
+                     <div class="td">
+                        <div class="oilCloseBtn"><span></span></div>
+                         <div class="bigBox">
+                             <div class="scollBox">
+                         <div>
+                          <ul class="mobile">
+                              <li data-filter=".carOil_all">汽車機油產品一覽</li>
+                              <li data-filter=".carOil_01">300V 全酯基引擎機油系列</li>
+                              <li data-filter=".carOil_02">Ester 酯基 / 8100 / Specific 全合成系列</li>
+                              <li data-filter=".carOil_03">H-TECH Low SAPS 全合成系列</li>
+                              <li data-filter=".carOil_04">POWER 加氫裂解系列</li>
+                          </ul>
+                          </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="ulBox motoOli mobile">
+                 <div class="table">
+                     <div class="td">
+                        <div class="oilCloseBtn"><span></span></div>
+                         <div class="bigBox">
+                             <div class="scollBox">
+                         <div>
+                          <ul class="mobile">
+                              <li data-filter=".MOTO_all">MOTO_01</li>
+                              <li data-filter=".MOTO_01">MOTO_02</li>
+                              <li data-filter=".MOTO_02">MOTO_03</li>
+                              <li data-filter=".MOTO_03">MOTO_04</li>
+                          </ul>
+                          </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="ulBox other01 mobile">
+                 <div class="table">
+                     <div class="td">
+                        <div class="oilCloseBtn"><span></span></div>
+                         <div class="bigBox">
+                             <div class="scollBox">
+                         <div>
+                          <ul class="mobile">
+                              <li data-filter=".other01_all">moto_01</li>
+                              <li data-filter=".other01_01">moto_02</li>
+                              <li data-filter=".other01_02">moto_03</li>
+                          </ul>
+                          </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="ulBox other02 mobile">
+                 <div class="table">
+                     <div class="td">
+                        <div class="oilCloseBtn"><span></span></div>
+                         <div class="bigBox">
+                             <div class="scollBox">
+                         <div>
+                          <ul class="mobile">
+                              <li data-filter=".other02_all">moto_11</li>
+                              <li data-filter=".other02_01">moto_12</li>
+                              <li data-filter=".other02_02">moto_13</li>
+                          </ul>
+                          </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="ulBox other03 mobile">
+                 <div class="table">
+                     <div class="td">
+                        <div class="oilCloseBtn"><span></span></div>
+                         <div class="bigBox">
+                             <div class="scollBox">
+                         <div>
+                          <ul class="mobile">
+                              <li data-filter=".other03_all">moto_21</li>
+                              <li data-filter=".other03_01">moto_22</li>
+                          </ul>
+                          </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!--*************** m 版選單 ****************-->
+          <div class="productListBox">
+              <div class="container">
+                 <div class="mobile m_pdList">請選擇您想查詢的產品類別<i class="icon icon_what"></i></div>
+                  <div class="oilBox inner-inblock button-group filters-button-group">
+                      <div class="oilList oList01" ulBoxName="carOli">
+                          <p class="firstSortName">汽車機油油油油</p>
+                          <i class="icon icon_angleDown"></i>
+                          <ul class="pc">
+                              <li data-filter=".carOil_all">汽車機油產品一覽</li>
+                              <li data-filter=".carOil_01">300V 全酯基引擎機油系列</li>
+                              <li data-filter=".carOil_02">Ester 酯基 / 8100 / Specific 全合成系列</li>
+                              <li data-filter=".carOil_03">H-TECH Low SAPS 全合成系列</li>
+                              <li data-filter=".carOil_04">POWER 加氫裂解系列</li>
+                          </ul>
+                          
+                      </div>
+                      <div class="oilList oList02" ulBoxName="motoOli">
+                          <p class="firstSortName">機車機油油</p>
+                          <i class="icon icon_angleDown"></i>
+                          <ul class="pc">
+                              <li data-filter=".MOTO_all">MOTO_01</li>
+                              <li data-filter=".MOTO_01">MOTO_02</li>
+                              <li data-filter=".MOTO_02">MOTO_03</li>
+                              <li data-filter=".MOTO_03">MOTO_04</li>
+                          </ul>
+                      </div>
+                      <div class="oilList oList03" ulBoxName="other01">
+                          <p class="firstSortName">其他01</p>
+                          <i class="icon icon_angleDown"></i>
+                          <ul class="pc">
+                              <li data-filter=".other01_all">moto_01</li>
+                              <li data-filter=".other01_01">moto_02</li>
+                              <li data-filter=".other01_02">moto_03</li>
+                          </ul>
+                      </div>
+                      <div class="oilList oList04" ulBoxName="other02">
+                          <p class="firstSortName">其他02</p>
+                          <i class="icon icon_angleDown"></i>
+                          <ul class="pc">
+                              <li data-filter=".other02_all">moto_11</li>
+                              <li data-filter=".other02_01">moto_12</li>
+                              <li data-filter=".other02_02">moto_13</li>
+                          </ul>
+                      </div>
+                      <div class="oilList oList05" ulBoxName="other03">
+                          <p class="firstSortName">其他03</p>
+                          <i class="icon icon_angleDown"></i>
+                          <ul class="pc">
+                              <li data-filter=".other03_all">moto_21</li>
+                              <li data-filter=".other03_01">moto_22</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="choiceBox">
+              <div class="container">
+                 <div class="choiceList">
+                  <div class="choiceSortName">全產品一覽</div>
+                  <div class="grid">
+                  <div class="choice inner-inblock element-item carOil_all carOil_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_01</p>
+                          <p>
+                            ˙並獲得 TRD 車隊認證
+                          </p>
+                          <div>測試測試測試測試測試</div>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_01</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class=" inner-inblock element-item carOil_all carOil_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_03">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_03</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_03">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_03</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_04">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_04</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item carOil_all carOil_04">
+                      <div class="choiceTxt">
+                          <p class="chTlt">carOil_04</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item MOTO_all MOTO_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">MOTO_01</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item MOTO_all MOTO_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">MOTO_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item MOTO_all MOTO_03">
+                      <div class="choiceTxt">
+                          <p class="chTlt">MOTO_03</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other01_all other01_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other01_01</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other01_all other01_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other01_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other01_all other01_03">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other01_03</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                      <div class="choice inner-inblock element-item other02_all other02_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other02_01</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other02_all other02_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other02_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other02_all other02_03">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other02_03</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other03_all other03_01">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other03_01</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                     <div class="choice inner-inblock element-item other03_all other03_02">
+                      <div class="choiceTxt">
+                          <p class="chTlt">other03_02</p>
+                          <p>
+                            ˙快速提升轉速、大馬力輸出賽道引擎的絕佳選擇。<br/>
+                            ˙適用於指定使用低黏度潤滑油之高轉速低排氣量的環保引擎（含 HYBRID 車系），提供引擎完整保護兼具省油效果。<br/>
+                            ˙適用於自然進氣或有無缸內直噴渦輪增壓，及裝置觸媒轉化器之汽柴油引擎。<br/>
+                            規範：超越現行所有標準並獲得 TRD 車隊認證<br>
+                            包裝：2L x 12<br/>
+                          </p>
+                      </div>
+                      <div class="choiceImg">
+                          <div class="imgBox"><img src="images/product_img01.png" alt="顯示產品名稱" title="顯示產品名稱"></div>
+                          <div class="linkBtn"><a target="_blank" href="#">了解更多</a></div>
+                      </div>
+                      </div>
+                  
+                  </div>
+                 </div>
+              </div>
+          </div>
+        </main>
+        <footer>
+            <div class="container">
+               <div class="table">
+                <div class="footTent inner-inblock td">
+                    <div class="right">© 2017 MOTUL 台灣總代理 行快科技 版權所有</div>
+                    <div class="FB"><a href="https://www.facebook.com/motultaiwancarsandmotorcycles/" target="_blank"><i class="icon icon_fb"></i></a></div>
+                    <div class="motul"><a href="https://tw.molife.com/T_Molife/" target="_blank"><img src="images/footer_img01.png" alt="行遍天下"></a></div>
+                </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script type="text/javascript" src="js/js.lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/js.lib/modernizr-custom.js"></script>
+    <script type="text/javascript" src="js/js.lib/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/js.lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
+    <script type="text/javascript" src="js/suckapple.js"></script>
+    <script type="text/javascript" src="js/js.lib/isotope-docs.min.js"></script>
+    <script type="text/javascript" src="js/js.lib/jquery.mCustomScrollbar.concat.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/js.lib/jquery.mCustomScrollbar.css">
+    
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|Baiduspider) [NC]
+RewriteRule .* - [R=403,L]
+
+
+
+#擋掉百度
+
+SetEnvIfNoCase User-Agent "^Baidu" bad_bot
+SetEnvIfNoCase User-Agent "^sogou" bad_bot
+SetEnvIfNoCase User-Agent "^Bloghoo" bad_bot
+SetEnvIfNoCase User-Agent "^Scooter" bad_bot
+Deny from env=bad_bot
+
+
+
+#擋掉Google
+SetEnvIf User-Agent "^Googlebot" google
+Deny from env=google

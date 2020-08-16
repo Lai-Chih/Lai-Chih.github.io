@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="robots" content="noindex, nofollow">
+    
+    
+    <title>Chih's web</title>
+    
+    
+    <link href="http://lai-chih.com/images/favicon.ico" rel="shortcut icon" />
+    <link href="http://lai-chih.com/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/m_css.css">
+    
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="wrapper" id="vueBox">
+		<div class="control">
+			<div class="gatherBox">
+				切換： <input type="checkbox" v-model="gather">
+			</div>
+			<span>翻開：</span>&nbsp;<label for="" v-for="(card,index) in cards" :class="{redSym: card.label=='hearts' || card.label=='diamonds'}"><input class="checkC" type="checkbox" v-model="card.open">{{getSymbol(card.label)}}</label>
+			<div class="flexBox">
+				<button @click="shuffle">洗牌</button>
+				<button @click="startGame">startGame</button>
+			</div>
+		</div>
+		<h2>{{ state }}</h2>
+		<div class="flexBox">
+			<div class="cards" :class="{gather: gather}">
+				<div class="card" v-for="card in cards"
+				:data-order="card.id"
+				:class="{open: card.open, redSym: card.label=='hearts' || card.label=='diamonds'}"
+				@click="openCard(card)">
+					<div class="face back"></div>
+					<div class="face front">{{ getSymbol(card.label) }}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js.lib/vue.min.js"></script>
+	<script type="text/javascript" src="js.lib/jquery-3.2.1.min.js"></script>    
+	<script type="text/javascript" src="js.lib/modernizr-custom.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    
+</body>
+</html>

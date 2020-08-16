@@ -1,0 +1,117 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+    .sec_01 .nameCube{ width: 30%; margin-right: 7.8%;}
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 920px) {
+    .sec_02 .nameCube span{ padding-left: 0;}
+    .sec_02 .pageIntro{ width: 44.8%; padding-top: 0.8rem;}
+    .sec_02 .nameCube{ margin-left: 30%;}
+    .sec_02 .nameCube .imgBox{ width: 132%; right: 78%;}
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    
+    /* main
+    -------------------------------------------------------------*/
+    .kv{}
+    .kv .container{ position: relative; z-index: 0;}
+    .kv .container:before{ display: none;}
+    h3{
+        font-size: 0.72rem; color: #ffffff; padding: 0.6rem 0 0.6rem 0; line-height: 1.3;
+        max-width: 12em; margin: auto;
+    }
+    .kvImg.mobile{
+        width: 100%; height: 6.8rem;
+        background-image: url(../images/security/security_kv_m.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+    }
+
+
+        /* crumb */
+    .crumb{ display: none;}
+    
+        /* sec_01 */
+    .sec_01{ overflow: hidden;}
+    .sec_01 .contentBox{ padding-bottom: 0.6rem; margin-top: 1.2rem; padding-left: 0; max-width: none; width: auto;}
+    .sec_01 .nameCube{
+        font-size: 0.55rem; width: 100%; max-width: 8.2rem; height: 4rem;
+        margin: auto; display: block;
+    }
+    .nameCube:after{}    
+    
+    .pageIntro{ font-size: 0.32rem; color: #313131; width: auto; display: block; max-width: 8.2rem; margin: 0.6rem auto 0 auto;}
+    p.blueTxt{ font-size: 0.52rem; color: #405eb9; margin-bottom: 0.5em; line-height: 1.385;}
+    .pageIntro ul{}
+    .pageIntro ul li{ font-size: 0.32rem; line-height: 2; display: block;}
+    .pageIntro ul li:nth-child(odd){ width: auto;}
+    .pageIntro ul li:nth-child(even){ width: auto;}
+
+    .sec_01 .tentBox02{
+        padding-left: 0; padding-top: 0; padding-bottom: 1.2rem; position: relative;;
+        max-width: 8.2rem; margin: 0rem auto 0 auto;
+    }
+    .carImg{ width: 100%; max-width: 700px; position: relative; top: 0; right: 30%;}
+    body .carImg:before{
+        content: ''; display: block;
+        width: 0; height: 0; background-color: #91a8d5;
+        position: absolute; z-index: -1; bottom: 2%; right: 17%;
+        border-top: 1.6rem solid #ffffff;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-left: 6.8rem solid #91a8d5;
+    }
+    .carPaint{ position: absolute; width: 104%; max-width: 730px; bottom: 2.5%; right: -33%; z-index: -1;}
+    
+    /* sec_02 */
+    .sec_02{}
+    .sec_02 .contentBox{}
+    .sec_02 .pageIntro{ width: auto; max-width: 8.2rem; margin: auto; padding-top: 0.6rem;}
+    .iconTxt{ font-size: 0.32rem;}
+    .icT02:before, .icT02:after{ height: 1px; width: 100%;}
+    .icT02:after{ top: auto; bottom: 0;}
+    .sec_02 .nameCube span{ padding-left: 0.3em;}
+    .sec_02 .nameCube.mobile{ display: block; max-width: 8.2rem; margin: auto; width: auto; height: 4rem;}
+    .sec_02 .nameCube.pc{ display: none;}
+    .sec_02 .imgBox.mobile{ display: block; max-width: 8.2rem; margin: 0.8rem auto 0 auto;}
+
+        /* sec_03 */
+    .sec_03{}
+    .sec_03 .container{ position: relative; background-color: #405eb8; margin-top: 0.8rem}
+    .sec_03 .contentBox{ padding: 0; height: 6.2rem;}
+    .eyeBox{
+        padding: 1.5rem 0 0 0; width: auto; min-height: none;
+        font-size: 0.32rem; color: #ffffff;
+        line-height: 1.875; max-width: 8.2rem;
+        margin: auto;
+    }
+    .big{ font-size: 0.52rem; margin-bottom: 0.5em; line-height: 1.385;}
+    .eyeBox span{
+        display: block; position: absolute; width: 1.8rem; top: -0.3rem; left: 15px;
+    }
+
+
+    
+}
+@media screen and (max-width: 640px) {   
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 360px) {
+    .adressBox{ padding-left: 1.4rem;}
+    .adressBox .telNB{ font-size: 0.64rem; margin-bottom: 0.3em;}
+}
+@media screen and (max-width: 320px) {
+}

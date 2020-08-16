@@ -1,0 +1,53 @@
+/* media
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 920px) {
+    body,html{ font-size: 46px;}
+}
+@media screen and (max-width: 800px) {
+    body,html{ font-size: 44px;}
+}
+@media screen and (max-width: 680px) {
+    body,html{ font-size: 42px;}
+}
+@media screen and (max-width: 640px) {
+	.coffeeType.showMode.favorite:before {
+		font-size: 0.6rem;
+		display: block;
+		position: absolute;
+		left: -15px;
+		top: 5px;
+		-webkit-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	.coffeeType.favorite:before {
+		font-size: 1rem;
+		display: block;
+		position: absolute;
+		left: -10px;
+		top: 32%;
+		-webkit-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+}
+@media screen and (max-width: 550px) {
+    body,html{ font-size: 40px;}
+}
+@media screen and (max-width: 520px) {
+/*    body,html{ font-size: 50px;}*/
+    .pc{ display: none;}
+    .mobile{ display: block;}
+   
+}
+@media screen and (max-width: 420px) {
+	body,html{ font-size: 38px;}
+	.coffeeType .num {
+		font-size: 0.9rem;
+	}
+}

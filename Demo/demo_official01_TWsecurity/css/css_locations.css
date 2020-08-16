@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+
+/* index 
+----------------------------------------------------------------------------*/
+
+.wrapper{}
+
+
+a{ display: block;}
+
+
+/* main
+-------------------------------------------------------------*/
+.kv{
+    background-image: url(../images/page_bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 0.24rem auto;
+}
+.kv .container{ position: relative; z-index: 0;}
+.kv .container:before{
+    content: ''; display: block;
+    width: 100%; height: 4.4rem; background-color: #ffffff;
+    position: absolute; bottom: 0; left: 0; z-index: 1;
+}
+h3{ font-size: 1.2rem; color: #ffffff; margin-left: 0.6rem; padding: 2.1rem 0 1rem 0;}
+.kvImg{ max-width: 1540px; margin: auto; z-index: 9; position: relative;}
+
+
+    /* crumb */
+.crumb{}
+.crumb .contentBox{ padding-top: 0.4rem; padding-bottom: 1.5rem;}
+.crumb ul{ margin-left: 0.6rem;}
+.crumb ul li{ font-size: 0.32rem; color: #405eb9;}
+.crumb ul li:last-child{ padding-left: 1em;}
+.crumb ul li.home a{ padding-left: 0;}
+.crumb ul li a{ color: #405eb9; display: inline-block; vertical-align: middle; padding: 0 1em;}
+.crumb ul li a:hover{ text-decoration: underline;}
+.crumb ul li a img{ width: 0.42rem; background-image: none; -webkit-transition: all 0.2s ease; transition: all 0.2s ease;}
+.crumb ul li a:hover img{
+    background-image: url(../images/crumb_home_hover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.42rem auto;
+}
+
+    /* sec_01 */
+.sec_01{}
+.sec_01 .contentBox{ max-width: 1060px;}
+.nameCube{
+    font-size: 0.8rem; color: #405eb9; font-weight: bold;
+    border: 3px solid #405eb9; position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; width: 28.5%; height: 6rem;
+    margin-right: 14%;
+}
+.nameCube span{
+    display: block; position: absolute; bottom: -6px; right: -7px; line-height: 1; background-color: #ffffff;
+    padding-top: 0.1em; padding-left: 0.3em;
+}
+
+.pageIntro{ font-size: 0.6rem; color: #405eb9; width: 57.5%; vertical-align: middle;}
+.adressBox{
+    padding-left: 1.9rem;
+    background-image: url(../images/locations/locations_img01.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 1.4rem auto;
+    max-width: 11.9rem;
+    border-bottom: 3px solid #8c9ed5;
+    padding-bottom: 0.5rem
+}
+.adressBox .blueTxt{ font-size: 0.48rem; line-height: 1; color: #405eb9; margin-bottom: 0.5em;}
+.adressBox .telNB{
+    font-size: 0.84rem; line-height: 1; color: #405eb9; font-family: Times New Roman, '微軟正黑體', Microsoft JhengHei;
+    margin-bottom: 0.3em
+}
+.adressBox .adress{
+    font-size: 0.36rem; color: #535353; line-height: 2; padding-left: 1.8em;
+    background-image: url(../images/locations/locations_img02.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 0.4rem auto;
+}
+
+    /* sec_02 */
+.sec_02{}
+.sec_02 .contentBox{ max-width: 1110px; padding-bottom: 2.6rem;}
+.serviceIntro{
+    font-size: 0.6rem; color: #405eb9; max-width: 12em; margin-right: 11.8%; vertical-align: top; letter-spacing: 1.3px;
+    margin-top: 3rem; width: 40%;
+}
+.taiwanImg{ width: calc(88.2% - 7.5rem); max-width: 550px; margin: auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,96 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+	.envirTxt{ opacity: 0.7;}
+	.txtLine{ opacity: 0.7;}
+	.eT01{ left: auto; right: 0;}
+	.tL01{ left: auto; right: 0.9rem;}
+	.eT02{ right: auto; left: 0;}
+	.tL02{ right: auto; left: 0.3rem;}
+}
+@media screen and (max-width: 768px) {
+	
+	/* main
+	-----------------------------------------------------------------------------*/
+
+		/* kv */
+	.kv{	
+		height: 7rem;
+		background-image: url(../images/envir_kv_m.png);
+	}
+	h2{
+		font-size: 0.85rem;
+	}
+	h3{
+		font-size: 0.72rem;
+	}
+	h3:before{
+		width: 4.2em; height: 2px;
+	}
+	
+	/* sec_01 */
+	.sec_01 .container{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	p.p01{
+		margin: 0.4rem auto 0.6rem auto;
+	}
+	.envirTxt, .txtLine{ display: none;}
+	
+	/* sec_02 */
+	.sec_02 .container{
+		padding-top: 0.7rem;
+	}
+	.sec_02 .container.ct02{ padding-top: 0.8rem;}
+	.sec_02 h3{
+		line-height: 1.389;
+		margin-bottom: 0.4rem;
+		padding-bottom: 0.4rem;
+	}
+	.sec_02 p{
+		margin: 0 auto 1.3em auto;
+	}
+	.photoBox{ display: none;}
+	img.logoPic.mobile{
+		max-width: 500px;
+		margin: 0.6rem auto 0.8rem auto;
+	}
+	.slickBox{
+		max-width: 450px;
+		margin: auto;
+	}
+	.bb02{
+		padding-top: 1.2rem;
+		padding-bottom: 0.4rem;
+	}
+	.trophyPic{
+		height: 6.3rem;
+		background-image: url(../images/envir_pic02_m.png);
+	}
+	.bb03 .slickBox{
+		margin-top: 0.8rem;
+	}
+
+	
+	
+	
+	
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 319px) {
+}

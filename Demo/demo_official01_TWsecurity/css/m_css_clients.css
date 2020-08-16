@@ -1,0 +1,236 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1350px) {
+    .sec_03 .nameCube{}
+    .sec_03 .nameCube span:before{ height: 3.8em;}
+    .sec03BR{ display: inherit;}
+}
+@media screen and (max-width: 1200px) {
+    .nameCube{ font-size: 0.76rem;}
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 990px) {
+    .nameCube{ font-size: 0.7rem;}
+    p.blueTxt{ font-size: 0.55rem;}
+    .sec_01 p.blueTxt{ padding-left: 0.5rem;}
+    .ib02{ right: auto; left: -0.2rem;}
+}
+@media screen and (max-width: 890px) {
+    .nameCube{ font-size: 0.62rem;}
+}
+@media screen and (max-width: 800px) {
+    .sec_03 .imgBox{ right: 0.2rem;}
+}
+@media screen and (max-width: 780px) {
+    .clientBox{ font-size: 0.34rem;}
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* main
+    -------------------------------------------------------------*/
+    .kv{}
+    .kv .container{ position: relative; z-index: 0;}
+    .kv .container:before{ display: none;}
+    h3{
+        font-size: 0.72rem; color: #ffffff; padding: 0.6rem 0 0.6rem 0; line-height: 1.3;
+        max-width: 12em; margin: auto;
+    }
+    .kvImg.mobile{
+        width: 100%; height: 6.8rem;
+        background-image: url(../images/clients/clients_kv_m.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+        /* crumb */
+    .crumb{ display: none;}
+    
+    
+    section .contentBox{ padding-left: 0;}
+    section .tentBox02{ max-width: 8.2rem; margin: auto;}
+    
+    .goTop{}
+    .goTop a{
+        color: #ffffff; font-size: 0.36rem; text-align: center; line-height: 2.2222; padding-right: 1.5em;
+        background-color: #808080;
+        background-image: url(../images/clients/arrow.png);
+        background-repeat: no-repeat;
+        background-position: top 0.7em left calc(50% + 2em);
+        background-size: 0.6em auto;
+    }
+    .goTop a:hover{ background-color: #696969;}
+    .sec_04 .goTop a{ padding-bottom: 0.6rem;}
+    
+    
+    /* sec_01 */
+    .sec_01{}
+    .sec_01 .contentBox{ padding-bottom: 0.6rem; margin-top: 1.2rem; padding-left: 0; width: auto;}
+    .nameCube{
+        font-size: 0.78rem; width: 100%; max-width: 8.2rem; height: 4rem;
+        margin: auto; display: block;
+    }
+    .nameCube:after{}
+    .nameCube span{}
+    
+    .pageIntro{
+        font-size: 0.48rem; padding-top: 2.3rem;
+        max-width: 8.2rem; margin: auto; display: block; width: auto;
+    }
+    .sec_01 .pageIntro{ min-height: 8.8rem;}
+    .pageIntro:before{
+        content: ''; display: block;
+        width: 0; height: 0;
+        border-top: 3.6rem solid transparent;
+        border-right: 8.2rem solid #91a8d5;
+        border-bottom: 0px solid transparent;
+        border-left: 0px solid transparent;
+        position: absolute; bottom: 0; right: -0.7rem;
+    }
+    p.blueTxt{ font-size: 0.48rem; color: #405eb9; margin-bottom: 0.5em; line-height: 1.5;}
+    p.blueTxt span.zoomIn{ font-size: 0.8rem; line-height: 1.2;}
+    p.blueTxt span.zoomIn i{
+        display: block; position: absolute; width: 1px; height: 3.4rem; top: 100%; left: 50%;
+    }
+    p.blueTxt span.zoomIn i:before{
+        content: ''; display: block; position: absolute;
+        height: 1px; width: 3rem; background-color: #405eb9;
+        bottom: 0; left: 0;
+    }
+    .sec_01 p.blueTxt{ padding-left: 0;}
+
+    .imgBox{ position: absolute; top: auto; bottom: 0.6rem; right: 0; width: 3.4rem; max-width: 236px; z-index: 99;}
+    .ib02{ right: auto; left: -15px; z-index: 1; width: 3rem; max-width: 200px; bottom: auto; top: 0.8rem;}
+
+
+    .sec_01 .tentBox02{ padding-left: 0; padding-bottom: 0.6rem; margin-top: 0; max-width: 8.2rem; margin: auto;}
+    .tentBox02 .Tlt{ font-size: 0.42rem; line-height: 1.57; margin-bottom: 0.4em;}
+    .tentBox02 .inner-inblock{}
+    .clientBox{ width: 50%; min-height: 3.3em; font-size: 0.32rem;}
+    .cliB07, .cliB08, .cliB09, .cliB10, .cliB11, .cliB12,
+    .cliB19, .cliB20, .cliB21, .cliB22, .cliB23, .cliB24{
+        background-image: none;
+    }
+    .cliB03, .cliB04, .cliB07, .cliB08, .cliB11, .cliB12,
+    .cliB15, .cliB16, .cliB19, .cliB20, .cliB23, .cliB24{
+        background-image: url(../images/clients/clients_bg01.png);
+        background-repeat: repeat;
+        background-position: left center;
+        background-size: auto 100%;
+    }
+    .cliB_2{ display: none;}
+    p.little{ font-size: 0.28rem; color: #727171; margin-top: 0.5em; margin-bottom: 0.6rem;}
+
+
+        /* sec_02 */
+    .sec_02{}
+    .sec_02 .contentBox{ padding-bottom: 0.6rem; padding-left: 0; width: auto;}
+    .sec_02 .container{}
+    .sec_02 .contentBox.inner-inblock{ padding-top: 1.2rem; padding-bottom: 0.6rem;}
+    .sec_02 .nameCube{}
+    .sec_02 .nameCube span{}
+    .sec_02 .pageIntro{ min-height: 5.2rem; padding-top: 0.8rem;}
+    .sec_02 .pageIntro:before{
+        border-top: 4rem solid #31569d;
+        border-right: 8.7rem solid #ffffff;
+        z-index: 0
+    }
+    .sec_02 p.blueTxt{}
+    .sec_02 .imgBox{ position: absolute; top: auto; bottom: 0.2rem; right: -0.7rem; width: 9rem; max-width: 450px; z-index: 99;}
+
+    .sec_02 .tentBox02{ padding-left: 0; padding-bottom: 0.4rem; max-width: 8.2rem; margin: auto;}
+    .sec_02 .tentBox02 .inner-inblock{}
+    .sec_02 .clientBox{}
+    .sec_02 p.little{ color: #ffffff;}    
+    .sec_02 .cliB03, .sec_02 .cliB04{
+        background-image: url(../images/clients/clients_bg02.png);
+        background-repeat: repeat;
+        background-position: left center;
+        background-size: auto 100%;
+    }
+    
+
+
+        /* sec_03 */
+    .sec_03{}
+    .sec_03 .contentBox{ padding-bottom: 0.6rem; padding-left: 0; width: auto;}
+    .sec_03 .contentBox.inner-inblock{ padding-top: 1.2rem; padding-bottom: 0.6rem;}
+    .sec_03 .pageIntro{ min-height: 5.6rem; padding-top: 0.8rem;}
+    .sec_03 .nameCube span{}
+    .sec_03 .nameCube span:before{ height: 2.8em;}
+    .sec03BR{ display: none;}
+    .sec_03 .imgBox{ position: absolute; top: auto; bottom: 0; right: 0.6rem; width: 3.9rem; max-width: 250px; z-index: 99;}
+
+    .sec_03 .tentBox02{ padding-left: 0; padding-bottom: 0.4rem; max-width: 8.2rem; margin: auto;}
+    .cliB31, .cliB32, .cliB33, .cliB34, .cliB35, .cliB36,
+    .cliB43, .cliB44, .cliB45, .cliB46, .cliB47, .cliB48,
+    .cliB55, .cliB56, .cliB57, .cliB58, .cliB59, .cliB60{
+        background-image: none;
+    }
+    .cliB27, .cliB28, .cliB31, .cliB32, .cliB35, .cliB36,
+    .cliB39, .cliB40, .cliB43, .cliB44, .cliB47, .cliB48,
+    .cliB51, .cliB52, .cliB55, .cliB56, .cliB59, .cliB60{
+        background-image: url(../images/clients/clients_bg01.png);
+        background-repeat: repeat-x;
+        background-position: left center;
+        background-size: auto 100%;
+    }
+
+
+
+        /* sec_04 */
+    .sec_04{}
+    .sec_04 .container{ background-color: #31569d;}
+    .sec_04 .contentBox{ padding-bottom: 0.6rem; padding-left: 0; width: auto;}
+    .sec_04 .contentBox.inner-inblock{ padding-top: 1.2rem; padding-bottom: 0.6rem;}
+    .sec_04 .nameCube{}
+    .sec_04 .nameCube span{}
+    .sec_04 .pageIntro{ min-height: 5.7rem; padding-top: 0.8rem;}
+    .sec_04 .pageIntro:before{
+        border-top: 4.6rem solid #31569d;
+        border-right: 8.3rem solid #ffffff;
+        z-index: 0
+    }
+    .sec_04 p.blueTxt{}
+    .sec_04 .imgBox{ position: absolute; top: auto; bottom: 0.3rem; right: 0.3rem; width: 4rem;}
+
+    .sec_04 .tentBox02{ padding-left: 0; padding-bottom: 1.6rem; max-width: 8.2rem; margin: auto; }
+    .sec_04 .tentBox02 .inner-inblock{ border-bottom: 1px solid #ffffff;}
+    .sec_04 .clientBox{ border-top: 1px solid #ffffff; color: #ffffff;}
+    .sec_04 p.little{ color: #ffffff;}
+
+    .sec_04 .cliB07, .sec_04 .cliB08, .sec_04 .cliB09, .sec_04 .cliB10, .sec_04 .cliB11, .sec_04 .cliB12,
+    .sec_04 .cliB19, .sec_04 .cliB20, .sec_04 .cliB21, .sec_04 .cliB22, .sec_04 .cliB23, .sec_04 .cliB24,
+    .sec_04 .cliB31, .sec_04 .cliB32, .sec_04 .cliB33, .sec_04 .cliB34, .sec_04 .cliB35, .sec_04 .cliB36{
+        background-image: none;
+    }
+    .sec_04 .cliB03, .sec_04 .cliB04, .sec_04 .cliB07, .sec_04 .cliB08, .sec_04 .cliB11, .sec_04 .cliB12,
+    .sec_04 .cliB15, .sec_04 .cliB16, .sec_04 .cliB19, .sec_04 .cliB20, .sec_04 .cliB23, .sec_04 .cliB24,
+    .sec_04 .cliB27, .sec_04 .cliB28, .sec_04 .cliB31, .sec_04 .cliB32, .sec_04 .cliB35, .sec_04 .cliB36{
+        background-image: url(../images/clients/clients_bg02.png);
+        background-repeat: repeat;
+        background-position: left center;
+        background-size: auto 100%;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 640px) {
+   
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    .pageIntro:before{ right: auto; left: 0.6rem}
+    .sec_02 .imgBox{ position: absolute; top: auto; bottom: 0.2rem; right: auto; left: 0.5rem;}
+}
+@media screen and (max-width: 320px) {
+}

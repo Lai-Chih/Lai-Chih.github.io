@@ -1,0 +1,171 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 648px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) {d
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 46px;}    
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 840px) {
+    body,html{ font-size: 44px;}    
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    .search{ width: 15%;}
+    
+    .container{ width: calc(100% - 40px); height: 100%; margin: auto; padding-left: 20px; padding-right: 20px;}
+    /* header -----------------------------------------------*/
+    header{ height: 0.9rem; z-index: 20;}    
+    .openBtn{ width: 1rem; top: 0; right: 0; height: 100%; cursor: pointer; z-index: 999;}
+    .openBtn span{
+        display: block; margin: calc(0.45rem - 1.5px) auto 0 auto; position: relative;
+        width: 0.6rem; height: 3px; background-color: #000000;
+        border-radius: 25px;
+        z-index: 999;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .openBtn span:before, .openBtn span:after{
+        content: ''; display: block;
+        position: absolute; width: 0.6rem; height: 3px; background-color: #000000; border-radius: 25px;
+        left: 0; top: -8px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .openBtn span:after{ top: auto; bottom: -8px;}
+    
+    /****************************/
+    .openBtn.close span{ -webkit-transform: rotate(45deg); transform: rotate(45deg);}
+    .openBtn.close span:before{ -webkit-transform: rotate(90deg); transform: rotate(90deg); top: 0;}
+    .openBtn.close span:after{ display: none;}
+    
+    /****************************/
+    
+    header nav{
+        position: absolute; top: 0; right: 0; width: 100%; max-width: none; background-color: rgba(238,238,238,0.85);
+        z-index: 800;   
+/*        display: none;*/
+    }
+    header nav ul{ text-align: center;}
+    header nav li{ font-size: 0.44rem; padding: 0; display: block; width: 100%;}
+    header li.mobile.first{ display: block;}
+    header nav li.first a{ padding-top: 0.5rem;}
+    header nav li a{
+        text-decoration: none; color: #000000; display: block; letter-spacing: 1px;
+        line-height: 3.2; margin-left: 0;
+        border-bottom: none;
+    }
+    header nav li a:hover, header nav li a.active{ color: #ed1c24; border-bottom: none; background-color: rgba(67,67,67,0.3);}
+    .navline{ width: 94%; margin: auto; height: 2px; background-color: #a0a0a0;}
+    
+    
+    
+    /* main
+    ------------------------------------------------------------------------------*/
+    h2{ font-size: 0.5rem;}
+    h3{ font-size: 0.34rem; line-height: 2;}
+    p{ font-size: 0.3rem; line-height: 2;}
+    main{}
+    
+     /* crumb */
+    .crumb{}
+    .crumb .container{ height: 1rem;}
+    .crumbBox{}
+    .crumb ul{}
+    .crumb ul li{ font-size: 0.28rem;}
+    .crumb ul li a{}
+    
+
+        /* linkBtn */
+    .linkBtn{ font-size: 0.3rem; text-align: center;}
+    .linkBtn a{}
+    
+    /* footer
+    ----------------------------------------------------------------------*/
+    footer{}
+    footer a{ display: block; text-decoration: none;}
+    footer .container{}
+    footer .container .table{ height: 2.4rem; max-width: none; margin: auto;}
+    .footTent{ text-align: center}
+    .footTent div{ font-size: 0.24rem; color: #ffffff; vertical-align: bottom;}
+    .footTent div.right{ display: block; text-align: center; margin-bottom: 1EM}
+    .footTent .FB a{
+        font-size: 0.5rem;
+        border-radius: 3px;
+        margin-left: 0;
+    }
+    .footTent .motul a{ max-width: 2.2rem; margin-left: 0.4rem;}
+    .footTent .motul a:hover{ background-color: rgba(255,255,255,0.2);}
+
+
+    
+    
+
+    
+    
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 58px;}
+    .search{ display: none;}
+    .fixBar{
+        display: block; position: fixed; right: -6.5em; top: 75%;
+        font-size: 0.24rem;
+        background-color: rgba(0,0,0,0.5);
+        padding-right: 0.5em;
+        border-top-left-radius: 0.36rem;
+        border-bottom-left-radius: 0.36rem;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+        z-index: 99;
+    }
+    .fixBar:hover{ background-color: rgba(0,0,0,1);}
+    .fixBar span{
+        display: inline-block;
+        width: 0.8rem; height: 0.72rem; vertical-align: middle;
+        background-image: url(../images/fixbar.png);
+        background-repeat: no-repeat;
+        background-position: left 0.2rem center;
+        background-size: auto 60%;
+        border-top-left-radius: 0.36rem;
+        border-bottom-left-radius: 0.36rem;
+        
+    }
+    .fixBar.onclick{ background-color: rgba(0,0,0,1); right: 0;}
+    .fixBar a{ color: #ffffff; text-decoration: none; line-height: 3; display: inline-block;}
+    .fixBar a:hover{text-decoration: underline;}
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 56PX;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52PX;}
+    
+}
+@media screen and (max-width: 340px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 48px;}
+}

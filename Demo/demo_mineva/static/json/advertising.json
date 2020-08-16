@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "1",
+    "imgUrl": "https://mineva.lai-chih.com/images/advertising/01.jpg",
+    "alt": "Advertising",
+		"direction": "horizon"
+  },
+	{
+    "cid": "2",
+    "imgUrl": "https://mineva.lai-chih.com/images/advertising/02.jpg",
+    "alt": "Advertising",
+		"direction": "horizon"
+  },
+	{
+    "cid": "3",
+    "imgUrl": "https://mineva.lai-chih.com/images/advertising/03.jpg",
+    "alt": "Advertising",
+		"direction": "horizon"
+  },
+	{
+    "cid": "4",
+    "imgUrl": "https://mineva.lai-chih.com/images/advertising/04.jpg",
+    "alt": "Advertising",
+		"direction": "horizon"
+  },
+	{
+    "cid": "5",
+    "imgUrl": "https://mineva.lai-chih.com/images/advertising/05.jpg",
+    "alt": "Advertising",
+		"direction": "horizon"
+  }
+]

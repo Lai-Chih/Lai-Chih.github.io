@@ -1,0 +1,204 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+    
+}
+@media screen and (max-width: 1024px) {    
+}
+@media screen and (max-width: 950px) {
+    .kvImg{
+		width: calc(100% - 7em);
+		top: 2rem; right: 0;
+	}
+}
+@media screen and (max-width: 860px) {
+    .kvImg{
+		width: calc(100% - 7em);
+		top: 1.8rem; right: -1em;
+	}
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    .headLine{ position: absolute; left: 20px; bottom: 0; height: 1px; width: calc(100% - 40px); background-color: #000000;}
+    
+    /* kv */
+	.kv .container{ padding-top: 0.6rem; padding-bottom: 0.8rem;}
+	.kvBR{ display: none;}
+	.kv h2{
+		font-size: 0.44rem; line-height: 1.55;
+		padding-bottom: 0.5em;
+		max-width: none;
+		margin-top: 0.8em;
+		letter-spacing: 0.025em;
+	}
+	.kv h2:after{ width: 100%;}
+	.kv p.kvTxt{
+		margin-top: 0.3rem; width: auto; font-size: 0.3rem;
+	}
+	.kvImg{
+		max-width: 575px; width: 100%;
+		position: relative; top: 0; right: 0; left: 0;
+		margin: auto;
+	}
+	
+	/* mainkv */
+	h4{
+		font-size: 0.36rem; line-height: 1; text-align: left;
+		padding-top: 0.8rem; padding-bottom: 0.8rem;
+	}
+
+    /* sec_01 */
+	.sec_01 .container{ padding-bottom: 0.4rem;}
+	.sec_01 .container .flexBox{ display: block;}
+	.iconBox{
+		max-width: none;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		margin-bottom: 0.9rem;
+	}
+	.iconImg{
+		width: 27%; max-width: 150px;
+		padding: 0.15rem;
+		margin: 0 0.3rem 0 0;
+	}
+	.iconBox p{
+		font-size: 0.3rem; text-align: left;
+		max-width: none;
+		margin: 0;
+	}
+	.sec_01 .iconBox.ib03  p{ max-width: none;}
+	.iconBox p.bold{
+		font-size: 0.3rem; line-height: 2;
+		padding-top: 0rem; padding-bottom: 0.1rem;
+		margin-top: -0.5em;
+	}
+	.pBox{ width: calc(73% - 0.3rem);}
+	
+	
+	
+	 /* sec_02 */
+	.sec_02 .container{ padding-bottom: 1.1rem;}
+	.sec_02 .container .flexBox{ display: block;}
+	.sec_02 .iconBox{ max-width: none;}
+	.sec_02 .iconImg{ padding: 0;}
+	.sec_02 .iconBox p{ max-width: none;}
+	
+
+
+    /* sec_03 */
+	.sec_03 .container{
+		padding-top: 0.7rem;
+		padding-bottom: 0.8rem;
+		display: block;
+	}
+	.compu{ width: auto; max-width: none; font-size: 0.3rem; margin-bottom: 0rem;}
+	.compu:before{ display: none;}
+	.compu .flexBox{ display: block;}
+	.compu p{ text-align: center;}
+	.compu p.bold{ font-size: 0.3rem; line-height: 2; margin-bottom: 0em;}
+	.cpuImg{
+		padding: 0.3rem;
+		min-height: 0;
+		width: 70%; max-width: 300px;
+		margin: 0.4rem auto;
+	}
+	.cpu03 .cpuImg{ padding-top: 0.3rem;}
+	.cpu04 .cpuImg{ padding-top: 0.3rem;}
+
+	.cpuTxt{	
+		padding-left: 1.5em; padding-right: 1.5em;
+		width: auto;
+	}
+
+	
+	/* sec_04 */
+	.sec_04{ padding-top: 0.7rem; padding-bottom: 0.5rem;}
+	.sec_04 h4{ text-align: left; line-height: 1; padding: 0 0 0 0;}
+	.sec_04 > .flexBox{ display: block;}
+	.l_b{ width: auto; margin-bottom: 0.7rem}
+	.r_b{ width: auto; padding: 0 20px;}
+	.r_b .flexBox{
+		font-size: 0.3rem;		
+		margin-top: 0.5rem;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.r_b .flexBox:hover{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.rbImg{ width: 27%; margin-right: 0;}
+	.rbTxt{ width: 73%; font-size: 0.3rem; padding-left: 1em; -webkit-box-sizing: border-box; box-sizing: border-box;}
+	.rbTxt p{ max-width: none;}
+	.rbTxt p.bold{ font-size: 0.3rem; line-height: 2; margin-top: -0.5em;}
+	
+	
+	/* sec_05 */
+	.sec_05 .container{ padding-bottom: 1.1rem;}
+	.sec_05 .container .flexBox{ display: block;}
+	.sec_05 .iconBox{ max-width: none;}
+	.sec_05 .iconImg{ padding: 0;}
+	.sec_05 .iconBox p{ max-width: none;}
+
+
+	/* sec_06 */
+	.sec_06 .flexBox{ display: block; padding-bottom: 0.8rem;}
+	.sec06Txt{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 0.5rem;
+		width: auto;
+	}
+	.sec06Txt p{ font-size: 0.3rem;}
+	.sec06Img{
+		width: 70%;
+		max-width: 300px;
+		margin: auto;
+	}
+
+	/* sec_07 annota */
+	.sec_07 .container{
+		padding-bottom: 1rem;
+		margin-top: 1rem;
+	}
+	.annoBox{
+		padding: 0.6rem 0 0 0;
+	}
+
+
+    
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 400px) {
+	h4{ line-height: 1.5;}
+}
+@media screen and (max-width: 370px) {
+	.kv h2{ letter-spacing: -0.01em; font-size: 0.4rem;}
+}
+@media screen and (max-width: 330px) {
+	.kv h2{ font-size: 0.38rem;}
+}
+@media screen and (max-width: 320px) {
+}

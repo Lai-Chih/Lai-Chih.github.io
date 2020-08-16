@@ -1,0 +1,32 @@
+/* media
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 920px) {
+    body,html{ font-size: 46px;}
+}
+@media screen and (max-width: 800px) {
+    body,html{ font-size: 44px;}
+}
+@media screen and (max-width: 680px) {
+    body,html{ font-size: 42px;}
+}
+@media screen and (max-width: 550px) {
+    body,html{ font-size: 40px;}
+		.face.back{ padding: 4px;}
+}
+@media screen and (max-width: 520px) {
+    body,html{ font-size: 50px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+   
+}
+@media screen and (max-width: 420px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 380px) {
+    .control label{
+			margin-right: 0.2rem;
+		}
+}

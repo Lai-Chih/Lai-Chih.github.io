@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "1",
+    "link": "/editorial",
+    "imgUrl": "https://mineva.lai-chih.com/images/Editorial_01.jpg",
+    "alt": "Editorial"
+  },
+	{
+    "cid": "2",
+    "link": "/editorial",
+    "imgUrl": "https://mineva.lai-chih.com/images/Editorial_02.png",
+    "alt": "Editorial"
+  },
+	{
+    "cid": "3",
+    "link": "/editorial",
+    "imgUrl": "https://mineva.lai-chih.com/images/Editorial_03.png",
+    "alt": "Editorial"
+  },
+	{
+    "cid": "4",
+    "link": "/makeup",
+    "imgUrl": "https://mineva.lai-chih.com/images/Makeup_01.png",
+    "alt": "Makeup"
+  },
+	{
+    "cid": "5",
+    "link": "/makeup",
+    "imgUrl": "https://mineva.lai-chih.com/images/Makeup_02.png",
+    "alt": "Makeup"
+  },
+	{
+    "cid": "6",
+    "link": "/mens_grooming",
+    "imgUrl": "https://mineva.lai-chih.com/images/Mens_grooming_01.png",
+    "alt": "Men's grooming"
+  },
+	{
+    "cid": "7",
+    "link": "/mens_grooming",
+    "imgUrl": "https://mineva.lai-chih.com/images/Mens_grooming_02.png",
+    "alt": "Men's grooming"
+  },
+	{
+    "cid": "8",
+    "link": "/wedding",
+    "imgUrl": "https://mineva.lai-chih.com/images/Wedding_01.png",
+    "alt": "Wedding"
+  },
+	{
+    "cid": "9",
+    "link": "/wedding",
+    "imgUrl": "https://mineva.lai-chih.com/images/Wedding_02.png",
+    "alt": "Wedding"
+  }
+]

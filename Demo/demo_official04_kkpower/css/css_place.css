@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* main
+-----------------------------------------------------------------------------*/
+
+	/* kv */
+.kv{	
+	height: 10.8rem;
+	background-image: url(../images/place_kv.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+}
+.kv .container{
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column;
+	flex-flow: column;
+}
+h2{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+	/* mapBox */
+.mapBox .container{
+	padding-top: 1.4rem;
+}
+p.p01{
+	max-width: 29em;
+}
+
+.twMap{
+	position: relative;
+	width: 60%;
+	max-width: 815px;
+}
+.redDot{
+	width: 0.9rem; height: 0.9rem;
+	border-radius: 50%;
+	background-color: #a86f76;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.twLine{
+	width: 44%; height: 1px;
+	background-color: #a86f76;
+	position: absolute;
+	top: calc(18.2% + 1px);
+	left: 55%;
+}
+.mapAddress{
+	font-size: 0.4rem; line-height: 2.1;
+	padding: 0.4rem 1rem;
+	width: 60%;
+	max-width: 6.6rem;
+	position: absolute;
+	top: 18.2%;
+	left: calc(100% + 0.4rem);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mapTip{
+	font-size: 0.36rem; line-height: 1;
+	color: #a86f76;
+	position: absolute;
+	top: -1.7em; right: 0;
+}
+.adressLine{
+	background-color: #a86f76;
+	position: absolute;
+}
+.adT{
+	width: 100%; height: 1px;
+	top: 0; right: 0;
+}
+.adR{
+	width: 1px; height: 100%;
+	bottom: 0; right: 0;
+}
+.adB{
+	width: 100%; height: 1px;
+	bottom: 0; left: 0;
+}
+.adL{
+	width: 1px; height: 100%;
+	top: 0; left: 0;
+}
+
+
+	/* mapPic */
+.mapPic{
+	margin-top: -4.6rem;
+}
+.mapPic .container{
+	position: relative;
+	margin-bottom: 3.2rem;
+}
+.mapLoca{
+	width: 16rem;
+	max-width: 800px;
+	margin-left: auto;
+	position: relative;
+}
+.mapLine{
+	position: absolute;
+	width: 3.5rem;
+	height: 1px;
+	background-color: #a86f76;
+	bottom: 56.7%;
+	left: 8.75%;
+	-webkit-transform: rotate(32deg) translateY(0.9rem) translateX(0.3rem);
+	transform: rotate(32deg) translateY(0.9rem) translateX(0.3rem);
+	z-index: 9;
+}
+.companyPic{
+	width: 8.8rem;
+	max-width: 440px;
+	position: absolute;
+	right: calc(100% - 8.8rem - 30px);
+	bottom: 56.7%;
+	z-index: 0;
+}
+.mapPic .redDot{
+	bottom: 0;
+	top: auto;
+	right: auto;
+	left: 0;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+}
+
+
+
+
+
+
+

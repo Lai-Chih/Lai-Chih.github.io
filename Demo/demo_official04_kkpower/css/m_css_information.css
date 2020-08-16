@@ -1,0 +1,116 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+	
+	/* main
+	-----------------------------------------------------------------------------*/
+
+		/* kv */
+	.kv{	
+		height: 7rem;
+		background-image: url(../images/info_kv_m.png);
+	}
+	h2{
+		font-size: 0.85rem;
+	}
+	h3{
+		font-size: 0.48rem;
+		padding: 0.1rem 0.3rem 0.1rem 1.1rem;
+	}
+	
+	/* yearTableBox */
+	.yearTableBox .container{
+		padding-top: 1rem;
+		padding-bottom: 1.4rem;
+	}
+	.repoBox .tltBox.flexBox{
+		display: block;
+	}
+	.selectBox select{
+		font-size: 0.36rem;
+		padding: 0.5em 1rem 0.5em 0.9em;
+	}
+
+		/* repoTable */
+	.repoTable{
+		margin-top: 0.6rem;
+		display: block;
+	}
+	.repo{
+		width: auto;
+	}
+	.repo:nth-child(even):before{
+		display: none;
+	}
+	.repo a{
+		padding: 0.2rem 0 0.2rem 50%;
+		background-position: center left calc(50% - 1.3rem);
+		background-size: 1rem auto;
+	}
+	.pdfName{
+		font-size: 0.36rem;
+		line-height: 1.7777;
+		width: 
+	}
+	.pdfTime{
+		font-size: 0.32rem;
+		line-height: 1.875;
+	}
+
+		/* paggerBox */
+	a.pagger{
+		font-size: 0.36rem; line-height: 1.86;
+		width: 1.8em;
+	}
+	.pageEnd{
+		width: 0.36rem; max-width: 20px;
+	}
+	.pageNext{
+		width: 0.22rem; max-width: 12px;
+		margin: 0 0.28rem;
+	}
+
+
+		/* monthTableBox */
+	.monthTableBox .container{
+		padding-top: 1.4rem;
+		padding-bottom: 1.4rem;
+	}
+	.monthTableBox h3{
+		background-image: url(../images/icon_month.svg);
+	}
+	.selecB01{ margin-right: 0.2rem;}
+	.monthTableBox .repo a{
+		padding: 0.2rem 0 0.2rem 45%;
+		background-position: center left calc(45% - 1.3rem);
+		background-size: 1rem auto;
+	}
+
+
+	
+	
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+	.monthTableBox .repo a{
+		padding: 0.2rem 0 0.2rem 40%;
+		background-position: center left calc(40% - 1.3rem);
+		background-size: 1rem auto;
+	}
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 319px) {
+}

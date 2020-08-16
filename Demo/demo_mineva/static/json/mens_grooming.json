@@ -1,0 +1,110 @@
+[
+  {
+    "cid": "1",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/01.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "2",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/02.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "3",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/03.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "4",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/04.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "5",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/05.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "6",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/06.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "7",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/07.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "8",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/08.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "9",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/09.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "10",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/10.jpg",
+    "alt": "Mens_grooming",
+		"direction": "horizon"
+  },
+	{
+    "cid": "11",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/11.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "12",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/12.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "13",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/13.jpg",
+    "alt": "Mens_grooming",
+		"direction": "horizon"
+  },
+	{
+    "cid": "14",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/14.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "15",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/15.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "16",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/16.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "17",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/17.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  },
+	{
+    "cid": "18",
+    "imgUrl": "https://mineva.lai-chih.com/images/mens_grooming/18.jpg",
+    "alt": "Mens_grooming",
+		"direction": "vertical"
+  }
+]

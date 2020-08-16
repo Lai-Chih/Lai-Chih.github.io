@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/* main
+-----------------------------------------------------------------------------*/
+
+	/* kv */
+.kv{	
+	height: 10.8rem;
+	background-image: url(../images/info_kv.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+}
+.kv .container{
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column;
+	flex-flow: column;
+}
+h2{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+}
+h3{
+	font-size: 0.6rem;
+	line-height: 1;
+	color: #a86f76;
+	font-weight: 600;
+	position: relative;
+	background-image: url(../images/icon_year.svg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: contain;
+	padding: 0.1rem 0.5rem 0.1rem 1.3rem;
+}
+
+
+	/* yearTableBox */
+.yearTableBox{
+	background-color: #ffffff;
+}
+.yearTableBox .container{
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
+}
+.repoBox .tltBox.flexBox{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.selectBox select::-ms-expand { display: none;}
+.selectBox select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	font-size: 0.36rem;
+	font-family: Arial, '微軟正黑體', Microsoft JhengHei, Apple LiGothic, '蘋果儷中黑';
+	padding: 0.5em 1rem 0.5em 0.5em;
+	background: url(../images/icon_triangle.svg) no-repeat center right 0.4rem #ffffff;	
+}
+.selectBox select:focus{
+	border-color: #1ab1dc
+}
+
+	/* repoTable */
+.repoTable{
+	border-top: 1px solid #c19694;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 1.1rem;
+}
+.repo{
+	width: 50%;
+	border-bottom: 1px solid #c19694;
+	position: relative;
+}
+.repo:nth-child(even):before{
+	content: ''; display: block;
+	width: 1px; height: 70%;
+	background-color: #c19694;
+	position: absolute;
+	top: 15%; left: 0;
+}
+.repo a{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0.2rem 0 0.2rem 27.35%;
+	background-image: url(../images/icon_pdf.svg);
+	background-repeat: no-repeat;
+	background-position: center left 11.5%;
+	background-size: 1.1rem auto;
+}
+.repo a:hover{
+	background-color: rgba(193,150,148,0.2);
+}
+.pdfName{
+	font-size: 0.4rem;
+	line-height: 1.9;
+	color: #771c2b;
+	font-weight: 600;
+}
+.pdfTime{
+	font-size: 0.36rem;
+	line-height: 2.11111;
+	color: #a8a8a8;
+	font-family: Arial;
+}
+
+	/* paggerBox */
+.paggerBox{
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+a.pagger{
+	font-size: 0.4rem; line-height: 1.6;
+	font-weight: 600;
+	font-family: Arial;
+	width: 1.6em;
+	color: #771c2b;
+	text-align: center;
+}
+a.pagger:hover{
+	background-color: #e5e5e5;
+}
+a.pagger.nowPage{
+	background-color: #a86f76;
+	color: #ffffff;
+}
+.pageEnd{
+	width: 0.4rem; max-width: 20px;
+}
+.pageNext{
+	width: 0.24rem; max-width: 12px;
+	margin: 0 0.28rem;
+}
+
+
+	/* monthTableBox */
+.monthTableBox .container{
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
+}
+.monthTableBox h3{
+	background-image: url(../images/icon_month.svg);
+}
+.selecB01{ margin-right: 0.8rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+

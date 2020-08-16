@@ -1,0 +1,200 @@
+[
+  {
+    "cid": "1",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/01.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "2",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/02.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "3",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/03.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "4",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/04.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "5",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/05.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "6",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/06.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "7",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/07.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "8",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/08.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "9",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/09.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "10",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/10.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "11",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/11.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "12",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/12.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "13",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/13.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "14",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/14.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "15",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/15.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "16",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/16.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "17",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/17.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "18",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/18.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "19",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/19.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "20",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/20.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "21",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/21.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "22",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/22.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "23",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/23.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "24",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/24.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "25",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/25.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "26",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/26.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "27",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/27.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "28",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/28.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "29",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/29.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "30",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/30.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  },
+	{
+    "cid": "31",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/31.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "32",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/32.jpg",
+    "alt": "Editorial",
+		"direction": "vertical"
+  },
+	{
+    "cid": "33",
+    "imgUrl": "https://mineva.lai-chih.com/images/editorial/33.jpg",
+    "alt": "Editorial",
+		"direction": "horizon"
+  }
+]

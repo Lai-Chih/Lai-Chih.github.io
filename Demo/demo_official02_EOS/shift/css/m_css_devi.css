@@ -1,0 +1,170 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1120px) {
+	.kvImg{
+		width: 70%;
+		height: 80%;
+		top: calc(100% - 0.6rem);
+		background-image: url(../images/bg_title_m.png);
+		background-position: center left;
+	}
+	.kvImg span{ display: none;}
+	.sec_01 .container{ padding-top: 3rem;}
+}
+@media screen and (max-width: 768px) {
+    
+	/** basic set *****/
+	p{
+		font-size: 0.32rem;
+	}
+	
+	/* header
+	------------------------------------------------------------------------------*/
+	header .container{
+		padding-top: 25px;
+		padding-bottom: 0.4rem;
+	}
+	h1{
+		width: 2rem;
+		margin-left: 10px;
+	}
+	
+	
+	/* main
+	-----------------------------------------------------------------------------*/
+
+		/* kv */
+	
+	.kv .container{
+		padding-top: 0.3rem;
+		padding-bottom: 0.5rem;
+	}
+	h2{
+		font-size: 0.72rem; line-height: 1.39;
+	}
+	.kvImg{
+		width: 78%;
+		height: 1rem;
+		top: calc(100% - 0.3rem);
+	}
+	
+	
+	/* sec_01 */
+	.sec_01 .container{
+		display: block;
+		padding-top: 1.4rem;
+		padding-bottom: 2rem;
+	}
+	.sec01Img{ width: auto;}
+	.sec01Img .imgBox{
+		width: 55%;
+		margin: auto;
+	}
+	.sec01Txt{
+		width: auto;
+		padding-bottom: 0.4rem;
+	}
+	
+	
+	/* sec_02 */
+	.sec_02 .container{
+		padding-bottom: 1.6rem;
+	}
+	.company{
+		width: 4.7rem;
+		font-size: 0.4rem; line-height: 1rem;
+		margin-bottom: 0.7rem;
+		padding-right: 3em;
+		margin-left: -15px;
+	}
+	.company:before{
+		width: 0.4rem; height: 115%;
+		top: 0; right: 0.6rem;
+	}
+	.compuTabBox{
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.compuTab{
+		width: 100%;
+		-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 0;
+		order: 0;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
+	}
+	.compuTab.active{
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+	.compu{
+		width: 33.3333%;
+		margin-top: -1px;
+	}
+	.compu img{ max-width: 2rem; margin: auto;}
+	.compuT02 .compu:first-child{ border-left: 1px solid #0078d4;}
+
+	h4{
+		font-size: 0.44rem;
+		margin-bottom: 0.4rem;
+	}
+	.compuFadeBox{ display: none;}
+	.compuTentBox{ padding: 0rem 0.3rem 0.4rem 0.3rem;}
+	.compuTentBox ul{ font-size: 0.32rem;}
+	.compuTentBox li:before{
+		width: 0.1rem; height: 0.1rem;
+		top: 0.9em; left: 0;
+	}
+	.compuTent{ display: block;}
+	.compuImg{
+		width: auto;
+		padding-right: 0;
+		display: block;
+	}
+	.compuImg img{
+		max-width: 500px;
+		margin: auto;
+	}
+	.compuTxt{
+		padding-left: 0;
+		border-left: none;
+		width: auto;
+	}
+	.compuContact{
+		width: auto;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding-top: 0.2rem;
+	}
+	.goldBox{
+		font-size: 0.36rem;
+		padding-top: 0.1rem;
+		padding-bottom: 0rem;
+		width: 3.2rem;
+	}
+	.goldBuy{
+		font-size: 0.36rem;
+		width: 3.2rem;
+	}
+	
+	/* other sections */
+	.sec_03 .container,
+	.sec_04 .container,
+	.sec_05 .container,
+	.sec_06 .container,
+	.sec_07 .container,
+	.sec_08 .container,
+	.sec_09 .container{ padding-bottom: 2.4rem;}
+
+
+
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 585px) { 
+}
+@media screen and (max-width: 480px) {
+}

@@ -1,0 +1,115 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 648px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 46px;}    
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 840px) {
+    body,html{ font-size: 44px;}    
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* main
+    ------------------------------------------------------------------------------*/
+    main{}
+    
+        /* banner */
+    .banner{
+        background-image: url(../images/news_img01_m.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center left 10%;
+        background-color: #000000;
+    }
+    .banner .container{ height: 1.8rem;}
+
+
+        /* blogger */
+    .blogger{}
+    .blogger .container{ padding-top: 0.2rem; padding-bottom: 1.4rem;}
+    .blogger .blogBox{}
+    .blogger .blogBox h2{ color: #ffffff; max-width: 690px; margin: auto;}
+    .blogTxt{ margin: 0.5rem auto; border: 1px solid #ffffff; max-width: 690px;}
+    .blogImg{
+        max-width: 690px;
+        display: block; 
+        margin: auto;
+        background-position: center;
+    }
+    .blgT{ width: auto; max-width: 690px; height: auto; display: block; margin: auto}
+    .blgT .table{ height: 100%; font-size: 0.3rem; max-width: none;}
+    .blgT .table .td{ padding-left: 1.5em; padding-right: 1.5em; padding-top: 2em; padding-bottom: 0.5em}
+    .blgT .table .td p{ font-size: 0.3rem;}
+    .blgT .table .td .more{ margin-top: 0.3em; text-align: right;}
+    .blgT .table .td .more a{
+        display: inline-block; line-height: 2; text-decoration: none; color: #ed1c24;
+        border-bottom: 1px solid transparent;
+    }
+
+    .newsPager{ text-align: right; margin-top: 0.7rem;}
+    .nP{ font-size: 0.4rem; margin-left: 0.6em;}
+    .nP a{ padding: 0 0.6em;}
+
+
+    /** news_inner *******************************************************************/
+    .blogTentBox{ max-width: 910px; margin: auto; padding-top: 0.5rem; padding-bottom: 1.2rem;}
+    .blogTent{}
+    .blogtlt{ font-size: 0.36rem; margin-bottom: 0.6em}
+    .blogTentImg{ max-width: 490px; margin-bottom: 0.5rem;}
+    .blogTentTxt{ font-size: 0.3rem; margin-bottom: 2em;}
+    .Blogtime{ font-size: 0.3rem;}
+    .Blogtime span{ margin: 0 0.3em;}
+    .Blogtime span.year{ margin-right: 0.7em;}
+
+    .newsPager_PN{ text-align: center; margin-top: 1rem;}
+    .nPPN{}
+    .nPPN.prev{ margin-left: 0;}
+    .nPPN a{
+        color: #ffffff; background-color: #ed1c24; text-decoration: none; line-height: 1; display: block;
+        padding: 0 0.35em 0.12em 0.35em;
+    }
+    .nPPN a:hover{ background-color: #a60101;}
+    
+    
+    
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 58px;}
+    .search{ display: none;}
+    
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 56PX;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52PX;}
+    
+}
+@media screen and (max-width: 340px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 48px;}
+}

@@ -1,0 +1,82 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1040px) {
+/*
+	footer .container{
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+*/
+	.rightBox{ display: block;}
+	.rightBox span.txtDot.pc{ display: none;}
+	.rightLinks{ -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end;}
+	
+}
+@media screen and (max-width: 980px) {
+	body,html{ font-size: 46px;}
+}
+@media screen and (max-width: 840px) {
+	body,html{ font-size: 44px;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 56px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	
+	.container{ width: calc(100% - 30px); padding-left: 15px; padding-right: 15px;}
+	
+	/* footer
+	-----------------------------------------------------------*/
+	footer{
+		font-size: 0.3rem;
+		line-height: 1.8;
+		text-align: center;
+	}
+	footer .container{
+		display: block;
+		padding-top: 0.5rem;
+		padding-bottom: 0.6rem;
+	}
+	.logo_foot{
+		width: 1.8rem;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0.3rem;
+	}
+	.footBR{ display: inherit;}
+	.rightLinks{
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+	/* goTopBtn ----------------------------------------*/
+	.goTopBtn{ width: 0.8rem;}
+	
+	
+}
+@media screen and (max-width: 700px) {
+	/* cookiesAlert ----------------------------------------*/
+	.cookiesAlert .container{ display: block;}
+	.alreadyKnow{ margin-left: auto; margin-top: 0.2em;}
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 54px;}
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 52px;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 319px) {
+    body,html{ font-size: 48px;}
+}

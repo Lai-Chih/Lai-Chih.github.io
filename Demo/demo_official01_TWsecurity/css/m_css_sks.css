@@ -1,0 +1,71 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    
+    /* main
+    -------------------------------------------------------------*/
+    .kv{}
+    .kv .container{ position: relative; z-index: 0;}
+    .kv .container:before{ display: none;}
+    h3{
+        font-size: 0.72rem; color: #ffffff; padding: 0.6rem 0 0.6rem 0; line-height: 1.3;
+        max-width: 12em; margin: auto;
+    }
+    .kvImg.mobile{
+        width: 100%; height: 6.8rem;
+        background-image: url(../images/sks_group/sks_kv_m.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+
+
+        /* crumb */
+    .crumb{ display: none;}
+    
+        /* sec_01 */
+    .sec_01{}
+    .sec_01 .contentBox{ padding-bottom: 0.6rem; margin-top: 1.2rem;}
+    .nameCube{
+        font-size: 0.55rem; width: 100%; max-width: 8.2rem; height: 4rem;
+        margin: auto; display: block;
+    }
+    .nameCube:after{}
+    .nameCube span{}
+    
+    .pageIntro{ font-size: 0.6rem; color: #405eb9; width: auto; max-width: 8.2rem; display: block; margin: 0.7rem auto 0 auto;}
+    
+        /* sec_02 */
+    .sec_02{}
+    .sec_02 .contentBox{ max-width: 8.2rem; padding-bottom: 0.8rem; text-align: center; padding-top: 0; padding-bottom: 2rem;}
+    .logo{ width: 50%; border-bottom: 1px solid #adbfe1; -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 0.6rem; padding-bottom: 0.4rem;}
+    .logo:nth-child(odd){ border-right: 1px solid #adbfe1;}
+    .logo17, .logo18{ border-bottom: none;}
+    .logoImg{ max-width: 250px; width: 80%; margin: auto;}
+    .logo p{ font-size: 0.36rem;}
+
+    
+}
+@media screen and (max-width: 640px) {   
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+}

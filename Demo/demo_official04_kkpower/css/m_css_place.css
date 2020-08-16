@@ -1,0 +1,121 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 980px) {
+	.mapPic{ margin-top: -3rem;}
+}
+@media screen and (max-width: 860px) {
+	.mapPic{ margin-top: -2.5rem;}
+}
+@media screen and (max-width: 768px) {
+	
+	/* main
+	-----------------------------------------------------------------------------*/
+
+		/* kv */
+	.kv{	
+		height: 7rem;
+		background-image: url(../images/place_kv_m.png);
+	}
+	h2{
+		font-size: 0.85rem;
+	}
+	
+	
+	/* mapBox */
+	.mapBox .container{
+		padding-top: 0.9rem;
+	}
+	p.p01{ max-width: none;}
+
+	.twMap{
+		position: relative;
+		width: 140%;
+		max-width: none;
+		margin-left: -40%;
+	}
+	.redDot{
+		width: 0.45rem; height: 0.45rem;
+		top: auto;
+		bottom: 0;
+		-webkit-transform: translate(-50%, 50%);
+		transform: translate(-50%, 50%);
+	}
+	.twLine{
+		width: 1px; height: 22%;
+		top: auto;
+		bottom: 82.5%;
+		left: 56.5%;
+		
+	}
+	.mapAddress{
+		font-size: 0.36rem; line-height: 2.1;
+		padding: 0.6rem 0.8rem;
+		width: 5.8rem;
+		max-width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 1.4rem auto 1rem auto;
+	}
+	.mapTip{ font-size: 0.32rem;}
+	
+	
+	/* mapPic */
+	.mapPic{
+		margin-top: -5rem;
+	}
+	.mapPic .container{
+		margin-bottom: 1rem;
+	}
+	.mapLoca{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+	}
+	.mapLine{
+		width: 1px;
+		height: 36%;
+		bottom: 47%;
+		left: 29.5%;
+		-webkit-transform: none;
+		transform: none;
+	}
+	.companyPic{
+		width: calc(100% - 30px);
+		position: absolute;
+		right: auto;
+		left: 15px;
+		bottom: 82%;
+	}
+	.mapPic .redDot{
+		bottom: auto;
+		top: 0;
+		-webkit-transform: translate(-50%, -30%);
+		transform: translate(-50%, -30%);
+	}
+	
+
+
+	
+	
+}
+@media screen and (max-width: 680px) {
+	.mapPic{ margin-top: -2rem;}
+}
+@media screen and (max-width: 585px) {
+	.mapPic{ margin-top: -1rem;}
+}
+@media screen and (max-width: 480px) {
+	.twLine{ height: 25%;}
+	.mapPic{ margin-top: -0.6rem;}
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 319px) {
+}

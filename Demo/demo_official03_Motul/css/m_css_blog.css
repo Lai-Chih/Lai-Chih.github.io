@@ -1,0 +1,129 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 648px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 46px;}    
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 840px) {
+    body,html{ font-size: 44px;}    
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* main
+    ------------------------------------------------------------------------------*/
+    main{}
+    
+        /* banner */
+    .banner{
+        background-image: url(../images/news_img01_m.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center left 10%;
+        background-color: #000000;
+    }
+    .banner .container{ height: 1.8rem;}
+
+    /** newsPager *************************************************************************/
+    .newsPager{ text-align: right; margin-top: 0.7rem;}
+    .nP{ font-size: 0.4rem; margin-left: 0.6em;}
+    .nP a{ padding: 0 0.6em;}
+    
+    /** newsPager_PN *************************************************************************/
+    .newsPager_PN{ text-align: center; margin-top: 0.7rem;}
+    .nPPN{}
+    .nPPN.prev{ margin-left: 0;}
+    .nPPN a{
+        color: #ffffff; background-color: #ed1c24; text-decoration: none; line-height: 1; display: block;
+        padding: 0 0.35em 0.12em 0.35em;
+    }
+    .nPPN a:hover{ background-color: #a60101;}
+    
+    /** Blogtime *************************************************************************/
+    .Blogtime{ font-size: 0.3rem;}
+    .Blogtime span{ margin: 0 0.3em;}
+    .Blogtime span.year{ margin-right: 0.7em;}
+    
+    /*--- essayArt ---*/
+    .essayArt{}
+    .essayArt .container{ padding-top: 0.7rem; padding-bottom: 1.2rem;}
+
+        /* essayBox */
+    .essayBox{ width: auto; margin-right: 0; display: block;}
+    .essay{ margin-bottom: 0.4rem;}
+    .essayTent{ padding: 0.6rem 0.2rem 0.8rem 0.2rem; font-size: 0.3rem;}
+    p.esTlt{ font-size: 0.4rem;}
+
+        /* tagBox01 */
+    .tagBox{ font-size: 0.26rem;}
+    .tag{}
+    .tag a{}
+
+    .essayImg{ max-width: 440px; width: 100%; margin-top: 0.5rem; margin-bottom: 0.4rem;}
+    p.eassayTxt{ font-size: 0.3rem;}
+    .seeMore{ font-size: 0.3rem; margin-top: 1.5em;}
+    .seeMore a{}
+
+        /* sortBox */
+    .sortBox{ width: auto; max-width: none; display: block; margin-top: 0.5rem;}
+    .sortHead{ font-size: 0.48rem;} 
+            
+        /* tagBox02 */
+    .tagBox02{ padding-top: 0.2em; text-align: left; width: 80%; margin-left: auto; margin-right: auto;}
+    .tagBox02 .tag{ display: inline-block; text-align: left; margin-right: 0; max-width: 10em; margin: 0.8em auto; width: 32%;}
+
+
+
+    
+    
+    
+    /** blog_inner *******************************************************************/
+    #blog_inner{}    
+    #blog_inner .essayTent{ padding-bottom: 1.2rem;}
+    #blog_inner .sortBox{ margin-top: 0.8rem;}
+    
+
+    
+    
+    
+    
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 58px;}
+    .search{ display: none;}
+    
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 56PX;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52PX;}
+    .tagBox02 .tag{ display: block; text-align: left; margin-right: 0; max-width: 80%; margin: 0.8em auto; width: auto;}
+}
+@media screen and (max-width: 340px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 48px;}
+}

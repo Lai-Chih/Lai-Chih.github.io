@@ -1,0 +1,197 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+    .rb{ width: calc(57.5% - 2rem); padding-left: 0.5rem;}
+}
+@media screen and (max-width: 880px) {
+    .pBox{ margin-left: 5%; margin-bottom: 1.5rem;}
+    .imgB05{ width: 11rem; left: -1.7rem; top: calc(100% - 5rem);}
+    .imgB06{ width: 11rem; right: -1.8rem; top: calc(100% - 4.88rem);}
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* main
+    -------------------------------------------------------------*/
+    .kv{}
+    .kv .container{ position: relative; z-index: 0;}
+    .kv .container:before{ display: none;}
+    h3{
+        font-size: 0.72rem; color: #ffffff; padding: 0.6rem 0 0.6rem 0; line-height: 1.3;
+        max-width: 12em; margin: auto;
+    }
+    .kvImg.mobile{
+        width: 100%; height: 6.8rem;
+        background-image: url(../images/service/service_kv_m.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+       
+    
+        /* crumb */
+    .crumb{ display: none;}
+    
+    .goTop{ width: 768px; margin-left: calc(50% - 384px); margin-top: 2.8rem;}
+    .goTop a{
+        color: #ffffff; font-size: 0.36rem; text-align: center; line-height: 2.2222; padding-right: 1.5em;
+        background-color: #808080;
+        background-image: url(../images/clients/arrow.png);
+        background-repeat: no-repeat;
+        background-position: top 0.7em left calc(50% + 2em);
+        background-size: 0.6em auto;
+    }
+    .goTop a:hover{ background-color: #696969;}
+    
+    .goTop.foot{ margin-top: 2rem; width: auto; margin-left: 0;}
+    .goTop.foot a{ padding-bottom: 0.7rem;}
+    
+    /* sec_01 */
+    .sec_01{}
+    .sec_01 .contentBox{ max-width: 8.2rem; margin: 1.2rem auto 0 auto;}
+    .nameCube{
+        font-size: 0.55rem; max-width: 8.2rem; height: 4rem; width: auto;
+        margin-right: 0; display: block;
+    }
+    .pageIntro{ width: auto; display: block; height: 4.4rem;}
+    .humanBox{ width: 100%; bottom: 0rem; left: 0;}
+    
+    
+    /* sec_02 */
+    .sec_02{}
+    .sec_02 .contentBox{
+        padding-top: 1rem;
+        background-image: none;
+        padding-bottom: 0;
+        max-width: 8.2rem; margin: auto;
+    }
+    p.timeNumb{ display: none;}
+    
+
+        /* tent01 */
+    .box{ padding-left: 0; position: relative;}
+    .box p{ font-size: 0.32rem; line-height: 1.875;}
+    .box p.blueTxt{ font-size: 0.6rem; color: #405eb9; line-height: 1.333333;}
+    .box p.blueTxt br{ display: none;}
+    .lb{ width: auto; display: block; min-width: 0; margin-bottom: 0.2rem;}
+    .rb{ width: auto; display: block; padding-left: 0;}
+    .rb p{ max-width: 23.5em;}
+    .numCube{ width: 4rem; height: 1.1rem; margin-bottom: 0.5rem;}
+    .numCube:before{ display: none}
+    span.numb{ font-size: 1.6rem; position: absolute; top: -0.4em; right: 0.05em;}
+
+    .inblockBox{ margin: 0.6rem auto 0 auto; padding: 0.8rem 0 3rem 0;}
+    .blueIcon{ width: 50%; vertical-align: top;}
+    .blueIcon p{ padding-left: 1em; padding-right: 1em;}
+    .conImg{ width: 2rem; max-width: 100px; margin: auto;}
+    .inblockBox p{ font-size: 0.32rem; line-height: 1.625; margin-top: 0.5em;}
+
+    .tent01 .inblockBox .inner-inblock{ max-width: none; width: auto;}
+    .tent01 .bIcon01, .tent01 .bIcon02{ margin-bottom: 1rem;}
+    .imgBox{ position: absolute;}
+    .imgB01{ width: 0.92rem; max-width: 46px; left: 0; top: calc(100% + 0.2rem);}
+    .imgB02{ width: 4.6rem; right: -0.5rem; top: calc(100% - 2.1rem);}
+
+    
+    
+    /* tent02 */
+    .tent02{ margin-top: 3.3rem;}
+    .tent02 .inblockBox{ margin-top: 0.5rem; padding-bottom: 0.4rem;}
+    .tent02 .blueIcon{ width: 50%;}
+    .tent02 .bIcon01, .tent02 .bIcon02, .tent02 .bIcon03{ margin-bottom: 1rem;}
+    .tent02 .blueIcon span{ display: inline;}
+    .tent02 .blueIcon br{ display: none;}
+    .tent02 .blueIcon p{ padding: 0 1em;}
+    .imgB03{ width: 4rem; left: -0.4rem; top: calc(100% - 1.9rem);}
+    
+    .blueIcon.mobile{ display: inline-block;}
+
+
+    /* tent03 */
+    .tent03{ margin-top: 2.7rem;}
+    .tent03 .inblockBox{ margin-top: 0.5rem; padding-bottom: 2.2rem;}
+    .tent03 .numCube{ margin-bottom: 0.5rem;}
+    .tent03 .blueTxt br{ display: none;}
+    .rb p.mobile{ color: #535353; margin: 1em 0;}
+    .tent03 .blueIcon p{ padding: 0 1em;}
+    .pBox{ margin-left: 7px; padding-left: 0.25em; margin-top: 0.5rem; border-left-color: transparent; position: relative;}
+    .pBox:before{
+        content: ''; display: block;
+        width: 3px; height: 90%; background-color: #e7161a;
+        position: absolute; left: 0; top: 6%;
+    }
+    .pBox p{ text-align: left; line-height: 1.8; padding-right: 0.5em;}
+    .pBox p:first-child{ margin-bottom: 0;}
+    .pBox p:last-child{ margin-top: 0;}
+    .imgB04{ width: 6.2rem; right: -1.5rem; top: calc(100% - 3.3rem);}
+    
+    
+    
+    /* tent04 */
+    .tent04{ margin-top: 1.4rem;}
+    .tent04 .inblockBox{ margin-top: 0.4rem; padding-bottom: 4rem; padding-top: 0.6rem;}
+    .tent04 .inblockBox .inner-inblock{max-width: none; width: auto; text-align: center; margin-right: auto; margin-left: auto;}
+    .tent04 .blueIcon{ width: auto;}
+    .tent04 .conImg{ width: 2.6rem; max-width: 130px;}
+    .tent04 .p02{ position: relative; padding: 0.4rem 1em 0 1em;}    
+    .tent04 .p02:before{
+        content: ''; display: block;
+        width: 2.5em; height: 1px; background-color: #ffffff;
+        position: absolute; left: calc(50% - 1.25em); top: 0.1rem;
+    }
+    .imgB05{ width: 6.96rem; max-width: 600px; left: -1.1rem; top: calc(100% - 3.45rem);}
+
+
+    /* tent05 */
+    .tent05{ margin-top: 2.7rem;}
+    .tent05 .inblockBox{ margin-top: 0.5rem; padding-bottom: 4.4rem; padding-top: 0.6rem;}
+    .tent05 .inblockBox .inner-inblock{ max-width: none; width: auto;}
+    .tent05 .blueIcon{ width: 100%; margin-bottom: 0.7rem;}
+    .tent05 .blueIcon p{ padding: 0 1em;}
+    .imgB06{ width: 8.3rem; max-width: 604px; right: auto; left: 0.2rem; top: calc(100% - 3.9rem);}
+    
+     /* tent06 */
+    .tent06{ margin-top: 3.1rem;}
+    .starBox{}
+
+
+    /* tent07 */
+    .tent07{ margin-top: 1.3rem;}
+    .tent07 .blueTxt{}
+    .tent07 .inblockBox{ padding-bottom: 0;}
+    .tent07 .inblockBox img{ max-width: 420px; margin: auto;}
+    .tent07 .inblockBox .inner-inblock{}
+/*
+    .tent07 .blueIcon{ width: 50%; margin-bottom: 0.7rem;}
+    .tent07 .blueIcon p{ max-width: 6em; margin: auto;}
+*/
+    .videoBox{ max-width: 443px; margin-top: 0.9rem;}
+    .fakeImg{ max-width: 360px;}
+
+
+    .textBox .lb{ vertical-align: middle}
+    .textBox p{ color: #1e4a9e;}
+	
+		/* 171002 修改 */
+	.editBox table{ font-size: 0.32rem;}
+
+
+
+    
+}
+@media screen and (max-width: 640px) {
+   
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 320px) {
+}

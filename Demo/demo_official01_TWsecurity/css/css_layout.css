@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/* 文字
+----------------------------------------------------------------------------*/
+.colorBl{ color: #000000;}
+.colorW{ color: #ffffff;}
+.colorGn{ color: #13b5b1;}
+.colorGy{ color: #434343;}
+
+
+
+/* hover --------------------------------------------------*/
+.colorBl a:hover{ color: #565656;}
+
+/* background color
+-----------------------------------------------------------------------------*/
+.bgBl{ background-color: #000000;}
+.bgW{ background-color: #ffffff;}
+.bgGn{ background-color: #13b5b1;}
+
+
+/* basestyle 
+----------------------------------------------------------------------------*/
+body,html{
+    width: 100%; height: 100%;
+    font-family: Arial, '微軟正黑體', Microsoft JhengHei;
+    font-size: 50px;
+    background: #ffffff;
+    line-height: 1.5;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.container{ width: calc(100% - 140px); max-width: 1860px; height: 100%; margin: auto; padding-left: 70px; padding-right: 70px;}
+.contentBox{ width: 100%; max-width: 1170px; margin: auto;}
+
+
+
+/* header
+------------------------------------------------------------------------------*/
+header{ background-color: #1e4a9e; position: relative; z-index: 9;}
+header .container{ padding-top: 1px;}
+h1{ float: left; height: 1.7rem; margin-top: 0.2rem; position: relative; z-index: 99;}
+h1 a{}
+h1 span{ display: none;}
+h1 img{ width: 4.4rem;}
+
+.knowSKS .icon_angleDown{ display: none;}
+
+    /* nav */
+nav{ font-size: 0.36rem; margin-top: 0.8rem; position: relative; z-index: 15;}
+nav li{ font-size: 0.36rem; letter-spacing: 0.1em; margin-right: 0.7em;}
+nav .fstUl > li > a{ color: #ffffff; width: 7em; text-align: center; padding-bottom: 0.6rem; position: relative;}
+nav .fstUl > li > a:before{
+    content: ''; display: block;
+    width: 0; height: 2px; background-color: #1e4a9e;
+    position: absolute; bottom: 0.5px; left: 50%;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+nav .fstUl > li > a:hover, nav .fstUl > li a.active{ color: #f36265;}
+nav .fstUl > li > a:hover:before, nav .fstUl > li a.active:before{ background-color: #e40000; width: 100%; left: 0;}
+
+nav .secUl{ top: 100%; left: -0.3rem; width: 100%; display: none; text-align: center;}
+nav .secUl > li{ margin-right: 1.5em; width: calc(14.2% - 1.5em);}
+nav .secUl > li:last-child{ margin-right: 0;}
+nav .secUl > li > a{ color: #9eb2f0; text-align: center; line-height: 3;}
+nav .secUl > li > a:hover, nav .secUl > li > a.active{ color: #091745; background-color: #9eb2f0}
+
+.secUlBG{
+    background-color: #091745; font-size: 0.36rem; height: 3em; width: 100%;
+    position: absolute; top: 100%; left: 0;
+    z-index: 1; display: none;
+}
+
+/* english */
+div.en.pc{
+    position: absolute; top: 0; right: 0; font-size: 0.36rem; height: 100%; width: 2.7rem; text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #475fa7;
+    z-index: 99;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+div.en.pc:hover{ background-color: rgba(255,255,255,0.2);}
+div.en.pc .table{ height: 100%;}
+div.en.pc .table a{ color: #ffffff; position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 0.4em;}
+div.en.pc .table a:before{
+    content: ''; display: block;
+    width: 0; height: 1px; background-color: #ffffff;
+    position: absolute; top: calc(50% + 0.8em); left: calc(50% + 0.85em);
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+div.en.pc .table a:hover:before{ width: 3.5em; height: 1px; left: calc(50% - 0.9em);}
+div.en.pc .table a span{
+    width: 1.2em; height: 1.2em; display: inline-block; vertical-align: middle; margin-right: 0.5em;
+    background-image: url(../images/lang.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+nav li.mobile{ display: none;}
+nav .en{
+    font-family: Arial, '微軟正黑體', Microsoft JhengHei;
+    position: absolute;
+    top: 0; right: 0;
+}
+nav .en span{
+    width: 1.2em; height: 1.2em; display: inline-block; vertical-align: middle; margin-right: 0.5em;
+    background-image: url(../images/lang.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    -webkit-transition: all 0.2 ease;
+    transition: all 0.2 ease;
+}
+nav .en:hover span{ background-image: url(../images/lang_r.png)}
+
+/* footer
+-------------------------------------------------------------------------------- */
+footer{ background-color: #0e2262; position: relative; z-index: 0;}
+footer .container{ padding-bottom: 1rem; padding-top: 3.06rem;}
+.foot_logo{ width: 3.2rem; position: absolute; z-index: 5; top: -1.04rem; left: calc(50% - 1.6rem);}
+.footTxt{ font-size: 0.32rem; line-height: 2.25; color: #dee2ef; max-width: 57em; margin: auto; position: relative; letter-spacing: 0.04em; width: 80%;}
+.footTxt span{
+    display: block; position: absolute; top: 0.3em; right: calc(100% + 3em);
+    width: 2.5em; max-width: 30px;
+}
+.footTxt span.rr{ top: 100%; right: auto; left: calc(100% + 3em);}
+
+.footInfoBox{ text-align: center; max-width: 1100px; margin: 1rem auto 0 auto;}
+.footInfoBox .relative{}
+.footIcon{ width: 1rem; border-radius: 50%; overflow: hidden; position: absolute; bottom: 0.2rem; left: 0;}
+.footIcon:hover a{ background-color: rgba(131,154,217,0.7);}
+.FTcon02{ left: 1.9rem;}
+.humanSource{ font-size: 0.42rem; letter-spacing: 0.1em; width: 54%; position: relative; margin: auto}
+.humanSource:before, .humanSource:after{
+    content: ''; display: block;
+    width: calc(50% - 6.5em); height: 1px; background-color: #839ad9;
+    position: absolute; top: 50%; right: 1em;
+}
+.humanSource:before{ right: auto; left: -3em; width: calc(50% - 2.5em);}
+.humanSource a{
+    color: #ffffff; line-height: 3; background-color: #e40000;
+    padding-right: 1.1em; padding-left: 3.2em; border-radius: 2px;
+    background-image: url(../images/footer_img01.png);
+    background-repeat: no-repeat;
+    background-position: center left 1em;
+    background-size: 1.5em auto;
+    display: inline-block;
+}
+.humanSource a:hover{ background-color: #f36265;}
+.humanSource a span{ display: block;}
+.copyRight{ font-size: 12px; color: #839ad9; position: absolute; right: 0; bottom: 0.42rem;}
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="分離模式" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="75.219px" height="40.369px" viewBox="0 0 75.219 40.369" enable-background="new 0 0 75.219 40.369"
+	 xml:space="preserve">
+<g>
+	<g>
+		<line fill="none" stroke="#00205E" stroke-width="2" stroke-miterlimit="10" x1="71.359" y1="12.369" x2="71.359" y2="22.369"/>
+		<g>
+			<g>
+				<circle fill="#FFFFFF" cx="70.959" cy="12.592" r="3.76"/>
+				<path fill="#00205E" d="M66.699,12.592c0,2.349,1.911,4.26,4.26,4.26s4.26-1.911,4.26-4.26s-1.911-4.26-4.26-4.26
+					S66.699,10.243,66.699,12.592S66.699,10.243,66.699,12.592z M74.219,12.592c0,1.798-1.462,3.26-3.26,3.26s-3.26-1.462-3.26-3.26
+					s1.462-3.26,3.26-3.26S74.219,10.794,74.219,12.592S74.219,10.794,74.219,12.592z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#FFB900" stroke-width="2" stroke-miterlimit="10" x1="48.359" y1="3.369" x2="48.359" y2="40.369"/>
+		<g>
+			<circle fill="#FFB900" cx="48.559" cy="3.76" r="3.76"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#00205E" stroke-width="2" stroke-miterlimit="10" x1="26.359" y1="4.369" x2="26.359" y2="29.369"/>
+		<g>
+			<circle fill="#00205E" cx="26.16" cy="4.459" r="3.76"/>
+		</g>
+		<g>
+			<circle fill="#00205E" cx="26.16" cy="29.604" r="3.76"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#00BCF2" stroke-width="2" stroke-miterlimit="10" x1="3.359" y1="13.369" x2="3.359" y2="24.369"/>
+		<g>
+			<circle fill="#00BCF2" cx="3.76" cy="13.476" r="3.76"/>
+		</g>
+	</g>
+</g>
+</svg>

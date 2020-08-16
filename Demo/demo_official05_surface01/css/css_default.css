@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+section .container{ height: auto;}
+
+/* main
+-------------------------------------------------------------------------------*/
+h2{
+	font-size: 1.04rem; line-height: 1.3;
+	font-weight: 400; letter-spacing: 0.025em;
+	margin-top: 2.6rem; margin-bottom: 0.85rem;
+}
+
+	/* kv */
+.kv{
+	height: 18.6rem;
+	background-image: url(../images/kv_bgImg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+	background-color: #e3e3e3;
+	padding-top: 1.7rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.kv .container{ position: relative;}
+.kvCircleBox{ position: relative; height: 100%;}
+.arrow{
+	width: 1.8rem;
+	position: absolute;
+	top: 34%;
+	cursor: pointer;
+}
+.arr_L{ left: 15px;}
+.arr_R{ right: 15px;}
+
+	/* kvImg */
+.compuName{
+	font-size: 0.44rem; line-height: 0;
+	letter-spacing: 0.025em; color: #505050;
+	text-align: center;
+	margin-bottom: 1.1rem;
+	opacity: 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.kv01 .compuName, .compuPic01.start .compuName{ opacity: 1; line-height: 1}
+.compuBox{
+	position: absolute;
+	-webkit-transition: all 1.5s ease;
+	transition: all 1.5s ease;	
+	-webkit-transform: translateX(0);	
+	transform: translateX(0);
+}
+/*
+.compuBox img{
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+*/
+
+	/*compuPic01*/
+.compuPic01{ width: 3.7rem; max-width: 505px;}
+.compuPic01.kv01, .compuPic01.start{
+	width: 10.1rem;
+	bottom: 6.2rem; left: 26%;
+}
+.compuPic01.kv02{
+	bottom: 4.2rem;
+	left: 69.5%;
+}
+.compuPic01.kv03{
+	bottom: 2.4rem;
+	left: 41%;
+}
+.compuPic01.kv04{
+	bottom: 4.2rem;
+	left: 12%;
+}
+
+	/*compuPic02*/
+.compuPic02{ width: 4.3rem; max-width: 635px;}
+.compuPic02 .compuName{ margin-bottom: 1.8rem;}
+.compuPic02.kv01{
+	width: 12.7rem;
+	bottom: 7.3rem; left: 22%;
+}
+.compuPic02.kv02, .compuPic02.start{
+	bottom: 4.2rem;
+	left: 67.2%;
+}
+.compuPic02.kv03{
+	bottom: 2.8rem;
+	left: 39%;
+}
+.compuPic02.kv04{
+	bottom: 4.2rem;
+	left: 10.4%;
+}
+
+	/*compuPic03*/
+.compuPic03{ width: 5.48rem; max-width: 717px;}
+.compuPic03 .compuName{ margin-bottom: 4.6rem;}
+.compuPic03.kv01{
+	width: 14.34rem;
+	bottom: 8.4rem; left: 21%;
+}
+.compuPic03.kv02{
+	bottom: 4.1rem;
+	left: 67%;
+}
+.compuPic03.kv03, .compuPic03.start{
+	bottom: 2.8rem;
+	left: 38.5%;
+}
+.compuPic03.kv04{
+	bottom: 4.1rem;
+	left: 10.5%;
+}
+
+	/*compuPic04*/
+.compuPic04{ width: 4.96rem; max-width: 753px;}
+.compuPic04 .compuName{ margin-bottom: 1.6rem;}
+.compuPic04.kv01{
+	width: 15.06rem;
+	bottom: 6.4rem; left: 17%;
+}
+.compuPic04.kv02{
+	bottom: 3.6rem;
+	left: 65.2%;
+}
+.compuPic04.kv03{
+	bottom: 2.3rem;
+	left: 38.6%;
+}
+.compuPic04.kv04, .compuPic04.start{
+	bottom: 3.7rem;
+	left: 10.5%;
+}
+
+
+
+	/* sec_01 */
+.sec_01{
+	height: 16rem;
+/*
+	background-image: url(../images/default_sectionImg01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: auto calc(100% + 1px);
+*/
+	background-color: #03050c;
+	padding-top: 1px;
+	overflow: hidden;
+	position: relative;
+}
+.parallaxBox{
+	position: absolute;
+	width: auto; height: 160%;
+	bottom: -100%; left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.parallaxBox img{ height: 100%; width: auto;}
+.sec_01 .container{ position: relative;}
+.sec_01 h2{
+	color: #ffffff;
+	text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+.sec_01 .txtBox{ padding-left: 0.5rem;}
+.knowMore{
+	font-size: 0.52rem; line-height: 1rem;
+	text-align: center;
+	border: 1px solid #ffffff;
+	width: 6.5em;
+	position: relative;
+}
+.knowMore:before{
+	content: ''; display: block;
+	width: 0; height: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0; left: 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.knowMore:hover:before{ width: 100%;}
+.knowMore a{
+	color: #ffffff; position: relative;
+}
+.knowMore:hover a{
+	color: #000000;
+}
+
+
+
+	/* sec_02 */
+.sec_02{ overflow: hidden;}
+.sec_02 .container{ height: 16rem; padding-top: 1px; position: relative;}
+.sec_02 .txtBox{ padding-left: calc(100% - 13.2rem); width: 14.2rem;}
+.sec_02 h2{ margin-top: 2.2rem;}
+.sec02BR{ display: none;}
+.sec_02 .knowMore{
+	border: 1px solid #000000;
+}
+.sec_02 .knowMore:before{ background-color: #000000;}
+.sec_02 .knowMore a{
+	color: #000000;
+}
+.sec_02 .knowMore:hover a{
+	color: #ffffff;
+}
+
+	/* surB2_Img */
+.surB2_Img{ position: absolute;}
+.surImg01{
+	width: 20.5rem; max-width: 1025px;
+	bottom: 0;
+	right: 26.5%;
+}
+.img01{
+	position: absolute; bottom: 59.9%; left: 16.2%;
+	width: 44.585%; max-width: 457px;
+}
+.img02{ position: absolute; top: 0; left: 0; width: 100%;}
+.surImg02{
+	width: 13.2rem; max-width: 659px;
+	bottom: 0;
+	left: 56%;
+}
+
+
+	/* sec_03 */
+.sec_03{ position: relative;}
+.sec03_Box{
+	height: 16rem;
+	background-image: url(../images/default_sectionImg02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+	padding-top: 1px;
+	position: relative;
+}
+.sec_03 .txtBox{ padding-left: 0.5rem;}
+.sec_03 .knowMore{
+	border: 1px solid #000000;
+}
+.sec_03 .knowMore:before{ background-color: #000000;}
+.sec_03 .knowMore a{
+	color: #000000;
+}
+.sec_03 .knowMore:hover a{
+	color: #ffffff;
+}
+.bgBox{
+	position: absolute; top: 0; width: 50%; height: 100%;
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: auto 100%;
+}
+.r_box{ right: 0; background-image: url(../images/default_sec02Rbg.png);}
+.l_box{ left: 0; background-image: url(../images/default_sec02Lbg.png);}
+
+	/* sec_04 */
+.sec_04{
+	height: 16rem;
+	background-image: url(../images/default_sectionImg03.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: auto 100%;
+	background-color: #0c1115;
+	padding-top: 1px;
+}
+.sec_04 .container{}
+.sec_04 h2{
+	color: #ffffff;
+	text-shadow: 0 2px 3px rgba(0,0,0,0.8);
+	margin-top: 3.4rem;
+}
+.sec_04 .txtBox{ padding-left: calc(100% - 10.8rem);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

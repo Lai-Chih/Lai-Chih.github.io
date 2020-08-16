@@ -1,0 +1,698 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1680px) {
+	.wda{
+		width: 5rem;
+		bottom: -0.2rem;
+		right: 3%;
+	}
+	.xbox{
+		width: 12.1rem;
+		bottom: 12%;
+		right: -0.7rem;
+	}
+	.chips{ width: 6.5rem;}
+}
+@media screen and (max-width: 1480px) {
+    body,html{ font-size: 48px;}
+	.wda{ width: 4.5rem;}
+	.xbox{ width: 11.5rem;
+		bottom: 12%;
+		right: -1rem;
+	}
+	.surface{
+		width: 14rem;
+		bottom: -0.6rem;
+		right: 21%;
+	}
+	.chips{ left: -1.5rem;}
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 46px;}
+	h2{ margin-top: 3rem;}
+	.xbox{ right: -2rem;}
+	.woodTable{
+		position: absolute;
+		width: 150%;
+		left: 50%; bottom: 0;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.chips{ bottom: -1rem; z-index: 9;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 44px;}
+	.surface{
+		width: 12rem;
+		right: 20%;
+	}
+	.xbox{ width: 10rem;}
+	.wda{ width: 3.8rem; bottom: 0; right: 1%;}
+	.r_b a.knowMore{
+		left: auto;
+		right: 0.7rem;
+		bottom: 0;
+	}
+	.l_b{ width: 6.4rem;}
+	.r_b{
+		padding-right: 2rem;
+		width: calc(100% - 7rem);
+	}
+	
+}
+@media screen and (max-width: 980px) {
+	footer .content{
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.rightBox{ display: block;}
+}
+@media screen and (max-width: 900px) {
+	body,html{ font-size: 42px;}
+	.kvBG{ min-height: 17.5rem;}
+	.chips{ bottom: -1.2rem; left: -1.7rem;}
+	.abBox p{
+		-webkit-transform: translateY(-0.5em);
+		transform: translateY(-0.5em);
+	}
+}
+@media screen and (max-width: 840px) {
+	.r_b a.knowMore{ bottom: -1.8em; right: 0;}
+	.r_b{ padding-right: 1rem;}
+	.qiyTlt{ padding-right: 2.5rem;}
+	.crB01 .crownIcon{
+		width: 1.4rem;
+		bottom: calc(100% + 0.3rem);
+	}
+	.crB02 .crownIcon{
+		width: 1.8rem;
+		bottom: calc(100% + 0.4rem);
+	}
+	.crB03 .crownIcon{
+		width: 1.75rem;
+		bottom: calc(100% + 0.35rem);
+	}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 56px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	.container{ width: calc(100% - 30px); padding-left: 15px; padding-right: 15px;}
+	
+
+	/* header
+	------------------------------------------------------------------------------*/
+	.hdTent{
+		padding-left: 15px;
+		padding-right: 15px;
+		width: calc(100% - 30px);
+		padding-top: 1.4rem;
+	}
+	h1{
+		max-width: 142px;
+		width: 2.84rem;
+		margin-left: 10px;
+	}
+	h2{
+		width: 5rem;
+		margin-bottom: 0.2rem;
+		margin-top: 3.9rem;
+	}
+	h3{
+		font-size: 0.44rem;
+	}
+	
+	.kvTent{
+		margin: 0;
+		padding-left: 35px;
+		padding-right: 35px;
+/*		width: calc(100% - 70px);*/
+	}
+	
+
+	/* main
+	----------------------------------------------------------------------------*/
+
+		/* kv */
+	.kvBG{
+		min-height: 15.8rem;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: calc(100% - 30px);
+		background-position:  bottom 30% left 43%;
+		background-size: auto 100%;
+		position: relative;
+	}
+	.woodTable{ width: 1724px;}
+	.chips{ display: none;}
+	.xbox{
+		width: 6.28rem;
+		bottom: 16%;
+		right: 0;
+	}
+	.wda{
+		width: 3.56rem;
+		bottom: 0.5rem;
+		right: auto;
+		left: 75%
+	}
+	.surface{
+		width: 9rem;
+		bottom: 0;
+		right: 35%;
+	}
+	.orgBtn a, .orgBtn input{
+		font-size: 0.32rem; line-height: 0.8rem;
+		width: 3.4rem;
+		background-size: 0.5rem auto;
+	}
+	.orgBtn a:hover, .orgBtn input:hover{
+		-webkit-transform: translateY(0.12rem);
+		transform: translateY(0.12rem);
+	}
+	.orgBtn:before{ width: 3.4rem;}
+	
+
+	/* anchorBlock */
+	.anchorBlock .container{
+		display: block;
+		padding-top: 0rem;
+		padding-bottom: 1.1rem;
+	}
+	.anchorBox{
+		width: 3.8rem;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2.4rem;
+	}
+	.anchorBox:last-child{ margin-right: auto;}
+	.anB01 .anchorImg{ max-width: 93px;}
+	.anB02 .anchorImg{ max-width: 80px;}
+	.anB03 .anchorImg{ max-width: 110px;}
+	.anchorTxt{
+		font-size: 0.32rem; line-height: 1.5;
+		padding: 0.5em;
+	}
+	.anchorTxt:hover{
+		text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
+	}
+	.anTlt{
+		font-size: 0.32rem; line-height: 1.5;
+	}
+
+
+		/* sec_01 */
+	.sec_01 .container{ padding-bottom: 1.2rem;}
+	.sec_01 .flexBox{ display: block;}
+	.sec_01 p{
+		font-size: 0.36rem;
+		line-height: 1.833333;
+		max-width: none;
+	}
+	.sec_01 .imgBoxB{
+		width: auto;
+		max-width: 448px;
+		margin: 0.7rem auto 0 auto;
+	}
+	.sec_01 .txtBox{ width: auto;}
+
+	
+	/* sec_02 */
+	.vipBox{
+		padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+	}
+	h4{ font-size: 0.48rem;}
+	.vipTxt{
+		width: 70%;
+		max-width: 4.5rem;
+		margin: 0.3rem auto 0.7rem auto;
+
+	}
+	.sec_02 .cirLine:before, .sec_02 .cirLine:after{
+		top: -40%;
+	}
+	p{
+		font-size: 0.36rem; line-height: 1.667;
+		letter-spacing: 0.025em;
+	}
+	.sec_02 p{
+		font-size: 0.3rem;
+		text-align: center;
+		margin: auto;
+		-webkit-transform: none;
+		transform: none;
+	}
+	.sec_02 .crownBlock{ display: block;}
+	.cubeBox{ display: none;}
+	.crownBox{
+		width: auto;
+		margin: 0 auto 0.5rem auto;
+	}
+	.abBox{
+		position: absolute;
+		width: 60%;
+		left: 50%;
+		top: 48%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.crownIcon{
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.crB01 .crownIcon{
+		width: 1.72rem;
+		bottom: calc(100% + 0.2rem);
+	}
+	.crB02 .crownIcon{
+		width: 2.02rem;
+		bottom: calc(100% + 0.3rem);
+	}
+	.crB03 .crownIcon{
+		width: 1.94rem;
+		max-width: 97px;
+		bottom: calc(100% + 0.2rem);
+	}
+	a.knowMore{
+		font-size: 0.36rem;
+		margin: 1.2rem auto 0 auto;
+	}
+	.sec_02 a.knowMore{ font-size: 0.4rem;}
+	
+	
+	/* sec_03 */
+	.sec_03 .container{ padding-bottom: 2rem;}
+	.qiyBox{
+		display: block;
+		padding-top: 0.8rem;
+		margin: 1.9rem auto 0 auto;
+		max-width: 520px;
+	}
+	.qiyBox:first-child{ margin-top: 1.6rem; padding-top: 0.8rem;}
+	.qiyBox:before, .qiyBox:after{ display: none;}
+	
+	.l_b{ margin: auto; width: auto;}
+	.r_b{
+		width: auto;
+		padding-right: 0;
+		position: static;
+		margin: 0.6rem auto 0 auto;
+	}
+	.r_b:before{ display: none;}
+	.qiyTlt{
+		font-size: 0.46rem; line-height: 1.435;
+		margin-bottom: 0.8rem;
+		padding-right: 0;
+	}
+	.qiyBox dl{
+		font-size: 0.3rem; line-height: 2;
+		padding-left: 2em;
+	}
+	.qiyBox dt{ font-weight: 600; font-size: 0.36rem;}
+	.qiyBox dt:before{
+		width: 0.24rem;
+		top: 0.1em; left: -1.7em;
+	}
+	.qiyBox dd{ margin-bottom: 0.4rem;}
+	.qiyBox dd:last-child{ margin-bottom: 0;}	
+	.r_b a.knowMore{
+		left: 1.3em;
+		bottom: -2em;
+		margin: 0;
+	}
+	
+	
+	/* sec_04 */
+	.sec_04, .sec04Box{ background-image: none;}
+	.sec_04 .container{
+		padding-top: 1.3rem;
+		padding-bottom: 0;
+	}
+	.sec_04 h4~p{ line-height: 2; max-width: 43em;}
+	.sec_04 p{
+		font-size: 0.3rem;
+		line-height: 1.5;
+		max-width: none;
+		margin: 0.6rem auto 0 auto;
+	}
+	.sec_04 .flexBox{
+		display: block;
+		padding-top: 2.6rem;
+	}
+	.starBox{
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 2.6rem;
+	}
+	.starBox:last-child{ margin-right: auto; margin-bottom: 0.8rem;}
+	.starTxt{
+		max-width: 218px;
+		margin: auto;
+	}
+	.sec_04 .starTxt p{
+		top: 18%;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	p span.light{
+		font-weight: normal;
+		font-size: 0.3rem;
+		line-height: 1.5;
+	}
+	p span.num{
+		font-size: 0.72rem;
+		line-height: 1.25;
+	}
+	.star{
+		width: 0.5rem; max-width: 27px;
+		position: absolute;
+		top: -0.27rem;
+		left: calc(50% - 0.27rem);
+	}
+	
+	
+	
+	/* sec_05 */
+	.sec_05{ background-color: #eeeeee;}
+	.sec_05 .container{
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+	.circle{ display: none;}
+	
+	/*** formBox ***/
+	.formBox{
+		padding: 0.6rem 0.3rem 0.6rem 0.3rem;
+		max-width: 645px;
+		font-size: 0.3rem;
+	}
+
+	/******* form set start ******************************************************************************/
+	.inputBox.flexBox{
+		display: block;
+		margin-bottom: 0.3rem;
+	}
+	.label{ margin-bottom: 0.6em;}
+	input{
+		font-size: 0.3rem;
+		width: 100%;
+		padding: 0.3em;
+	}
+	.inpBox01 select{ width: 100%;}
+	.inpBox02 input{ width: 100%;}
+	.inpBox03 .inputs{ width: auto;}
+	.inpBox04 input{ width: 100%;}
+	.inpBox07 input{ width: 100%;}
+	.inpBox08 input{ width: 100%;}
+	.inpBox09 input{ width: 100%;}
+	.inpBox10 input{ width: 100%;}
+	.inpBox11 input{ width: 100%;}
+	.inpBox13 input{ width: 100%;}
+	
+	.suT{
+		font-size: 0.3rem;
+		margin: 0.2rem 0 0.5rem auto;
+	}
+	
+	.forXbox, .forSurface.inputBox.flexBox{
+		display: none;
+	}
+	.forXbox.show, .forSurface.show, .inputBox.flexBox.forSurface.show{
+		display: block;
+	}
+
+
+	/**** 下拉選單－日期 **********************/
+	select{ font-size: 0.28rem; line-height: 0.6rem;}
+
+
+	/**** 圖片上傳 **************/
+	.inpBox05{ margin-bottom: 0.4rem; margin-top: 0.3rem;}
+	.inpBox06{ margin-bottom: 0.4rem;}
+	.inpBox05 .label, .inpBox06 .label{ margin-bottom: 0.2rem;}
+	.imgBox{ margin-right: 0.4rem;}
+	
+
+	/**** 複選區 **************/
+	.inpBox12 .checkBox{
+		width: 100%;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		padding-top: 0.2rem;
+	}
+	input[type="radio"]+label,
+	input[type="checkbox"]+label{
+		padding-left: 1.2em;
+		padding-right: 0;
+		margin-bottom: 1em;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 33%;
+	}
+	input[type="radio"]+label:before,
+	input[type="checkbox"]+label:before{
+		width: 12px; height: 12px;
+		left: 0; top: 0.1em;
+	}
+	input[type="radio"]+label:after,
+	input[type="checkbox"]+label:after{
+		width: 10px; height: 10px;
+		left: 2px; top: calc(0.1em + 2px);
+	}
+
+
+	/**** 確認送出 **************/
+	input[type="button"]{
+		font-size: 0.36rem; line-height: 0.6rem;
+	}
+	.formBox .orgBtn{
+		width: 3.4rem;
+		margin: 0 auto 0.6rem auto;
+	}
+
+
+
+	/****** 隱私權聲明 *****************************/
+	.privacyBox{
+		font-size: 0.3rem;
+		width: 11.5em;
+		margin: 0.3rem auto 0 auto;
+	}
+	.privacyBox span{
+		text-decoration: underline;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	.privacyBox input[type="checkbox"]+label{
+		padding-left: 1.3em; padding-right: 0;
+		width: 6.5em;
+	}
+
+
+	/****** hint ********************************/
+	.hint{
+		font-size: 0.28rem; line-height: 1;
+		bottom: auto; right: 0;
+		top: 0.3em;
+	}
+	.hint.hint05, .hint.hint06{
+		left: 70%;
+	}
+	.hint.hint12{
+		top: 96%; left: 0;
+	}
+
+	/******* form set end ******************************************************************************/
+	
+	
+	/* footer
+	-----------------------------------------------------------*/
+	footer{ font-size: 0.28rem;}
+	footer .content{
+		display: block;
+		padding-top: 1rem;
+		padding-bottom: 0.6rem;
+	}
+	
+	/* goTopBtn ----------------------------------------*/
+	.goTopBtn{
+		bottom: 0.3rem;
+		width: 1.2rem;
+	}
+	.goTopBtn.active{
+		right: 5px;
+	}
+
+	
+	
+	.logo_foot{
+		width: 2.4rem; max-width: 120px;
+		margin-left: 10px;
+		margin-right: 0;
+		margin-bottom: 0.8rem;
+	}
+	.tentPic{
+		background-color: #ffffff;
+		padding: 1.2rem 0.4rem;
+		display: none;
+	}
+	.tentTlt{ margin-bottom: 0.5em;}
+	.pnImg{
+		max-width: 300px;
+		margin: 0.5rem auto 0 auto;
+	}
+	.tentPic p{
+		font-size: 0.3rem; line-height: 1.6;
+	}
+	.tentTxt{
+		font-size: 0.28rem;
+		padding: 0.3rem;
+	}
+	.tentBox{ width: 90%;}
+	.pvT{
+		font-size: 0.32rem;
+	}
+
+	.clostBtn{
+		width: 0.6rem;
+		top: 0.3rem;
+		right: 0.3rem;
+		background-color: #ffffff;
+	}
+	
+	/***********************************/
+	.tentRule{		
+		border: 0.1rem solid transparent;
+	}
+	.scrollBox{
+		height: calc(100% - 1rem);
+		top: 0.5rem; left: 0;
+	}
+	.scroll{ width: calc(100% - 0.3rem);}
+	.ruleLbTlt{
+		font-size: 0.44rem;
+		max-width: 18em;
+	}
+	
+	.ruleLbTlt02{
+		font-size: 0.3rem;
+		margin-top: 0.4rem;
+		padding-bottom: 0.3rem
+	}
+	.ruleHt{
+		font-size: 0.36rem;
+		margin-top: 0.4rem;
+	}	
+	.ruleHt:before{ display: none;}
+	.ruleLbTxt{
+		font-size: 0.3rem;
+	}
+	li.bot{
+		padding-left: 0.5em;
+	}
+	li.bot:before{ left: 0;}
+	li.numLi{
+		padding-left: 1.2em;
+	}
+
+	.rulePrivacy{
+		font-size: 0.3rem;
+		padding-top: 0.5rem;
+	}
+	.rpv{
+		font-size: 0.36rem;
+	}
+
+	
+	
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 54px;}
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 52px;}
+	.xbox{
+		bottom: 20%;
+		right: -15%;
+	}
+	.wda{
+		width: 3.56rem;
+		bottom: 1rem;
+		left: 68%;
+	}
+	.surface{
+		width: 7.2rem;
+		bottom: 0;
+		right: 25%;
+	}
+	
+	.triangle{ width: 3rem;}
+	.triTxt{
+		font-size: 0.38rem; line-height: 1.33333;
+		right: 0.3em;
+		top: 0.25rem
+	}
+	.triTxt div{
+		font-size: 0.42rem;
+		margin-bottom: 0;
+	}
+	.triTxt img{
+		width: 1.3rem; margin-left: 0.6em;
+		vertical-align: top;
+		margin-top: 0.3em;
+	}
+	
+	
+	.inpBox05 .inputs.flexBox,
+	.inpBox06 .inputs.flexBox{ display: block;}
+	.imgBox{
+		width: auto; height: 4rem;
+		margin-right: 0;
+		margin-bottom: 0.2rem;
+	}
+	.picBtn{
+		font-size: 0.32rem; line-height: 0.6rem;
+	}
+	.hint.hint05, .hint.hint06{
+		right: auto;
+		top: 4.9rem;
+		left: 2.2rem;
+	}
+	.forXbox.suT{
+		position: static;
+		margin: 1em 0 0.5em auto;
+	}
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 50px;}
+    .abBox{
+		width: 52%;
+		left: 50%;
+		top: 50%;
+	}
+	.crB01 .crownIcon{
+		width: 1.5rem;
+		bottom: calc(100% + 0.2rem);
+	}
+	.crB02 .crownIcon{
+		width: 1.8rem;
+		bottom: calc(100% + 0.3rem);
+	}
+	.crB03 .crownIcon{
+		width: 1.7rem;
+		bottom: calc(100% + 0.2rem);
+	}
+}
+@media screen and (max-width: 319px) {
+    body,html{ font-size: 48px;}
+}

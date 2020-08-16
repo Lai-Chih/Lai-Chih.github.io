@@ -1,0 +1,241 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 580px) and (min-width: 769px) {
+    .wrapper{
+        min-height: 580px;
+        overflow: none;
+    }
+    #works header{ height: 580px;}
+/*    .headerBox{ height: 580px;}*/
+    .mainTent{ min-height: 580px;}
+}
+@media screen and (max-height: 560px) and (max-width: 768px) {
+    .headerBox{ height: 560px;}
+    .mainTent{ min-height: 560px!important;}
+}
+@media screen and (max-width: 1680px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 768px) {
+    
+    
+    /* main
+    --------------------------------------------------------------------------------*/    
+    .mainTent{
+        border: 0.6rem solid #8c8965;
+    }
+    
+    
+    /***** layer **********************************************************/
+    .logoBox{
+        width: 1.7rem;
+        padding-left: 0;
+        -webkit-transform: none;
+        transform: none;
+        top: 40%;
+        left: calc(50% + 0.62rem);
+    }
+    .logoCube{
+        width: 1.6rem;
+        top: 45%;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .TltTxt{
+        font-size: 0.4rem;
+        top: calc(45% + 1em);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .plus01{
+        font-size: 0.6rem;
+        top: 17.6%%;
+        left: 7.8%;
+    }
+    .plus02{
+        font-size: 0.5rem;
+        opacity: 0.2;
+    }
+    .dots:before, .dots:after{
+        width: 0.1rem; height: 0.1rem;
+    }
+    .dt01{
+        left: 26.5%;
+        bottom: 37%;
+    }
+    .dots.dt01:before{
+        top: 0;
+        left: 0.24rem;
+    }
+    .dots.dt01:after{
+        top: 0;
+        right: 0.24rem;
+    }
+    .dt02{
+        top: 30%;
+        right: 5%;
+        opacity: 0.05;
+    }
+    .dots.dt02:before{
+        top: 0.24rem;
+        left: 0;
+    }
+    .dots.dt02:after{
+        bottom: 0.24rem;
+        left: 0;
+    }
+    .ang01{
+        width: 0.4rem;
+        left: 25%;
+        top: calc(17.6% + 0.4rem);
+    }
+    .ang02{
+        width: 0.3rem;
+        right: 14%;
+        bottom: 0.5%;
+    }
+    .stripeBord{
+        width: 2.3rem;
+    }
+    
+    
+    /* kvAnchor */
+    .kvAnchor{
+        font-size: 0.18rem;
+        bottom: 13%;
+    }
+    a.ancImg{
+        width: 0.5rem;
+    }
+    
+    
+    /* workBlock */
+    .workBlock .container{
+        padding-top: 1.3rem;
+        padding-bottom: 2.8rem;
+    }
+    .content{
+        width: 94%;
+        min-width: 290px;
+    }
+    .workTlt{
+        font-size: 0.4rem;
+    }
+    .workTlt span{ display: none;}
+    .workTabBox{
+			font-size: 0.24rem; line-height: 0.28rem;
+			padding-right: 0.6rem;
+    }
+    .workTab{
+        margin-bottom: 0.4rem;
+    }
+    .workTab span.active{
+        font-size: 0.28rem;
+    }
+    
+    
+    /* gridBox */
+    .gridBox{
+        margin: 0.6rem auto;
+    }
+    .grid-item{
+			width: calc(50% - 0.28rem);
+			margin: 0.14rem;
+			font-size: 0.34rem;
+    }
+    
+    .dotCubes{
+        height: 2rem;
+        opacity: 0.2;
+    }
+    .doCB01{
+        top: 20.5%;
+        right: 80%;
+    }
+    .doCB02{
+        top: 72%;
+        left: 85%;
+    }
+    .doCB03{
+        top: calc(100% - 1.4rem);
+        right: calc(100% - 1.4rem);
+    }
+    
+    
+    /* goTop
+    ---------------------------------------------------------*/
+    .goTopBtn.active{
+        right: 15px;
+    }
+    .goTopBtn a{
+        width: 0.5rem;
+        height: 0.7rem;
+    }
+    
+    
+
+}
+@media screen and (max-width: 745px) {
+	.content > div{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.workTabBox{
+		display: block;
+		margin-top: 0;
+		text-align: right;
+	}
+	.workTab{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 585px) {
+    .l_01{
+        top: 15%;
+        left: auto;
+        right: 2%;
+    }
+    .l_02{
+        bottom: 7%;
+        left: 2%;
+    }
+    .l_03{
+        bottom: 39%;
+        left: 2%;
+    }
+    .l_04{
+        bottom: 39%;
+        left: auto;
+        right: 2%;
+    }
+    .r_01, .r_02, .r_03, .r_04{ display: none;}
+}
+@media screen and (max-width: 480px) {
+    .mainTent{ border: 0.34rem solid #8c8965;}
+    .grid-item{
+        width: 100%;
+        margin: 0 0 0.3rem 0;
+    }
+}
+@media screen and (max-width: 319px) {
+    .content{
+        min-width: 280px;
+    }
+}

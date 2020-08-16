@@ -1,0 +1,440 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1280px) {
+	.fxB02 .sec01Img{
+		top: auto; left: -30px;
+		bottom: -25%; right: auto;
+		width: 40%;
+	}
+	.fxB03 .sec01Img{
+		left: auto;
+		right: -30px;
+		bottom: -18%;
+		width: 40%;
+	}
+}
+@media screen and (max-width: 1230px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1160px) {
+	body,html{ font-size: 46px;}
+	.talkBob{
+		background-image: url(../images/talkingBoble2.svg);
+		right: 12%;
+	}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 44px;}
+	.kvTxtBox{ padding-left: 0;}
+	.rollingHeadBox{ left: 13.5rem;}
+	.sec_02 .container{ padding-top: 1rem;}
+}	
+@media screen and (max-width: 1024px) {
+	.talkBob{ right: 8%;}
+	.rollingHeadBox{ left: 13rem;}
+	.sec_01 .flexBox.fxB03{ margin-bottom: 1.3rem;}
+	.sec_01 .flexBox.fxB04{
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 980px) {
+	body,html{ font-size: 42px;}
+	.kvT01{ width: 12rem;}
+	.kvT02{ width: 10.5rem; margin-top: -1rem;}
+	.kvT03{ font-size: 0.6rem;}
+	.rollingHeadBox{ left: 12rem; width: 10rem; max-width: calc(100% - 10rem); bottom: -25%;}
+	.talkBob{ top: -1.8rem; right: 20%;}
+	
+}
+@media screen and (max-width: 860px) {
+	body,html{ font-size: 40px;}
+	.rollingHeadBox{ bottom: -30%;}
+	.talkBob{ right: 25%;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 58px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	.container{ width: calc(100% - 30px); padding-left: 15px; padding-right: 15px;}
+
+	/* basic set */
+	p{ font-size: 0.3rem;}
+	p.small{ font-size: 0.28rem;}
+	h3{ font-size: 0.36rem;}
+	h3:before{
+		width: 4rem;
+		height: 1.6rem;
+		top: -0.5rem;
+	}
+	h4{ font-size: 0.34rem;}
+
+
+
+	/* header
+	------------------------------------------------------------------------------*/
+	header .container{ padding-top: 0.4rem; padding-bottom: 0.5rem;}
+	h1 img{ margin-left: auto; margin-right: auto; max-width: 136px;}
+	
+	
+	/* main
+	------------------------------------------------------------------------------*/
+
+		/* kv */
+	.kvBox{
+		background-repeat: repeat-x;
+		background-position: center;
+		background-size: cover;
+	}
+	.kv .container{ padding-top: 0.4rem; padding-bottom: 0;}
+	.kvT01{ width: 100%; margin: auto; max-width: 500px;}
+	.kvT02{ width: 100%; margin: -1.2rem auto 0 auto; max-width: 500px;}
+	.kvT03{
+		font-size: 0.35rem;
+		margin: -0.7rem auto 0 auto;
+	}
+
+		/* rollingHeadBox */
+	.rollingHeadBox{
+		width: 80%; max-width: 400px;
+		position: relative; bottom: 0; left: 0;
+		margin: 2rem auto -1.2rem auto;
+	}
+		/*-- headBox --*/
+	.headBox{ width: 30%;}
+	.headBox_bg{ width: 30%;}
+		/*-- headBox --*/
+
+		/*-- talkBob --*/
+	.talkBob{
+		top: -15%; right: 20%;
+		width: 3.3rem; height: 1.1rem;
+		background-image: url(../images/talkingBoble.svg);
+	}
+	.talkBob p{ font-size: 0.23rem;}
+	
+	
+	/******* article ******************************************/
+	p.intro{
+		font-size: 0.3rem; line-height: 2;
+		max-width: none;
+		margin: 0.3rem auto 0 auto;
+	}
+
+	/* sec_01 */
+	.sec_01 .container{ padding-top: 0.9rem;}
+	.sec_01 h3{ margin-bottom: 1.2rem;}
+	.sec_01 .flexBox{
+		display: block;
+		margin-bottom: 1.9rem;
+	}
+	.txtBox{
+		width: auto; max-width: none;
+		margin-right: 0;
+		margin-bottom: 0.4rem;
+	}
+	.videoBox{ position: relative; width: auto; max-width: 518px; margin: auto;}
+	.sec01Img{
+		top: 20%; left: 75%;
+		width: 40%; max-width: 266px;
+	}
+	.point{ font-size: 0.3rem;}
+	
+	/*--- other flexBox --- start*/
+	.sec_01 .flexBox.fxB01{ margin-bottom: 1.9rem;}
+	.sec_01 .flexBox.fxB03{ margin-bottom: 1.6rem;}
+	.sec_01 .flexBox.fxB04{ margin-bottom: 1rem;}
+	.sec_01 .flexBox.fxB05{ margin-bottom: 1rem;}
+	.fxB02 .txtBox, .fxB04 .txtBox{ margin-right: 0; margin-left: 0;}
+	.fxB02 .sec01Img{
+		top: auto; left: -10%;
+		bottom: -30%; right: auto;
+		width: 30%;
+	}
+	.fxB03 .sec01Img{
+		top: auto; right: -10px;
+		bottom: -18%;
+		width: 35%;
+	}
+	.fxB04 .txtBox{ width: auto;}
+	.fxB04 .videoBox{ width: auto;}
+	.fxB05 .txtBox{ width: auto; margin-bottom: 0.9rem;}
+	.fxB05 .videoBox{ width: auto;}
+
+	/*--- other flexBox --- end*/
+	
+	
+	/* sec_02 */
+	.sec_02 .container{ padding-top: 1.2rem; padding-bottom: 1.1rem;}
+	.sec_02 h3{ text-align: center; width: auto; margin-bottom: 0.7rem;}
+	.sec_02 .flexBox{ display: block;}
+	.prizeBox{ width: auto; max-width: 430px;}
+	.price{ width: auto; margin: auto; max-width: 320px; margin-bottom: 0.5rem;}
+	.prizeTxt{ width: auto; max-width: none;}
+	.prizeTlt{ font-size: 0.34rem; line-height: 1.4;}
+	.prizeTxt ul{ font-size: 0.3rem;}
+	.sec_02 p.small{ margin-bottom: 1em;}
+	/*--- other flexBox --- start*/
+	.sec_02 .flexBox.fxB01{ margin-bottom: 0.4rem;}
+	.fxB01 .prizeBox{ margin: 0 auto 0.5rem auto; width: 70%; max-width: 350px;}
+	.fxB02 .prizeBox{ margin: 0 auto 0.5rem auto; width: 70%; max-width: 350px;}
+	.fxB02 .prizeTxt{ max-width: none; margin-bottom: 0;}
+	/*--- other flexBox --- end*/
+
+	.joinBtnBox{
+		display: block;
+		margin-top: 0.6rem;
+	}
+	.joinBtn{ margin: 0.6rem auto 0 auto;}
+	.joinBtn a{
+		font-size: 0.4rem; line-height: 2;
+		margin: auto;
+	}
+	
+	/* sec_03 */
+	.sec_03 .container{ padding-top: 1.2rem; padding-bottom: 1rem;}
+	.sec_03 h3{ margin-bottom: 1.2rem;}
+	.compuBox{
+		font-size: 0.26rem; line-height: 1.6;
+		display: block;
+	}
+	.compu{
+		width: auto;
+		max-width: 450px;
+		background-color: #ffffff;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0.7rem 1em 1em 1em;
+		margin: 0 auto 0.4rem auto;
+	}
+	.compu:nth-child(4n){ margin-right: auto;}
+	
+	
+	/* sec_04 */
+    .sec_04{}
+    .sec_04 .container{ padding-top: 1rem; padding-bottom: 1rem;}
+	.sec_04 h3{ margin-bottom: 1.4rem;}
+    .formBB{ display: block;}
+    .formBox{
+        width: auto; padding-top: 0.5rem; padding-bottom: 0.7rem;
+        font-size: 0.29rem;
+		margin: 0 auto;
+		max-width: 481px;
+    }
+    .picBB{ width: auto; margin-top: 0.4rem; max-width: none;}
+	.picBox{ max-width: 481px; margin: auto;}
+    .sec_04 .table.tb02 .tr .td:first-child{ display: block}
+    .sec_04 .table.tb02 .tr .td:first-child:before{ display: none;}
+    .sec_04 .table.tb02 .tr .td:last-child{ display: block; padding-left: 2em;}
+    .sec_04 .table.tb02 .tr .td:last-child input{ padding-left: 0;}
+    .sec_04 .table.tb02 .tr .td:last-child:before{ width: calc(100% - 4em);}
+    .upload{
+        font-size: 0.36rem;line-height: 2;
+        margin: 0.6rem auto 0 auto;
+		max-width: 481px;
+    }
+    .submitBtn a{ font-size: 0.39rem; margin: auto;}
+	
+	/**** compuTypeBox **********/
+	.compuTypeBox{
+		padding: 2em 1em;
+		font-size: 0.24rem; line-height: 1.85;
+		margin: 0.7rem auto 0 auto;
+		display: block;
+		width: auto; max-width: 481px;
+	}
+	.compuTypeBox p{ font-size: 0.24rem; line-height: 1.85;}
+	.l_b{ width: auto; max-width: 25em; margin: 0 auto;}
+	.r_b{ width: auto; max-width: 25em; margin: 0 auto;}
+
+	.compuTypeTlt{ font-size: 0.3rem; margin-bottom: 0.6em; text-align: center;}
+	.cpuTypeName{ width: 6.5em;}
+
+		/*--- other cpuType ---*/
+	.cpuType02{ border-bottom: 1px solid #434343;}
+	.cpuType03{ padding-top: 0.6em;}
+
+
+	/* footer
+	---------------------------------------------------------------------------*/
+	footer{ background-color: #000000; font-size: 0.24rem;}
+	footer .container{
+		padding-top: 0.6rem;
+		padding-bottom: 1rem;
+		display: block;
+	}
+	.foot_logo{
+		width: 2.7rem; max-width: 140px; min-width: 100px;
+		margin-left: auto; margin-right: auto; margin-bottom: 0.4rem;
+	}
+	.copyRight{ text-align: center;}
+	
+	
+	/*  活動辦法 lightbox
+	---------------------------------------------------------------------------*/
+	.mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, 
+	.mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+		right: -0.8em; 
+	}
+	
+	.LBBox{ font-size: 0.26rem;}
+	.LBBox p{ font-size: 0.26rem; line-height: 2.3;}
+	.LBBox ul{ font-size: 0.26rem; line-height: 2.3; margin-bottom: 1em;}
+
+	.LBBox .flexBox{}
+	.LBcontent{
+		width: calc(100% - 30px);
+		height: 86%;
+		padding-top: 0.7rem;
+	}
+	/* LBcloseBtn */
+	.LBcloseBtn{
+		top: 0.3em; right: 0.5em;
+		width: 0.5rem; height: 0.5rem;
+		padding-top: 0.2rem;
+	}
+	/* LBcloseBtn */
+	.scrollTent{
+		width: calc(100% - 2em);
+		height: calc(86vh - 1.4rem);
+	}
+	.LBTlt{ font-size: 0.36rem;}
+	.LBsTlt{ font-size: 0.3rem;}
+	.typeIntro .cpuTypeName{ line-height: 2.3;}
+
+	.thxTlt{ font-size: 0.3rem; line-height: 2.4;}
+	.thx{ font-size: 0.24rem; line-height: 2;}
+
+	
+	.PIDBox .flexBox{
+		display: block;
+		margin-top: 0.3rem;
+	}
+	.stepBox{
+		padding: 1.5em 1em;
+		width: auto;
+		max-width: none;
+		margin-bottom: 1em;
+	}
+	.stepTxt{ font-size: 0.26rem; line-height: 2;}
+	.step_l .stepImg{ margin: 1em auto 0 auto;}
+	.step_r .stepImg{ margin: 1em auto 0 auto;}
+
+	.stepflxB02{
+		display: block;
+	}
+	.stepBox02{
+		width: auto;
+		max-width: none;
+	}
+	.step02_l p{
+		font-size: 0.26rem; line-height: 2.3;
+		letter-spacing: -0.025em;
+	}
+	.stepBox02 .stepImg{ margin-top: 1.5em;}
+	
+	
+	/* 錨點
+	--------------------------------------------------------*/
+	.anchorBlock{
+		top: auto; bottom: 0;
+		-webkit-transform: none;
+		transform: none;
+		font-size: 0.26rem; line-height: 1;
+	}
+	.openDoor{
+		font-size: 0.3rem;
+		width: 6em; height: auto;
+		padding-top: 0; padding-left: 0.2em;
+		line-height: 2.5;
+		background-image: none;
+		position: relative;
+	}
+	.openDoor i{
+		display: block;
+		position: absolute; left: 0.6em; top: 0;
+		-webkit-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+	}
+	.open .openDoor i{ -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+	.anchorBox{
+		font-size: 0;
+		position: absolute;
+		right: 100%; bottom: 0;
+		width: calc(100vw - 1.8rem);
+		text-align: right;
+	}
+	.anchorBox a{
+		color: #313131;
+		background-color: #eeeeee;
+		height: 0.75rem; line-height: 1.3;
+		border-bottom: none;
+		border-left: 1px solid #aaaaaa;
+		display: inline-block;
+		font-size: 0.26rem;
+		padding-top: 0.3em;
+		text-align: center;
+		width: 25%;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.anchorBox a:first-child{ border-left: none;}
+	.anchorBox a br{ display: inherit;}
+	.anchorBox a .space{ display: inline;}
+	
+	
+	/**** sendingBox *****************************************************************************************************/
+	.sendingBox{
+		min-height: calc(100vh - 5.5rem);
+	}
+	.sendTent{
+		display: block;
+		padding-bottom: 0.8rem;
+	}
+	.sendImg{ max-width: 308px; width: auto; margin: 0 auto 0.5rem auto;}
+	.sendTxt{ width: auto; max-width: none; margin: 0 auto; text-align: center;}
+	.sentTlt{ font-size: 0.5rem;}
+	.sendT{
+		height: auto;
+		padding: 0.5rem 0;
+		text-align: center;
+	}
+	.sendT p{ font-size: 0.36rem; width: 100%;}
+	.sentBtn a{ font-size: 0.4rem; margin: auto;}
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 56px;}
+	.fxB02 .sec01Img{ left: -10px;}
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 54px;}
+}
+@media screen and (max-width: 540px) {
+	.kvT02{ margin: -0.8rem auto 0 auto;}
+	.kvT03{ margin: -0.5rem auto 0 auto;}
+	.rollingHeadBox{
+		width: 95%;
+		margin: 1.8rem auto -1.2rem auto;
+	}
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52px;}
+	.talkBob{
+		background-image: url(../images/talkingBoble2.svg);
+		top: -1.2rem; right: auto;
+		left: 25%;
+	}
+	.openDoor{ width: 5.5em; padding-left: 1em;}
+	.anchorBox{ width: calc(100vw - 1.65rem);}
+}
+@media screen and (max-width: 380px) {
+	.kvT02{ margin: -0.6rem auto 0 auto;}
+	.kvT03{ margin: -0.3rem auto 0 auto;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+}

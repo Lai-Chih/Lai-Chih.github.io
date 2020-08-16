@@ -1,0 +1,177 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1170px) {
+    body,html{ font-size: 48px;}
+    .container{ width: calc(100% - 60px); height: 100%; margin: auto; padding-left: 30px; padding-right: 30px;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 46px;}
+    .humanSource:after{ width: calc(50% - 8em); right: 2.5em;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: ;}
+    div.en.pc{ width: 2.4rem;}
+    
+    .footTxt span{
+        top: 0; right: calc(100% + 2em);
+        width: 2.5em; max-width: 30px;
+    }
+    .footTxt span.rr{ top: 70%; right: auto; left: calc(100% + 1em);}
+    .FTcon02{ left: 1.6rem;}
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 44px;}
+    h1{ float: left; height: 1.3rem; margin-top: 0.4rem;}
+    h1 img{ width: 3.4rem;}
+    nav .fstUl > li > a{ width: 6.4em;}
+    nav .secUl > li{ margin-right: 1em; width: calc(14.2% - 1em);}
+}
+@media screen and (max-width: 900px) {
+    .FTcon02{ left: 2rem;}
+    .humanSource:after{ width: calc(50% - 9em); right: 4em;}
+    .humanSource:before{ right: auto; left: -0.5em; width: calc(50% - 4.5em);}
+}
+@media screen and (max-width: 842px) {
+    body,html{ font-size: 42px;}
+    div.en.pc{ width: 2.2rem;}
+    
+    nav .secUl > li{ margin-right: 0.8em; width: calc(14.2% - 0.8em);}
+    .humanSource:after{ width: calc(50% - 9.5em); right: 4.5em;}
+}
+@media screen and (max-width: 810px) {
+    nav .fstUl > li > a{ width: 5.8em;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    .container{ width: calc(100% - 30px); height: 100%; margin: auto; padding-left: 15px; padding-right: 15px;}
+    
+    .dump{ height: 1.4rem;}
+    
+    /* header
+    ------------------------------------------------------------------------------*/
+    header{
+        position: fixed; top: 0; left: 0; width: 100%; z-index: 999;
+        -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    }
+    header .container{ padding-top: 1px; height: 1.4rem;}
+    h1{ float: left; height: 1.3rem; margin-top: 0.15rem; position: relative; z-index: 99;}
+    h1 a{}
+    h1 span{ display: none;}
+    h1 img{ width: 3.2rem;}
+    
+    .navBtn{
+        position: absolute; width: 1.4rem; height: 100%; background-color: #405eb9;
+        top: 0; right: 0; cursor: pointer;
+    }
+    .navBtn span{
+        display: block; position: absolute; top: calc(50% - 2px); left: 0.3rem;
+        width: 0.8rem; height: 4px; background-color: #ffffff;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .navBtn span:before, .navBtn span:after{
+        content: ''; display: block; position: absolute; top: -12px; left: 0;
+        width: 0.8rem; height: 4px; background-color: #ffffff;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .navBtn span:after{ top: auto; bottom: -12px;}
+    
+    /* navBtn open */
+    .navBtn.open span{
+        display: block; position: absolute; top: calc(50% - 2px); left: 0.35rem;
+        width: 0.8rem; height: 4px; background-color: #ffffff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .navBtn.open span:before{
+        content: ''; display: block; position: absolute; top: 0; left: 0;
+        width: 0.8rem; height: 4px; background-color: #ffffff;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .navBtn.open span:after{ display: none;}
+    
+    
+    .knowSKS .icon_angleDown{ display: inline-block; margin-left: 1em;}
+    
+        /* nav */
+    nav{
+        margin-top: 0; position: fixed; z-index: 5; top: 1.4rem; left: 0; width: 100%; height: calc(100% - 1.4rem);
+        background-color: #1f398b;
+    }
+    .bigBox{ position: absolute; top: 0; left: 0; width: 100%; height: calc(100% - 0.8rem); padding-bottom: 0.8rem; overflow: hidden;}
+    .scrollBox{ height: 100%; overflow: hidden;}
+    
+    nav li{ margin-right: 0; display: block;}
+    nav .fstUl{ background-color: #1f398b; padding-bottom: 0.5rem;}
+    nav .fstUl > li{ display: block;}
+    nav .fstUl > li > a{
+        color: #ffffff; width: auto; text-align: left; padding-bottom: 0; line-height: 3; padding-left: 0.5rem;
+        border-bottom: 1px solid #475fa7;
+    }
+    nav .fstUl > li > a:before{
+        content: ''; display: block;
+        width: 3px; height: 0; background-color: #1e4a9e;
+        position: absolute; bottom: 50%; left: 0;
+    }
+    nav .fstUl > li > a:hover, nav .fstUl > li a.active{ color: #f36265;}
+    nav .fstUl > li > a:hover:before,
+    nav .fstUl > li a.active:before{
+        background-color: #e40000; height: 1em; bottom: calc(50% - 0.5em); width: 3px;
+    }
+
+    nav .secUl{
+        top: 0; left: 0; width: 100%; display: none; text-align: center; position: relative;
+        background-color: #0a1949;
+    }
+    nav .secUl > li{ margin-right: 0; width: auto; display: block;}
+    nav .secUl > li > a{
+        color: #9eb2f0; text-align: left; line-height: 3; font-size: 0.32rem; padding-left: 3em;
+        border-bottom: 1px solid #475fa7;
+    }
+    .secUlBG{ display: none;}
+    
+    nav li.mobile{ display: block;}
+
+
+    
+    /* footer *****************************************/
+    footer{ background-color: #0e2262; position: relative; z-index: 0;}
+    footer .container{ padding-bottom: 1rem; padding-top: 2.4rem;}
+    .foot_logo{ width: 2.2rem; position: absolute; z-index: 5; top: -0.75rem; left: calc(50% - 1.1rem);}
+    .footTxt{ display: none;}
+
+    .footInfoBox{ text-align: center; max-width: 1100px; margin: 0 auto 0 auto;}
+    .footInfoBox .relative{}
+    .footIcon{ width: 1rem; position: relative; bottom: 0; left: 0; display: inline-block;}
+    .FTcon02{ left: 0; margin-left: 1.4rem;}
+    .humanSource{ font-size: 0.42rem; letter-spacing: 0.1em; width: auto; position: relative; margin: 0.5rem auto 0 auto;}
+    .humanSource:before, .humanSource:after{ display: none;}
+    .humanSource a{}
+    .copyRight{ font-size: 12px; color: #839ad9; position: relative; right: 0; bottom: 0; margin-top: 0.9rem;}
+
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 56px;}
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 54px;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 52px;}
+    
+}
+@media screen and (max-width: 380px) {
+    body,html{ font-size: 50px;}
+}
+@media screen and (max-width: 319px) {
+    body,html{ font-size: 48px;}
+}

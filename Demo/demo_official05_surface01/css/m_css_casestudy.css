@@ -1,0 +1,85 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 648px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-height: 585px) {
+    body,html{ font-size: ;}
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 45px;}
+    
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: ;}    
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 43px;}
+    
+}
+@media screen and (max-width: 900px) {
+    .grid-item{ width: 50%; min-height: 12rem;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* kv */
+    .kv{ 
+        height: auto;
+        background-image: none;
+    }
+    .kv .kvBox{ 
+        height: 4.2rem;
+        background-image: url(../images/casestudy/casestudy_img01_m.png);
+        background-color: #0078d7;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .kv .container.table{ height: 3.04rem;}
+    .kv h2{ font-size: 0.48rem; width: auto; max-width: 550px; background-color: rgba(0,120,215,0.1); margin: auto;}
+    .kv h3{ max-width: 550px; line-height: 1.8; margin: 0.4em auto 0 auto; padding-bottom: 0.3em;}
+    
+    /* grid */    
+    .gridBox{ max-width: 500px; margin: auto;}
+    .grid-item{ width: 100%; padding-bottom: 0.3rem; min-height: 9rem;}
+    .grid-item .innerBox{ margin-right: 0%; margin-left: 0%;  padding: 0.8em 1.5em;}
+    
+    /* industry */
+    .industry{ line-height: 2.8;}
+    .indusLogo{ font-size: 0.3rem;}
+    .indusName{ font-size: 0.31rem; color: #0078d7;}
+
+        /* imgBox */
+    .innerBox .imgBox{}
+    body figcaption h4{ font-size: 0.3rem; min-height: 0; max-height: none;overflow: visible; line-height: 1.666;}
+    figcaption p{ font-size: 0.24rem; margin: 1em 0 0.6em 0; min-height: none; max-height: none;overflow: visible; line-height: 1.8333;}
+    
+        /* moreLink */
+    .moreLink{ padding-top: 0.28rem; padding-bottom: 0.2rem;}
+    .moreLink a{ font-size: 0.28rem; line-height: 1.3; margin-right: 2em; position: relative;}
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 57px;}
+    
+   
+}
+@media screen and (max-width: 505px) {
+    .grid-item{ min-height: 8.6rem;}
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 55px;}
+}
+@media screen and (max-width: 420px) {
+    .grid-item{ min-height: 8rem;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+}

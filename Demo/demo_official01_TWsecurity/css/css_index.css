@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+
+/* index 
+----------------------------------------------------------------------------*/
+
+.wrapper{
+    background-image: url(../images/index_bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 1.28rem auto;
+}
+
+
+a{ display: block;}
+
+
+/* main
+-------------------------------------------------------------*/
+main{ padding-top: 1px;}
+h2{ font-size: 1.56rem; font-weight: normal; color: #1e4a9e; padding-top: 2.8rem;}
+h3{ font-size: 1.3rem; color: #1e4a9e;}
+
+    /* kv */
+.kv{ overflow: hidden; width: 100%; margin-top: 0;}
+.kv .container{
+    background-image: url(../images/index_kv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.kv .contentBox{ height: 19rem; position: relative;}
+.kvHuman{
+    position: absolute; height: 120%; width: auto; max-height: 1130px;
+    top: 1.5rem; left: 54.7%;
+	opacity: 0;
+}
+.kvHuman img{ height: 100%; width: auto;}
+
+    /* sec_01 */
+.sec_01{ overflow: hidden;}
+.sec_01 .container{
+    background-image: url(../images/index_bg03.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto 3.32rem;
+}
+.sec_01 .contentBox{
+    height: 20rem; position: relative;
+    background-image: url(../images/index_bg04.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 3.32rem;
+    background-size: 80% calc(100% - 3.32rem);
+}
+.ATM{ width: 4.8rem; max-width: 240px; position: absolute; bottom: 2.4rem; right: calc(25% - 4.8rem); z-index: 5;}
+.indexHuman01{ width: 14.8rem; max-width: 740px; position: absolute; left: 51.3%; bottom: 0.3rem; z-index: 9;}
+
+
+/** 左側資訊欄 txtBox ********************************************************************************/
+.txtBox{ padding-left: 0.6rem; padding-top: 2.25rem; position: relative; z-index: 0;}
+.chapter{
+    font-size: 0.6rem; color: rgba(231,157,158,0.49); font-family: Times New Roman; letter-spacing: 2px;
+    position: relative; z-index: 9;
+}
+.chapter span.number{
+    font-size: 2.8rem; color: #91a8d5; font-family: Times New Roman; font-style: italic; vertical-align: middle;
+    display: inline-block; margin-left: -0.05em; line-height: 1; margin-top: -0.55rem;
+}
+.chapter i{
+    font-size: 0.32rem; color: #1e4a9e; font-family: Arial, '微軟正黑體', Microsoft JhengHei; letter-spacing: 0.4em;
+    position: absolute; bottom: -0.5em; left: 2.5rem;
+}
+.chapter i:before, .chapter i:after{
+    content: ''; display: block; width: 0.6em; height: 1px; background-color: #1e4a9e;
+    position: absolute; top: 0.7em; left: 100%;
+}
+.chapter i:after{ left: auto; right: 110%;}
+.sBox{
+    width: 10rem; height: 11.5rem; margin-top: -0.35rem; position: relative;
+    border-top: 1px solid transparent; z-index: 5;
+}
+.sBox > span{
+    content: ''; display: block;
+    width: 100%; height: 1px; background-color: #91a8d5;
+    position: absolute; top: 0; right: 0;
+}
+.cube_long{
+    border: 2px solid #91a8d5; position: absolute; height: 1.1rem; width: 4.7rem; top: -0.55rem;
+    background-color: #e0e4f0;
+}
+.cubeIcon{
+    width: 1.6rem; height: 1.1rem; background-color: #e0e4f0; position: absolute; left: 0.1rem; bottom: -0.66rem;    
+    background-image: url(../images/index_icon01_1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 82% auto;
+}
+.circleIcon{
+    height: 1.5rem; width: 1.5rem; border: 2px solid #91a8d5; border-radius: 50%; position: absolute;
+    right: -0.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 52.5% auto;
+}
+.circleIcon span{
+    display: block; width: 1px; height: 0.8rem; background-color: #91a8d5;
+    position: absolute; bottom: 100%; left: calc(50% + 1px);
+}
+.cirIcon01{ bottom: 4.6rem; background-image: url(../images/index_icon02_1.png);}
+.cirIcon01 span{ height: 5.36rem;}
+.cirIcon02{ bottom: 2.3rem; background-image: url(../images/index_icon02_2.png);}
+.cirIcon03{ bottom: 0; background-image: url(../images/index_icon02_3.png);}
+
+h4{
+    font-size: 0.98rem; color: #1e4a9e; font-family: Times New Roman, '微軟正黑體', Microsoft JhengHei; margin-top: 2.9rem;
+    padding-bottom: 0.35em; margin-bottom: 0.5rem; position: relative;
+}
+h4 span{ display: block; position: absolute; width: 0.8em; height: 3px; background-color: #91a8d5; bottom: 0; left: 0;
+}
+.sBox p{ font-size: 0.42rem; font-family: Times New Roman, '微軟正黑體', Microsoft JhengHei; color: #464646;}
+p.blueTxt{ color: #405eb9; letter-spacing: 0.5px;}
+
+
+/**********************************************************************************/
+.sec01BR{ display: none;}
+
+
+     /* sec_02 */
+.sec_02{ overflow: hidden;}
+.sec_02 .container{
+    background-image: url(../images/index_bg02.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto 2rem;
+}
+.sec_02 .contentBox{
+    height: 20rem; position: relative;
+    background-image: url(../images/index_bg04.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 2rem;
+    background-size: 80% calc(100% - 2rem);
+}
+.bankHouse{ width: 13.2rem; max-width: 660px; position: absolute; bottom: 2rem; left: 58.5%; z-index: 5;}
+.indexHuman02{ width: 12rem; max-width: 600px; position: absolute; left: 41.5%; bottom: 2rem; z-index: 9;}
+
+/** 左側資訊欄 txtBox ********************************************************************************/
+.sec_02 .txtBox{ padding-top: 1.97rem;}
+.sec_02 .cubeIcon{ background-image: url(../images/index_icon01_2.png); bottom: -0.3rem;}
+.sec_02 .sBox{ height: 8.4rem;}
+.sec_02 .cirIcon01 span{ height: 2.26rem;}
+.sec_02 .cirIcon01{ background-image: url(../images/index_icon02_4.png);}
+.sec_02 .cirIcon02{ background-image: url(../images/index_icon02_5.png); background-size: 60% auto;}
+.sec_02 .cirIcon03{ background-image: url(../images/index_icon02_6.png);}
+
+/****************************************************************************************************/
+
+
+    /* sec_03 */
+.sec_03{ overflow: hidden;}
+.sec_03 .container{
+    background-image: url(../images/index_bg02.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto 2rem;
+}
+.sec_03 .contentBox{
+    height: 20rem; position: relative;
+    background-image: url(../images/index_bg04.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 2rem;
+    background-size: 80% calc(100% - 2rem);
+}
+.satellite{
+    width: 6rem; max-width: 300px; position: absolute; top: 2rem; left: 71.8%; z-index: 5;
+    -webkit-animation: sate 4s infinite;
+    animation: sate 4s infinite
+}
+.cars{ width: 15.2rem; max-width: 760px; position: absolute; bottom: 1.8rem; left: 8.3rem; z-index: 5;}
+.indexHuman03{ width: 5rem; max-width: 250px; position: absolute; left: 6.5rem; bottom: 0.3rem; z-index: 9;}
+
+
+@-webkit-keyframes sate{
+    0%{ -webkit-transform: rotate(-55deg); transform: rotate(-55deg)}
+    35%{ -webkit-transform: rotateY(0deg); transform: rotateY(0deg)}
+    50%{ -webkit-transform: rotate(10deg) rotateY(180deg); transform: rotate(10deg) rotateY(180deg)}
+    65%{ -webkit-transform: rotate(10deg) rotateY(0deg); transform: rotate(10deg) rotateY(0deg)}
+    100%{ -webkit-transform: rotate(-55deg); transform: rotate(-55deg)}
+}
+
+
+@keyframes sate{
+    0%{ -webkit-transform: rotate(-55deg); transform: rotate(-55deg)}
+    35%{ -webkit-transform: rotateY(0deg); transform: rotateY(0deg)}
+    50%{ -webkit-transform: rotate(10deg) rotateY(180deg); transform: rotate(10deg) rotateY(180deg)}
+    65%{ -webkit-transform: rotate(10deg) rotateY(0deg); transform: rotate(10deg) rotateY(0deg)}
+    100%{ -webkit-transform: rotate(-55deg); transform: rotate(-55deg)}
+}
+
+/** 左側資訊欄 txtBox ********************************************************************************/
+.sec_03 .txtBox{ padding-top: 1.97rem;}
+.sec_03 .cubeIcon{ background-image: url(../images/index_icon01_3.png); bottom: -0.5rem;}
+.sec_03 .sBox span{}
+.sec_03 .sBox span.span02{ width: 1px; height: 100%;}
+.sec_03 h4{ margin-top: 2.4rem; margin-bottom: 0.55rem;}
+.sec_03 ul{ font-size: 0.36rem; line-height: 2; color: #616379; margin-top: 1.7em;}
+.sec_03 ul li{}
+.sec_03 ul li:before{
+    content: ''; display: inline-block; vertical-align: middle; margin-bottom: 0.1em;
+    height: 1.5em; width: 1.1em; margin-right: 1em;
+    background-image: url(../images/index_icon03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    
+}
+
+/****************************************************************************************************/
+
+    /* sec_04 */
+.sec_04{}
+.sec_04 .container{
+    background-image: url(../images/index_img08.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mask_blue{ position: absolute; top: 0; left: 0; height: 100%; width: 54%; background-color: rgba(30,74,158,0.62); z-index: 0;}
+.sec_04 .contentBox{ height: 20rem; position: relative; z-index: 1;}
+
+/** 左側資訊欄 txtBox ********************************************************************************/
+.sec_04 .txtBox{ padding-top: 3.9rem;}
+.sec_04 .chapter i{ color: #ffffff;}
+.sec_04 .chapter i:before, .sec_04 .chapter i:after{ background-color: #ffffff;}
+.sec_04 .sBox{ border-top-color: transparent;}
+.sec_04 .cube_long{ background-color: transparent; border-bottom-color: transparent;}
+.sec_04 .cubeIcon{ background-color: transparent; background-image: url(../images/index_icon01_4.png); bottom: -0.55rem;}
+.sec_04 .cubeIcon:before, .sec_04 .cubeIcon:after{
+    content: ''; display: block; position: absolute; height: 2px; background-color: #91a8d5;
+    width: 0.1rem; top: 50%; right: 101%;
+}
+.sec_04 .cubeIcon:after{ right: auto; left: 100%; width: 3.04rem;}
+.sec_04 h4{ color: #ffffff; margin-top: 2.5rem;}
+
+/****************************************************************************************************/
+
+
+

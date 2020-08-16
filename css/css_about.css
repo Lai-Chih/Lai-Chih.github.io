@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+/* main
+--------------------------------------------------------------------------------*/
+main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+        
+}
+.mainTent{
+    width: 100%;
+    height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0.8rem solid #8c8965;
+    background-color: #6b694d;
+    position: relative;
+    overflow: hidden;
+}
+
+/***** layer **********************************************************/
+.layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.layer > *{ position: absolute;}
+.yellowCir{
+    width: 4.96rem; height: 4.96rem;
+    background-color: #f8b62d;
+    border-radius: 50%;
+    top: 10%;
+    left: 17%;
+}
+.stripeCir{
+    width: 9.8rem;
+    opacity: 0.2;
+    top: 5%;
+    left: 0;
+    -webkit-transform: translateX(-15%) rotate(90deg);
+    transform: translateX(-15%) rotate(90deg);
+}
+.stripeCir02{
+    width: 3.96rem;
+    opacity: 0.2;
+    bottom: 10%;
+    right: 0;
+    -webkit-transform: translateX(15%) rotate(90deg);
+    transform: translateX(15%) rotate(90deg);
+}
+.angleLine{
+    width: 0.48rem;
+    left: 3%;
+    bottom: 15%;
+}
+.angleLine.ang02{
+    left: 23%;
+    top: 45%;
+}
+.dots{ height: 0;}
+.dots:before, .dots:after{
+    content: ''; display: block;
+    width: 0.2rem; height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+.dt01{
+    left: 1.5%;
+    bottom: 17%;
+}
+.dots:before{
+    top: -0.44rem;
+    left: calc(50% - 0.1rem);
+}
+.dots:after{
+    bottom: -0.8rem;
+    left: calc(50% - 0.1rem);
+}
+
+.dt02{
+    left: 26%;
+    top: 44%;
+}
+.squarBox{
+    height: 4.5rem;
+    background-color: #8c8965;
+    position: absolute;
+}
+.squB01{
+    width: 1.1rem;
+    top: calc(100% - 0.24rem);
+    right: calc(14% + 14.1rem);
+}
+.squB02{
+    width: 1.1rem;
+    top: calc(100% - 0.44rem);
+    right: calc(14% + 9.2rem);
+}
+.squB03{
+    width: 3.86rem;
+    top: calc(100% - 0.84rem);
+    right: calc(14% + 4.8rem);
+}
+.squB04{
+    width: 3.86rem;
+    top: calc(100% - 0.44rem);
+    right: 14%;
+}
+
+
+
+/** profileBox **/
+.profileBox{
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+h2{
+    font-size: 0.86rem; line-height: 1;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 95%;
+}
+h2:before{
+    content: '**'; display: block;
+    font-size: 1rem; line-height: 1;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    position: absolute;
+    top: -0.5rem;
+    left: 96%;
+}
+.profile{
+    color: #ffffff;
+    font-size: 0.3rem; line-height: 1.6;
+    letter-spacing: 0.05em;
+    width: 65%;
+    max-width: 940px;
+    height: 66%;
+    max-height: 480px;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+   
+}
+.profile .flexBox{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.infoBox{
+    width: 50%;
+    padding-top: 1.8rem;
+    padding-left: 1.1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.profTlt{
+    font-size: 0.36rem; line-height: 1;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-bottom: 0.3rem;    
+}
+
+.profTlt:before{
+    display: block;
+    font-size: 2.16rem; line-height: 1;
+    font-weight: 600;
+    color: rgba(255,255,255,0.05);
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.inf01 .profTlt:before{ content: '01';}
+.inf02 .profTlt:before{ content: '02';}
+.inf03 .profTlt:before{ content: '03';}
+.inf04 .profTlt:before{ content: '04';}
+
+

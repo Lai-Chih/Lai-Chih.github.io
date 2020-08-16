@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+/* main
+-----------------------------------------------------------------------------*/
+
+	/* kv */
+.kv{	
+	height: 10.8rem;
+	background-image: url(../images/intro_kv.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+}
+.kv .container{
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column;
+	flex-flow: column;
+}
+h2{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+}
+
+h3{
+	font-size: 1rem;
+	line-height: 1;
+	color: #a86f76;
+	font-weight: 600;
+	position: relative;
+	padding-bottom: 0.6rem;
+}
+h3:before{
+	content: ''; display: block;
+	width: 3em; height: 3px;
+	background-color: #c19694;
+	position: absolute;
+	bottom: 0; left: 0;
+}
+
+
+	/* sec_01 */
+.sec_01{ background-color: #ffffff;}
+.sec_01 .container{
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+.sec_01 p{
+	max-width: 42.3em;
+	margin: auto;
+}
+.sec_01 p:first-child{
+	margin-bottom: 0.8em;
+}
+
+
+	/* sec_02 */
+.sec_02 .container{
+	padding-top: 1.2rem;
+	padding-bottom: 1.4rem;
+}
+.sec_02 .container > .flexBox{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.sec_02 .l_b{
+	width: 50%;
+	max-width: 882px;
+	margin-top: 0.2rem;
+}
+.sec_02 .r_b{
+	width: 48%;
+	max-width: 500px;
+}
+.sec_02 h3{
+	margin-bottom: 0.5rem;
+	line-height: 1.3;
+	padding-bottom: 0.5rem;
+}
+.ulBox{
+	font-size: 0.36rem;
+	line-height: 1.3;
+	width: 50%;
+}
+.ulBox li{
+	margin-bottom: 0.5em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.ulBox span{
+	display: block;
+	width: 1.3em;
+	text-align: center;
+	background-color: #00003f;
+	font-family: Arial;
+	color: #ffffff;
+	border-radius: 50%;
+	margin-right: 0.7em;
+	margin-top: 0.35em;
+}
+.ulBox p{ width: calc(100% - 2em); line-height: 1.875;}
+
+
+	/* sec_03 */
+.sec_03{ background-color: #ffffff;}
+.sec_03 .container{
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
+}
+.sec_03 h3{ text-align: center; margin-bottom: 0.6rem;}
+.sec_03 h3:before{
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.Box{ position: relative;}
+.greyBox{
+	padding-top: 1.4rem;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.greyBox:before{
+	content: ''; display: block;
+	position: absolute;
+	background-color: #f5f5f5;
+	height: 100%;
+	z-index: 0;
+}
+.gbTlt{
+	font-size: 0.44rem; line-height: 1;
+	color: #a86f76;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+	margin-top: 0.7em;
+	position: relative;
+}
+.gbTlt span{
+	font-family: Arial;
+	display: inline-block;
+	margin-right: 1em;
+}
+.gbTlt:first-child{ margin-top: 0;}
+.greyBox p{ position: relative;}
+
+	/* photoBox */
+.photoBox{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	position: absolute;
+	width: 53.85%;
+}
+.photoBox img{
+	width: 50%;
+	max-width: 315px;
+}
+
+	/** bb01 **/
+.bb01{
+	padding-bottom: 1.4rem;
+}
+.gB01{
+	padding-left: 1.2rem;
+	padding-bottom: 1.2rem;
+	width: 42.7%;
+}
+.gB01:before{
+	top: 0; left: 0;
+	width: 60vw;
+	max-width: 760px;
+}
+.bb01 .photoBox{
+	bottom: 0;
+	right: 0;
+}
+
+	/** bb02 **/
+.gB02{
+	padding-bottom: 0.9rem;
+	padding-right: 1.4rem;
+	padding-top: 1.7rem;
+	width: 42.7%;
+	margin-left: auto;
+	margin-top: 1.1rem;
+}
+.gB02:before{
+	top: 0; right: 0;
+	width: 60vw;
+	max-width: 765px;
+}
+.bb02 .photoBox{
+	bottom: 0.8rem;
+	left: 0;
+}
+
+	/** bb03 **/
+.bb03{ padding-bottom: 1.4rem;}
+.gB03{
+	padding-left: 1.2rem;
+	padding-bottom: 15%;
+	padding-right: 1.1rem;
+	width: 82.5%;
+	max-width: 965px;
+	margin-top: 1.6rem;
+}
+.gB03:before{
+	top: 0; left: 0;
+	width: 100%;
+}
+.bb03 .photoBox{
+	width: 80.77%;
+	bottom: 0;
+	right: 0;
+}
+.bb03 .photoBox img{
+	width: 33.33333%;
+}
+
+
+	/* sec_04 */
+.sec_04 .container{
+	padding-top: 1.4rem;
+	padding-bottom: 1.8rem;
+}
+.sec_04 h3{
+	text-align: center;
+	margin-bottom: 0.6rem;
+	line-height: 1.3;
+	padding-bottom: 0.5rem;
+}
+.sec_04 h3:before{
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.sec_04 .flexBox{
+	border-left: 1px solid #c19694;
+}
+.sec_04 .flexBox > *{
+	width: 33.3333333%;
+	padding: 0.4rem 3% 0.6rem 3%;
+	border-right: 1px solid #c19694;
+}
+.boxImg{ margin-bottom: 1.2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* RESET
+--------------------------------------------------------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,rem,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td, figure{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-spacing:0}address{display: inline;font-style: normal;}
+
+/* 版型設定 */
+.mobile{ display: none;}
+.pad{ display: none;}
+
+/* 共用設定 */
+img{ width: 100%; height: auto; display: block; font-size: 0.24rem; color: #000000;}
+/*iframe{ width: 100%; height: 100%; position: absolute; top: 0; left: 0;}*/
+a{ display: block; text-decoration: none; -webkit-transition:all 0.2s; transition: all 0.2s;}
+a:hover, a:active, a:focus{ color: inherit;}
+
+.clear:before, .clear:after {content:""; display:table; } 
+.clear:after {clear:both; } 
+.c{clear: both;}
+
+.wrapper .hide{ display: none;}
+.absolute, .inner-absolute > *{ position: absolute;}
+.absoluteTL, .inner-absoluteTL > *{ position: absolute; top: 0; left: 0;}
+.absoluteTR, .inner-absoluteTR > *{ position: absolute; top: 0; right: 0;}
+.absoluteBL, .inner-absoluteBL > *{ position: absolute; bottom: 0; left: 0;}
+.absoluteBR, .inner-absoluteBR > *{ position: absolute; bottom: 0; right: 0;}
+.relative, .inner-relative > *{ position: relative;}
+.overHide{ overflow: hidden;}
+.borderBox{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* flex */
+.flexBox{ display: -webkit-box; display: -ms-flexbox; display: flex;}
+.flexBox.spaceBetween{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flexBox.wrap{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flexBox.alignItemC{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/* table */
+table, tbody{ width: 100%;} th, td{ vertical-align: middle;}
+.table{ width: 100%; display: table;}
+.tr{ display: table-row;}
+.th, .td{ display: table-cell; vertical-align: middle; position: relative;}
+.table.pc{ display: table;}
+.table.pad{ display: none;}
+.table.mobile{ display: none;}
+
+
+/* inline-block */
+.inner-inblock{ font-size: 0;}
+.inner-inblock > *{ display: inline-block; vertical-align: middle;}
+.inner-inblock .block{ display: block;}
+.block{ display: block;}
+.inblock{ display: inline-block;}
+.inline{ display: inline;}
+
+/* pc */
+.pc-none{ display: none;}
+
+/* float設定 */
+.float-l{ float: left;}
+.float-r{ float: right;}
+
+/* 字型樣式及置中設定 */
+.bold{ font-weight: bold;}
+.normal{ font-weight: normal;}
+

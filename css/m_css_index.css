@@ -1,0 +1,203 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-height: 580px) and (min-width: 769px) {
+    .wrapper{
+        min-height: 580px;
+        overflow: none;
+    }
+    .headerBox{ height: 580px;}
+    .mainTent{ min-height: 580px;}
+}
+@media screen and (max-height: 560px) and (max-width: 768px) {
+    .wrapper{
+        min-height: 560px;
+        overflow: none;
+    }
+    .headerBox{ height: 560px;}
+    .mainTent{ min-height: 560px;}
+}
+@media screen and (max-width: 1680px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 768px) {
+    
+    
+    /* main
+    --------------------------------------------------------------------------------*/
+    main{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0; left: 0;
+    }
+    .mainTent{
+        width: 100%;
+        height: 100%;
+        border: 0.6rem solid #8c8965;
+    }
+    
+    
+    /***** layer **********************************************************/
+    .logoBox{
+        width: 2.6rem;
+        padding-left: 0.5rem;
+    }
+    .logoCube{
+        width: 2.4rem;
+        top: 50.5%;
+        left: 50%;
+        padding-right: 1.3rem;
+    }
+    .bigSlash{
+        width: 1.2rem;
+        top: calc(13% + 1.4rem);
+        left: calc(58% + 0.7rem);
+    }
+    .yellowCir{
+        width: 2.8rem; height: 2.8rem;
+        top: 13%;
+        left: 58%;
+    }
+    .stripeCir{
+        width: 1.7rem;
+        top: calc(13% + 1.6rem);
+        left: calc(58% + 1.5rem);
+    }
+    .plus01{
+        font-size: 0.48rem;
+        top: 20%;
+        right: 50%;
+    }
+    .yellowBord{
+        border: 0.2rem solid #f8b62d;
+        width: 0.68rem; height: 0.68rem;
+        bottom: 1.6rem;
+        right: 60%;
+    }
+    .waveLine{
+        width:1.9rem;
+        bottom: 1.94rem;
+        right: calc(60% + 0.6rem);
+    }
+    .txtCss{
+        font-size: 0.24rem;
+        top: 23%;
+        left: -0.2rem;
+    }
+    .txtCss:before{
+        border-top: 0.3rem solid #faf7be;
+        border-right: 0.2rem solid transparent;
+        border-bottom: 0 solid transparent;
+        border-left: 0.2rem solid transparent;
+        left: -0.2em;
+        bottom: calc(100% + 0.1rem);
+    }
+    .dots:before, .dots:after{
+        width: 0.12rem; height: 0.12rem;
+    }
+    .dt01{
+        width: 0.3rem;
+        left: -0.1rem;
+        top: 30%;
+    }
+    .dots.dt01:before{
+        top: -0.3rem;
+    }
+    .dots.dt01:after{
+        bottom: -0.3rem;
+    }
+    .halfCir{ display: none;}
+    .plus02{
+        font-size: 0.8rem;
+        bottom: 30.6%;
+        left: 3%;
+        opacity: 0.3;
+    }
+    .year2019{
+        font-size: 0.28rem;
+        right: 8%;
+        bottom: 10%;
+    }
+    .yearCir{
+        width: 0.8rem; height: 0.8rem;
+        border: 1px solid #faf7be;
+        position: absolute;
+        bottom: 10%;
+        right: 8%;
+    }
+    .angleLine{
+        width: 0.24rem;
+        right: 5%;
+        bottom: 28%;
+    }
+    .dt02{
+        width: 0;
+        right: 45%;
+        bottom: 30%;
+    }
+    .dots.dt02:before{
+        left: 0.2rem;
+        width: 0.1rem; height: 0.1rem;
+    }
+    .dots.dt02:after{
+        right: 0.2rem;
+        width: 0.1rem; height: 0.1rem;
+    }
+    .txtDreamwaver{
+        font-size: 0.24rem;
+        bottom: 45%;
+        right: -0.6rem;
+        opacity: 0.5;
+    }
+    .txtDreamwaver:before, .txtDreamwaver:after{
+        width: 0.12rem; height: 0.12rem;
+        bottom: calc(100% + 1em);    
+    }
+    .stripeBord{
+        width: 2rem;
+        left: 38%;
+        bottom: 0;
+        opacity: 0.5;
+    }
+    .dotCube01{
+        width: 2rem;
+        left: 10%;
+        top: -0.3rem;
+    }
+    .dotCube01 img{ opacity: 0;}
+    .dotCube01:before, .dotCube01:after{
+        font-size: 0.34rem;
+        left: 0;
+    }
+    .dotCube01:before{
+        content: 'TML';
+        bottom: -0.1em;
+    }
+    .dotCube01:after{
+        content: 'H';
+        bottom: 3em;
+    }
+    .dotCube02{ display: none;}
+
+    
+
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 585px) {
+}
+@media screen and (max-width: 480px) {
+    .mainTent{ border: 0.34rem solid #8c8965;}
+}
+@media screen and (max-width: 319px) {
+}

@@ -1,0 +1,135 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+    footer .container{ text-align: center;}
+}
+@media screen and (max-width: 1105px) {    
+    .footContent{ max-width: 29em; text-align: left;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 45px;}
+}
+@media screen and (max-width: 1024px) {
+	.logoBox{ left: 35px;}
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 43px;}
+    .footer_logo{ width: 22%;}
+}
+@media screen and (max-width: 880px) {
+    nav > ul > li{ margin-left: 3em;}
+}
+@media screen and (max-width: 850px) {
+	nav > ul{ padding-right: 30px;}
+	nav > ul > li{ margin-left: 2.1em;}
+}
+@media screen and (max-width: 840px) {
+    .logoBox{ width: 4.3rem;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    body .container{ width: calc(100% - 40px); margin: auto; padding: 0 20px;}
+    /* header
+    ------------------------------------------------------------------------------*/	
+    header{ min-height: 0.4rem; padding-bottom: 0.4rem; padding-top: 0.4rem;}
+    .logoBox{ width: 2.8rem; top: 0.4rem; left: 0.4rem;}
+    nav{
+		height: auto; float: none; width: 100%; padding: 0;
+		position: absolute;
+		top: 100%; left: 0;
+		z-index: 999;
+		display: none;
+	}
+    nav > ul{ margin-top: 0rem; padding-right: 0rem;}
+    header nav > ul > li{
+		display: block!important;
+		font-size: 0.36rem; line-height: 1;
+		background-color: rgba(238,238,238,0.9);
+		text-align: center;
+		margin-left: 0;
+		font-weight: 500;
+	}
+    header nav > ul > li > a{
+		color: #313131;
+		padding: 0.8em 0;
+	}
+	header nav > ul > li > a:hover, header nav > ul > li.active > a{ color: #0078d7;}
+	header nav > ul > li:first-child > a{ padding-top: 2em;}
+	header nav > ul > li:last-child > a{ padding-bottom: 1.5em;}
+	
+	/* secUl */
+	.secUl{
+		position: relative;
+		top: 0; left: 0;
+		width: 100%;
+		background-color: rgba(221,221,221,0.8);
+	}
+	.secUl:before{ display: none;}
+	
+	.secUl li{ font-size: 0.28rem; line-height: 3.2;}
+	
+	
+	/* navBtn_m */
+	.navBtn_m{
+		position: absolute; top: 0.5rem; right: 20px;
+		width: 0.4rem;
+		padding: 5px 0;
+		cursor: pointer;
+		height: auto;
+	}
+	.navBtn_m:before, .navBtn_m:after{
+		content: ''; display: block;
+		width: 100%; height: 2px;
+		background-color: #505050;
+		position: absolute;
+		left: 0;
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+	.navBtn_m:before{ top: 0;}
+	.navBtn_m:after{ bottom: 0;}
+	.navBtn_m span{
+		display: block; height: 2px;
+		background-color: #505050;
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+	.navBtn_m.open{ padding-bottom: 7px; padding-top: 7px}
+	.navBtn_m.open span{ -webkit-transform: rotate(45deg); transform: rotate(45deg);}
+	.navBtn_m.open:before{ -webkit-transform: rotate(-45deg); transform: rotate(-45deg); top: 6px;}
+	.navBtn_m.open:after{ display: none;}
+	
+    /* footer 
+    ----------------------------------------------------------------------------------------------------*/
+    footer{ background-color: #000000; min-height: 0;}
+    footer .container{ vertical-align: middle; padding-top: 0.6rem; padding-bottom: 0.6rem;}
+    footer .container .td{ vertical-align: middle;}
+    body footer .container .td .footer_logo{ width: 2.6rem; display: block; margin: auto; margin-bottom: 0.4rem;}
+    body footer .container .td .footContent.pc{ display: none;}
+    body footer .container .td .footContent.mobile{ font-size: 0.24rem; text-align: center; width: 100%; display: block; margin: auto; line-height: 1.83;}
+    
+    /* goTop
+    --------------------------------------------------------------------------*/
+    #goTopButton{ width: 10%; max-width: 1rem; min-width: 45px;}
+}
+@media screen and (max-width: 640px) {
+    
+   
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 55px;}
+    
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+}
+
+
+

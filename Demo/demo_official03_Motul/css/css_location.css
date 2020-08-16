@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+.search, .fixBar{ display: none;}
+
+
+/* banner */
+.banner{
+    background-image: url(../images/news_img01.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000000;
+}
+.banner .container{ height: 3.2rem;}
+
+
+/* storeBox */
+.storeBox{ background-color: #eeeeee;}
+.storeBox .container{ padding-top: 1.4rem; padding-bottom: 1.7rem;}
+.storeDataBox{ max-width: 1110px; margin: auto;}
+.storeBox .container > .inner-inblock{ max-width: 1110px; margin: auto;}
+.storeBox p{ font-size: 0.36rem;}
+p.storeName{ font-size: 0.48rem; margin-bottom: 0.7em;}
+.storeBox a{
+    padding: 0 0.5em; color: #0000ff;
+    line-height: 1.5;
+}
+.storeBox a:hover{ color: #5f5f5f; text-decoration: none;}
+
+.storeData{ width: 51%; vertical-align: top;}
+.storeTent{ padding-right: 0.8rem;}
+
+.storePic{
+    width: 48.7%; max-width: 536px; top: 0; right: 0; max-height: 100%; overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+.storePic img{}
+img.dsNone{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.dsNoneFir{ display: none;}
+
+/* mapBox */
+.mapBox{ max-width: 1100px; border: 1px solid #000000; height: 8.4rem; margin: 1rem auto 0.8rem auto; padding-bottom: 1px;}
+
+.storePicBox .imgBlock{
+    width: 32%; margin-right: 2%; margin-bottom: 0.4rem; max-width: 700px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+.storePicBox .imgBlock:nth-child(3n){ margin-right: 0;}
+
+
+
+/** location ***********************************************************/
+.storeSearchBox{
+    max-width: 915px; margin: auto;
+    background-image: url(../images/location_img05.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 3.04rem auto;
+    padding: 0.5rem 0;
+}
+.searchImg{}
+.storeSearchBox > .inner-inblock{ margin-bottom: 0.5rem; width: calc(100% - 3.8rem); margin-left: auto; margin-right: 0;}
+.cityBar{ font-size: 0.56rem; width: 4.5rem; line-height: 2;}
+.searchBar{ font-size: 0.4rem; width: 4.5rem; line-height: 2;}
+
+
+
+/****** 表單 *******/
+.storeSearchBox label{
+    font-size: 0.48rem; font-family: "微軟正黑體", Arial, Microsoft JhengHei;
+    margin-left: 1.2em; padding: 0 0.2em 0 1em;
+    position: relative; line-height: 1.8;
+    display: inline-block;
+}
+.storeSearchBox input{ 
+    color: #000000; font-size: 0.48rem; padding: 0.2em 0.4em; margin-right: 0.3rem;
+    display: inline-block;
+    font-family: "微軟正黑體", Arial, Microsoft JhengHei;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #959595;
+}
+.storeSearchBox input[type="radio"]{ display: none;}
+.storeSearchBox input[type="radio"]+span{
+    background-color: #ffffff; border: 1px solid rgba(0,0,0,0.3); border-radius:100%;
+    display: block; position: absolute; top: 0.65em; left: 0;
+    margin-right: 10px; margin-top:-1px;
+    width: 0.5em; height: 0.5em; line-height:1;
+    z-index: 0;
+}
+.storeSearchBox input[type="radio"]:checked+span:after{
+    content: ''; display: block;
+    height: 80%; width: 80%;
+    position: absolute; bottom: 5%; left: 10%;
+    /*background-color: #0078d7;*/
+    z-index: 10; border-radius: 50%; background-color: #4b4b4b;
+}
+.storeSearchBox input[type="radio"]+span, .storeSearchBox input[type="radio"]:checked+span:after{}
+
+
+.storeSearchBox select{ 
+    font-size: 0.48rem; padding: 0.2em 0.4em;
+    display: inline-block;
+    font-family: "微軟正黑體", Arial, Microsoft JhengHei;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #959595;
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    /*border: solid 1px #000;*/    
+    background: url(../images/arrowDw.png) no-repeat center right 0.4em;
+    background-size: auto 0.4em;
+    background-color: #ffffff;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    color: #000000;
+    width: 5rem;
+}
+.storeSearchBox select option{ color: #626262; font-size: 0.4rem;}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+.storeSearchBox select::-ms-expand { display: none; }
+
+
+.storeSearchBox input[type="search"]{ margin-right: 1.5em; width: 6.2rem;}
+
+.storeSearchBox input[type="search"]::-webkit-input-placeholder{ color:#999999; font-size: 0.4rem;}
+.storeSearchBox nput[type="search"]:-moz-placeholder{ color:#999999; font-size: 0.4rem;} /* FF 4-18 */
+.storeSearchBox input[type="search"]::-moz-placeholder{ color:#999999; font-size: 0.4rem;} /* FF 19+ */
+.storeSearchBox input[type="search"]:-ms-input-placeholder{ color:#999999; font-size: 0.4rem;} /* IE 10+ */
+
+.storeSearchBox input[type="search"]:focus::-webkit-input-placeholder{ color:transparent; font-size: 0.4rem;}
+.storeSearchBox input[type="search"]:focus:-moz-placeholder{ color:transparent; font-size: 0.4rem;} /* FF 4-18 */
+.storeSearchBox input[type="search"]:focus::-moz-placeholder{ color:transparent; font-size: 0.4rem;} /* FF 19+ */
+.storeSearchBox input[type="search"]:focus:-ms-input-placeholder{ color:transparent; font-size: 0.4rem;} /* IE 10+ */
+
+.storeSearchBox input[type="button"]{
+    font-size: 0.4rem; color: #ffffff; width: 6.9em; line-height: 1.9; border: none;
+    background-color: #ed1c24; letter-spacing: 4px; vertical-align: top;
+    cursor: pointer; -webkit-transition: all 0.2s ease; transition: all 0.2s ease;
+}
+.storeSearchBox input[type="button"]:hover{
+    background-color: #a60101;
+}
+
+
+    /* searchResult */
+.searchResult{ max-width: 920px; margin: 0.5rem auto 0 auto; font-size: 0.32rem;}
+.tbHead{ font-size: 0.36rem; text-align: center; background-color: #c9c9c9; line-height: 3; margin-bottom: 8px; font-weight: bold;}
+.searchResult .table{}
+.searchResult .table .td01{ width: 20%;}
+.searchResult .table .td02{ width: 17%;}
+.searchResult .table .td03{ width: 29%;}
+.searchResult > a{ display: block; color: #000000; text-decoration: none; padding: 0; margin-bottom: 5px;}
+.searchResult > a:hover{ color: #000000;}
+.searchResult > a:hover .table{ background-color: #e5e5e5;}
+.searchResult a .table{ background-color: #ffffff; -webkit-transition: all 0.3s ease; transition: all 0.3s ease;}
+.searchResult a .table .td{ padding: 1.2em 1em; vertical-align: top; text-align: left;}
+.searchResult a .table .td span{ width: auto; text-align: left}
+
+/****** 表單 *******/
+
+
+/* distribuBox */
+.distribuBox{ background-color: #e1e1e1;}
+.distribuBox .container{
+    padding-top: 0.8rem; padding-bottom: 0.5rem;
+/*
+    background-image: url(../images/location_img06.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 38%;
+    background-size: 9.74rem auto;    
+*/
+}
+.distribuBox .container .alignC{ font-size: 0.48rem; margin-top: 1rem;}
+.distribuBox .container .inner-inblock{ max-width: 1100px; margin: auto; min-height: 4rem;}
+.distribuBox p{ font-size: 0.34rem; margin-bottom: 0.5em;}
+.distribuBox p.motorTlt, .distribuBox p.carTlt{
+    font-family: "微軟正黑體", Arial, Microsoft JhengHei;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+.distribuBox p.motorTlt span, .distribuBox p.carTlt span{ display: none;}
+.motorBlock{ vertical-align: top; width: calc(50% - 0.8rem); margin-right: 1.6rem;}
+.carBlock{ vertical-align: top; width: calc(50% - 0.8rem);}
+
+.locaName{ width: 8em; display: inline-block; vertical-align: middle;}
+.cpName{ padding-right: 1em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

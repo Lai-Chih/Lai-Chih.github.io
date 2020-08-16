@@ -1,0 +1,288 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+
+@media screen and (max-width: 1280px) {
+	.flowerBox.surGo{
+		width: 72%;
+		right: -12%;
+	}
+}
+@media screen and (max-width: 1080px) {
+    .flowerBox.surGo{
+		width: 68%;
+		top: 0.6rem;
+		right: -10%;
+	}
+}
+@media screen and (max-width: 1024px) {    
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    .headLine{ position: absolute; left: 20px; bottom: 0; height: 1px; width: calc(100% - 40px); background-color: #000000;}
+	
+	
+	/* tabBtnBox */
+	.tabBtnBox.container{
+		margin: 0.8rem auto 0rem auto;
+	}
+	.tabBtn{
+		font-size: 0.36rem; line-height: 3.33333;
+		padding-left: 0;
+		text-align: center;
+		background-size: cover;
+	}
+	.tabBtn:before{
+		position: absolute;
+		left: 50%; top: 2.3em;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+    
+    /* kv */
+	.kv{ padding-bottom: 0;}
+	.kv .container{ padding-top: 0.8rem; padding-bottom: 0.8rem;}
+	.boxBox{
+		width: 100%;
+		padding-bottom: 0.5rem;
+		overflow: hidden;
+	}
+	.flowerBox.surGo{
+		position: relative;
+		width: 160%;
+		top: 0;
+		right: 30%;
+		z-index: 99;
+	}
+	#slider{ margin: 0.5rem 30% 0 auto;}
+	
+	
+	.kv h2{
+		font-size: 0.44rem; line-height: 1.55;
+		padding-bottom: 0.5em;
+		max-width: none;
+		margin-top: 0.8em;
+		letter-spacing: 0.025em;
+	}
+	.kv h2:after{ width: 100%; max-width: none;}
+	.tltBox{ width: auto;}
+	.kv h3{ max-width: none; line-height: 1.5; margin-top: 0.6em;}
+	.kv p{ line-height: 2; margin-top: 0.6em; max-width: none;}
+	
+	
+	/* mainkv */
+	h4{
+		font-size: 0.36rem; line-height: 1; text-align: left;
+		padding-top: 0.8rem; padding-bottom: 0.8rem;
+	}
+
+    /* sec_01 */
+	.sec_01 .container{ padding-bottom: 0.4rem;}
+	.sec_01 .container .flexBox{ display: block;}
+	.iconBox{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		margin-bottom: 0.5rem;
+	}
+	.iconImg{
+		width: 27%;
+		margin: 0 0.3rem 0 0;
+		background-color: transparent;
+	}
+	.iconBox p{
+		font-size: 0.3rem; line-height: 1.6; text-align: left;
+	}
+	.iconBox p.bold{
+		font-size: 0.3rem; line-height: 1.6;
+		padding-top: 0;
+	}
+	.pBox{ width: 73%; font-size: 0.3rem; -webkit-box-sizing: border-box; box-sizing: border-box;}
+	
+	
+	/* sec_04 */
+	.sec_04{ padding-top: 0; padding-bottom: 0.9rem;}
+	.sec_04 h4{ text-align: left; line-height: 1; padding: 0 0 0.3rem 0;}
+	.sec_04 > .flexBox{ display: block;}
+	.l_b{ width: auto; margin-bottom: 0.7rem}
+	.r_b{ width: auto; padding: 0 20px;}
+	.r_b .flexBox{
+		font-size: 0.3rem;
+		margin-top: 0.5rem;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.r_b .flexBox:hover{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.rbImg{ width: 27%; margin-right: 0;}
+	.rbTxt{
+		width: 73%;
+		font-size: 0.3rem;
+		line-height: 1.6;
+		padding-left: 1em;
+		-webkit-box-sizing: border-box; box-sizing: border-box;
+	}
+	.rbTxt p{ max-width: none;}
+	.rbTxt p.bold{ font-size: 0.3rem; line-height: 2; margin-top: -0.5em;}
+	
+	
+	
+	/* sec_02 */
+	.sec_02 .container{ padding-bottom: 0.5rem;}
+	.sec_02 .container .flexBox{ display: block;}
+	.sec_02 .iconBox{
+		max-width: none;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.sec_02 .iconBox p{ max-width: none;}
+	.sec_02 .iconImg{
+		padding: 0.4rem;
+		background-color: #e6e6e6;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.eduBox .sec_02 .iconImg{ padding: 0.4rem;}
+	.sec_02 .iconImg img{
+/*		width: 65%; min-width: 1.1rem;*/
+		margin: auto;
+	}
+	
+	
+	
+	/* sec_05 */
+	.sec_05 .container{
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	.sec_05 .container .flexBox{
+		width: auto;
+		display: block;
+	}
+	.ulTxt{ font-size: 0.3rem; margin-bottom: 0.6em;}
+	.sec_05 ul{
+		font-size: 0.3rem; line-height: 1.6;
+		padding-left: 0;
+	}
+	.sec_05 ul li{
+		margin-top: 0.5em;
+	}
+	.ulBox{
+		width: auto;
+		border-bottom: 1px solid #000000;
+		padding-bottom: 0.5rem;
+	}
+	.ul_L{ padding-right: 0;}
+	.ul_R{
+		padding-left: 0;
+		border-left: none;
+		padding-top: 0.5rem;
+	}	
+	
+	
+	/* sec_06 */
+	.sec_06 .container{ padding-top: 0.2rem;}
+	.sec_06 .flexBox{
+		display: block;
+	}
+	.fxBox{
+		font-size: 0.36rem; line-height: 1.556;
+		margin-bottom: 0.6rem
+	}
+	.sec06iconImg{
+		height: 1.84rem; max-height: 92px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-top: 0.24rem;
+		margin-bottom: 0.15rem;
+	}
+	
+	
+	/* sec_07 */
+	.sec_07 h4{ padding-bottom: 0.5rem;}
+	.sec_07 p{
+		font-size: 0.3rem; line-height: 1.6;
+	}
+	.sec_07 p.bold{
+		margin-bottom: 0.2em
+	}
+	.toolBox{
+		max-width: 460px;
+		margin: auto;
+		display: block;
+		margin-bottom: 0.6rem;
+	}
+	.toolImg{ width: auto; max-width: none; margin: 0 auto 0 auto; padding: 0.5rem 0;}
+	.tlB03 .toolImg{ padding: 0.9rem 0;}
+	.toolImg img{ margin: auto;}
+	.tlB01 .toolImg img{ width: 100%;}
+	.tlB02 .toolImg img{ width: 100%;}
+	.tlB03 .toolImg img{ width: 100%;}
+	.tlB04 .toolImg img{ width: 100%; max-width: 285px;}
+	.tlB05 .toolImg img{ width: 100%;}
+
+	.toolTxt{}
+	.colorBox{ margin-bottom: 0.3rem;}
+	.colorBox > *{ width: 0.26rem; height: 0.26rem; margin-right: 0.26rem;}
+	
+	
+	/* sec_09 技術規格 */
+	.sec_09{ margin-top: 1.1rem; margin-bottom: 1.4rem;}
+	.sec_09 h4{
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		text-align: center;
+	}
+	.techBox{
+		margin: 0.2rem auto 0 auto;
+		font-size: 0.28rem; line-height: 2;
+	}
+	.techFirst{
+		display: block;
+	}
+	.techSecd{
+		width: auto;
+		padding: 0.7em 0;
+		display: block;
+	}
+	.tes_l{
+		width: auto;
+		padding-right: 0;
+	}
+	.tes_r{
+		width: auto;
+	}
+	.techSecd:nth-child(odd) .tes_r{ padding-right: 0;}
+    
+}
+@media screen and (max-width: 585px) {
+	.sec_02 .iconImg{ padding: 0.2rem;}
+	.eduBox .sec_02 .iconImg{ padding: 0.2rem;}
+}
+@media screen and (max-width: 400px) {
+	h4{ line-height: 1.5;}
+}
+@media screen and (max-width: 370px) {
+	.kv h2{ letter-spacing: -0.01em; font-size: 0.4rem;}
+}
+@media screen and (max-width: 330px) {
+	.kv h2{ font-size: 0.38rem;}
+}
+@media screen and (max-width: 320px) {
+}

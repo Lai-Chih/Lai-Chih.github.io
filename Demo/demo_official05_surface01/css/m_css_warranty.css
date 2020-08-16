@@ -1,0 +1,131 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+
+@media screen and (max-width: 1160px) {
+}
+@media screen and (max-width: 1080px) {
+    
+}
+@media screen and (max-width: 1024px) {    
+}
+@media screen and (max-width: 950px) {
+}
+@media screen and (max-width: 860px) {
+   
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 768px) {
+    .pc{ display: none;}
+    .mobile{ display: block;}
+	
+	
+	/* main
+	-------------------------------------------------------------------------------*/
+	h2{ font-size: 0.52rem; line-height: 1.385;}
+	h3{ font-size: 0.44rem; line-height: 1.45;}
+	span.smallTxt{}
+
+
+
+		/* sec_01 */
+	.sec_01{
+		background-position: center bottom 1.2rem;
+		background-size: auto 2rem;
+	}
+	.sec_01 .container{ padding-top: 1rem; padding-bottom: 4.2rem;}
+	.sec_01 p{
+		font-size: 0.3rem; line-height: 1.6667;
+		max-width: none;
+		margin: 0.4rem auto 0 auto;
+	}
+
+	
+	/* sec_02 */
+	.sec_02 .container{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.fixIcon{
+		max-width: 1.2rem;
+		margin: 0.5rem auto 0.8rem auto;
+	}
+	.sec_02 .flexBlock{ padding: 0;}
+	.borderCube{ display: none;}
+	.sec_02 .flexBox{
+		font-size: 0.3rem; line-height: 1.6;
+		margin-bottom: 13px;
+	}
+	.fxBox01 > *{ font-size: 0.4rem;}
+	.fxBox01 .r_box{
+		font-weight: bold;
+		background-color: transparent;	
+		padding: 0;
+		border: none;
+	}
+	.fxBox01 .r_box p{ font-size: 0.3rem;}
+	body .l_box{ display: none;}
+	div.r_box{
+		width: 54%;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 1px solid #000000;
+		padding-left: 1em;
+	}
+	.m_box{ width: 46%;}
+	.l_box, .m_box, .r_box{
+		padding: 0.5em 1em;		
+	}
+
+	.checkImg{ width: 0.4rem;}
+	.tableTlt{
+		font-size: 0.3rem; line-height: 1.6;
+		letter-spacing: 0.025em;
+		color: #505050;
+		text-align: center;
+		padding: 0.1rem 0.3em;
+		font-weight: 400;
+		background-color: #d9d9d9;
+	}
+
+
+	/* noticeBox */
+	.noticeBox{
+		max-width: none;
+		font-size: 0.3rem; line-height: 1.5556;
+	}
+	
+	/* sec_03 */
+	.sec_03 .container{ padding-top: 1.2rem; padding-bottom: 1.2rem;}
+	.toBuy{
+		font-size: 0.4rem; line-height: 1.4;
+		padding: 0.5em 1em;
+		text-align: left;
+		display: block;
+		max-width: 14em;
+	}
+	.toBuy .buyImg{
+		width: 1rem;
+		display: inline-block;
+		padding-bottom: 0;
+		margin-left: 3em;
+	}
+
+    
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 380px) {
+	.fxBox01 .r_box p{ font-size: 0.26rem;}
+	.fxBox01 .m_box{ padding-left: 0; padding-right: 0;}
+/*
+	div.r_box{ width: 50%;}
+	.m_box{ width: 50%;}
+*/
+}
+@media screen and (max-width: 320px) {
+	.fxBox01 .r_box p{ font-size: 0.28rem;}
+}

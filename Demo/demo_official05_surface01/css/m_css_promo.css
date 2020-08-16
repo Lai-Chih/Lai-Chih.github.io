@@ -1,0 +1,131 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1200px) {
+    .kv .container{ background-position: center right -10%;}
+}
+@media screen and (max-width: 1160px) {
+    body,html{ font-size: 48px;}
+}
+@media screen and (max-width: 1080px) {
+    body,html{ font-size: 45px;}
+    
+}
+@media screen and (max-width: 1024px) {
+    .kv .container{ background-position: center right -20%;}
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 43px;}    
+}
+@media screen and (max-width: 930px) {
+    .kv .container{ background-position: center right -35%;}
+}
+@media screen and (max-width: 900px) {
+    .spon{ 
+        width: 49%; margin-right: 2%; margin-bottom: 0.4rem;
+        min-height: 11.5rem; max-height: 11.5rem;
+    }
+    .spon:nth-child(3n){ margin-right: 2%;}
+    .spon:nth-child(2n){ margin-right: 0;}
+}
+@media screen and (max-width: 880px) {
+    .kv h3{ max-width: 18.5em;}
+}
+@media screen and (max-width: 815px) {
+    .kv .container{ background-position: center right -55%;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* kv */
+    .kv{ background-image: none; height: 7.9rem; margin-bottom: 0.7rem;}
+    .kv .container{ background-image: none;}
+    .kv .kvBox{
+        height: 4.2rem;
+        background-image: url(../images/promo/kv.png);
+        background-color: #eeeeee;
+        background-position: center top 45%;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .kv .container.table{ height: calc(100% - 4.2rem);}
+    .kv h2{ font-size: 0.48rem; width: auto; max-width: 550px; margin: auto;}
+    .kv h3{ font-size: 0.3rem; line-height: 1.6666; margin: 0.4em auto 0 auto; padding-bottom: 0.3em; letter-spacing: 1px; max-width: 550px;}
+    
+    
+    /* sponsors */
+    .sponsors{ padding-bottom: 0.7rem;}
+    body .spon{ 
+        width: 100%; max-width: 500px; margin: 0 auto 0.4rem auto;
+        min-height: 0rem; max-height: auto;
+        display: block;
+        padding-bottom: 0.6rem;
+    }
+    .sponLogo{ width: 70%; margin: 0.4rem auto 0 auto;}
+    .line{ width: 60%; height: 1px; background-color: #0080cc; margin: 0.4rem auto 0.65rem auto;}
+    .spon:nth-child(3n){ margin: 0 auto 0.4rem auto;}
+    .spon:nth-child(2n){ margin: 0 auto 0.4rem auto;}
+    .spon p{ width: calc(100% - 2em); max-width: 15em; padding: 0 1em 0.5em 1em; font-size: 0.32rem;}
+    .sponBtn{ max-width: 13em; width: 96%; min-width: 8em; font-size: 0.32rem;}
+    .sponBtn a{ font-size: 0.37rem;}
+    
+    /*--- ***** promo_inner **************************************** ---*/
+    #promo_inner main .container{ padding-top: 0.6rem; padding-bottom: 1.1rem;}
+    #promo_inner main .container > *{ display: block;}
+    .promo_info{ 
+        width: auto; min-height: 0; margin-right: 0;
+        padding-top: 0.2rem; padding-bottom: 0rem;
+    }
+
+    #promo_inner .sponLogo{ width: 80%; max-width: 400px; margin: 0rem 0 0.5rem 0.4rem; background-position: top center;}
+    .infoTitle{ padding: 0 2em 0 0.4rem; background-color: #737373; display: inline-block;}
+    .infoBox{ color: #505050; padding: 1em 0 1em 0.4rem; line-height: 1.7;}
+    .infoBox span{ display: inline-block; max-width: 15em;}
+    .infoBox .website span a{ color: #505050;}
+    .infoBox .website span a:hover{ color: #0080cc;}
+    
+    .Email span{  max-width: calc(100% - 3em);}
+
+        /* promo_infoContent */
+    .promo_infoContent{ width: auto; vertical-align: top; padding: 0.6rem 0.3rem 0 0.3rem;}
+    .infoName{ font-size: 0.36rem; line-height: 2.3; padding-bottom: 0rem; position: relative;}
+    .infoName:after{ content: ''; display: none;}
+    .infoName h4{ line-height: 1.6; padding-bottom: 0.5em;}
+    .info_info{ padding-top: 1em; font-size: 0.24rem; line-height: 1.8; color: #505050;}
+    .info_info p{ margin: 1em 0;}
+    .first_info{}
+    .first_info p{ width: auto; padding-right: 0em; font-size: 0.24rem; vertical-align: top; margin: 0 0 0 0;}
+    .first_info .info_img.pc{ display: none;}
+    .info_img.mobile{ width: auto; max-width: 500px; margin: 0rem auto 0.5rem auto;}
+
+    #promo_inner .sponBtn{     
+        background-color: #0080cc;
+        max-width: 20em; width: 96%; min-width: 8em;
+        margin: 0.8rem auto 0 auto;
+    }
+    #promo_inner .sponBtn a{ line-height: 2.8;}
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 57px;}
+    
+   
+}
+@media screen and (max-width: 505px) {
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 55px;}
+}
+@media screen and (max-width: 420px) {
+}
+@media screen and (max-width: 350px) {
+    .kv .kvBox{
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+}
